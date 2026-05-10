@@ -1,0 +1,249 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Surfaces */
+    --background: 40 20% 97%;             /* warm stone white */
+    --foreground: 220 15% 14%;            /* blue-grey deep */
+    --card: 0 0% 100%;
+    --card-foreground: 220 15% 14%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 15% 14%;
+
+    /* Brand — teal */
+    --primary: 174 65% 38%;              /* #219E93 */
+    --primary-foreground: 0 0% 100%;
+    --primary-soft: 174 60% 94%;         /* light teal tint */
+
+    /* Secondary — warm amber */
+    --secondary: 38 88% 56%;             /* #F5A828 */
+    --secondary-foreground: 38 60% 16%;
+
+    /* Accent — soft sage */
+    --accent: 90 28% 68%;                /* sage green */
+    --accent-foreground: 90 30% 20%;
+
+    --muted: 174 10% 95%;                /* teal-tinted neutral */
+    --muted-foreground: 220 8% 46%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 174 10% 88%;               /* teal-tinted border */
+    --input: 174 10% 88%;
+    --ring: 174 65% 38%;
+
+    --shadow-color: 220 20% 18%;
+
+    /* Pet palette */
+    --coral: 348 100% 73%;               /* kept for map pins */
+    --peach: 38 88% 56%;                 /* amber */
+    --mint: 161 45% 70%;
+    --lavender: 250 70% 82%;
+    --butter: 48 90% 78%;
+    --cream: 40 40% 95%;
+
+    --dog: 28 95% 60%;                   /* warm orange for dog */
+    --dog-soft: 28 100% 92%;
+    --cat: 250 65% 72%;                  /* lavender for cat */
+    --cat-soft: 250 75% 95%;
+
+    --radius: 0.875rem;                  /* 14px — rounded but not too bubbly */
+  }
+
+  .dark {
+    --background: 220 18% 9%;
+    --foreground: 40 20% 94%;
+    --card: 220 18% 13%;
+    --card-foreground: 40 20% 94%;
+    --popover: 220 18% 13%;
+    --popover-foreground: 40 20% 94%;
+    --primary: 174 60% 44%;             /* slightly brighter teal for dark bg */
+    --primary-foreground: 0 0% 100%;
+    --primary-soft: 174 50% 18%;
+    --secondary: 38 70% 38%;
+    --secondary-foreground: 38 80% 90%;
+    --accent: 90 25% 30%;
+    --accent-foreground: 90 30% 88%;
+    --muted: 220 15% 18%;
+    --muted-foreground: 220 8% 62%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 12% 22%;
+    --input: 220 12% 22%;
+    --ring: 174 60% 44%;
+    --shadow-color: 220 30% 5%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior: none;
+    font-family: var(--font-thai), var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  }
+
+  ::selection {
+    @apply bg-primary/30 text-foreground;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: hsl(var(--muted)); border-radius: 999px; }
+  ::-webkit-scrollbar-thumb:hover { background: hsl(var(--muted-foreground) / 0.3); }
+}
+
+@layer components {
+  /* Glass card */
+  .glass {
+    @apply bg-white/80 backdrop-blur-xl backdrop-saturate-150 border border-white/60;
+  }
+  .dark .glass {
+    @apply bg-card/80 border-white/10;
+  }
+
+  /* Pet category chip — neutral by default */
+  .chip {
+    @apply inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-sm font-medium
+           bg-white/95 text-foreground border border-border/70 shadow-soft
+           transition-all active:scale-95 backdrop-blur-md;
+  }
+  .chip[data-active="true"] {
+    @apply bg-primary text-primary-foreground border-primary shadow-pop;
+  }
+
+  /* Floating action button */
+  .fab {
+    @apply size-11 rounded-full flex items-center justify-center
+           bg-white/95 shadow-soft-md border border-border/50
+           transition-all active:scale-95 hover:shadow-soft-lg backdrop-blur-sm;
+  }
+  .fab-primary {
+    @apply bg-primary text-primary-foreground border-primary shadow-pop;
+  }
+
+  /* Pet pin marker */
+  .pet-pin {
+    position: relative;
+    width: 44px;
+    height: 54px;
+    filter: drop-shadow(0 4px 8px rgba(15,23,42,0.25));
+    transition: transform 200ms cubic-bezier(.2,.8,.25,1);
+  }
+  .pet-pin:hover { transform: scale(1.08) translateY(-2px); }
+  .pet-pin .body {
+    position: absolute;
+    inset: 0;
+    background: hsl(var(--primary));
+    -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 54'><path d='M22 0c12.15 0 22 9.85 22 22 0 16-22 32-22 32S0 38 0 22C0 9.85 9.85 0 22 0z'/></svg>") no-repeat center/contain;
+    mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 54'><path d='M22 0c12.15 0 22 9.85 22 22 0 16-22 32-22 32S0 38 0 22C0 9.85 9.85 0 22 0z'/></svg>") no-repeat center/contain;
+  }
+  .pet-pin.dog .body { background: linear-gradient(135deg, hsl(var(--dog)) 0%, #f59e0b 100%); }
+  .pet-pin.cat .body { background: linear-gradient(135deg, hsl(var(--cat)) 0%, #8b5cf6 100%); }
+  .pet-pin.both .body { background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--peach)) 100%); }
+  .pet-pin .face {
+    position: absolute;
+    top: 6px; left: 50%;
+    transform: translateX(-50%);
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    background: white;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+    box-shadow: inset 0 0 0 2px rgba(255,255,255,0.9);
+  }
+
+  /* User location marker */
+  .user-marker {
+    position: relative;
+    width: 18px; height: 18px;
+  }
+  .user-marker::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: #2563eb;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 0 4px hsl(var(--primary) / 0.18), 0 4px 10px rgba(15,23,42,0.3);
+  }
+  .user-marker::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: #2563eb;
+    border-radius: 50%;
+    animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+  }
+
+  /* Marker cluster overrides */
+  .marker-cluster {
+    background: hsl(var(--primary) / 0.25) !important;
+  }
+  .marker-cluster div {
+    background: hsl(var(--primary)) !important;
+    color: white !important;
+    font-family: var(--font-sans), system-ui !important;
+    font-weight: 700 !important;
+    border-radius: 999px !important;
+  }
+
+  /* Leaflet container background */
+  .leaflet-container {
+    background: hsl(var(--muted)) !important;
+    font-family: var(--font-sans), system-ui;
+  }
+  .leaflet-control-attribution {
+    @apply !text-[10px] !bg-white/80 backdrop-blur-md !text-muted-foreground;
+  }
+  .leaflet-bar {
+    @apply !shadow-soft-md !border-border/70;
+  }
+  .leaflet-bar a {
+    @apply !bg-white !text-foreground !border-border/40 !rounded-md;
+  }
+  .leaflet-popup-content-wrapper {
+    @apply !rounded-2xl !shadow-soft-lg !p-0 !bg-white !overflow-hidden;
+  }
+  .leaflet-popup-content {
+    @apply !m-0 !w-[260px];
+  }
+  .leaflet-popup-tip {
+    @apply !shadow-soft;
+  }
+
+  /* No-tap-highlight on leaflet markers */
+  .leaflet-marker-icon { -webkit-tap-highlight-color: transparent; outline: none; }
+
+  /* Hide leaflet zoom on small screens */
+  @media (max-width: 768px) {
+    .leaflet-control-zoom { display: none; }
+  }
+
+  /* Sheet snap states (handled via class) */
+  .sheet-snap {
+    transition: height 350ms cubic-bezier(.2,.8,.25,1);
+  }
+
+  /* Hide scrollbar utility */
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+  /* Safe area helpers */
+  .pb-safe { padding-bottom: max(env(safe-area-inset-bottom), 0px); }
+  .pt-safe { padding-top: max(env(safe-area-inset-top), 0px); }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+  .text-pretty  { text-wrap: pretty; }
+}

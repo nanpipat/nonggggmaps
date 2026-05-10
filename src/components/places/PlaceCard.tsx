@@ -1,0 +1,118 @@
+"use client";
+
+import Image from "next/image";
+import { Star, MapPin, Heart, BadgeCheck } from "lucide-react";
+import type { Place } from "@/lib/types";
+import { CATEGORY_BY_ID } from "@/lib/categories";
+import { Badge } from "@/components/ui/badge";
+import { cn, formatDistance, formatRating } from "@/lib/utils";
+import { distanceKm } from "@/lib/geo";
+import { useApp } from "@/lib/store";
+
+interface Props {
+  place: Place;
+  onClick?: () => void;
+}
+
+export function PlaceCard({ place, onClick }: Props) {
+  const userLocation = useApp((s) => s.userLocation);
+  const favorites = useApp((s) => s.favorites);
+  const toggleFavorite = useApp((s) => s.toggleFavorite);
+
+  const category = CATEGORY_BY_ID[place.category];
+  const isFav = favorites.includes(place.id);
+  const distance = userLocation ? distanceKm(userLocation, place) : null;
+
+  return (
+    <div
+      onClick={onClick}
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") onClick?.(); }}
+      className="group flex w-full cursor-pointer gap-3 rounded-2xl border border-border/60 bg-card p-2.5 text-left shadow-soft transition-all hover:shadow-soft-md active:scale-[0.99]"
+    >
+      <div className="relative size-[88px] shrink-0 overflow-hidden rounded-xl bg-muted">
+        {place.cover_photo ? (
+          <Image
+            src={place.cover_photo}
+            alt={place.name}
+            fill
+            sizes="88px"
+            className="object-cover transition group-hover:scale-105"
+          />
+        ) : (
+          <div className="flex h-full w-full items-center justify-center text-2xl">
+            {category.emoji}
+          </div>
+        )}
+        <div
+          className={cn(
+            "absolute left-1.5 top-1.5 inline-flex items-center gap-1 rounded-full px-1.5 py-0.5 text-[10px] font-bold backdrop-blur-md",
+            category.bg,
+            category.color,
+          )}
+        >
+          {category.emoji}
+        </div>
+      </div>
+
+      <div className="min-w-0 flex-1 py-0.5">
+        <div className="flex items-start justify-between gap-2">
+          <h3 className="line-clamp-1 font-bold text-[15px] leading-snug">
+            {place.name}
+          </h3>
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              toggleFavorite(place.id);
+            }}
+            className="-mt-0.5 -mr-1 rounded-full p-1.5 text-muted-foreground transition hover:bg-muted/70 hover:text-rose-500"
+            aria-label={isFav ? "เอาออกจากที่ชอบ" : "บันทึกเป็นที่ชอบ"}
+          >
+            <Heart
+              className={cn("size-4 transition", isFav && "fill-rose-500 text-rose-500")}
+            />
+          </button>
+        </div>
+
+        <div className="mt-0.5 flex items-center gap-1 text-[12px] text-muted-foreground">
+          <Star className="size-3 fill-amber-400 text-amber-400" />
+          <span className="font-semibold text-foreground">
+            {formatRating(place.rating)}
+          </span>
+          <span>·</span>
+          <span>{place.review_count.toLocaleString()} รีวิว</span>
+          {place.policy.verified ? (
+            <BadgeCheck className="ml-1 size-3.5 text-emerald-500" />
+          ) : null}
+        </div>
+
+        <div className="mt-1 flex items-center gap-1 text-[12px] text-muted-foreground">
+          <MapPin className="size-3" />
+          <span className="line-clamp-1">{place.address}</span>
+          {distance != null ? (
+            <span className="ml-auto shrink-0 font-semibold text-primary">
+              {formatDistance(distance)}
+            </span>
+          ) : null}
+        </div>
+
+        <div className="mt-1.5 flex flex-wrap items-center gap-1">
+          {place.pet_types.includes("dog") ? (
+            <Badge variant="dog" className="px-2 text-[10px]">🐶 น้องหมา</Badge>
+          ) : null}
+          {place.pet_types.includes("cat") ? (
+            <Badge variant="cat" className="px-2 text-[10px]">🐱 น้องแมว</Badge>
+          ) : null}
+          {place.policy.indoor_allowed ? (
+            <Badge variant="success" className="px-2 text-[10px]">🏠 เข้าในร้านได้</Badge>
+          ) : null}
+          {!place.policy.carrier_required ? (
+            <Badge variant="success" className="px-2 text-[10px]">🆓 ไม่ใส่กระเป๋า</Badge>
+          ) : null}
+        </div>
+      </div>
+    </div>
+  );
+}
