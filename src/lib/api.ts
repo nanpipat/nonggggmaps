@@ -1,14 +1,13 @@
 /**
  * PawMap data layer.
  *
- * The API surface intentionally mirrors a future Supabase implementation:
- *   places, reviews, favorites, suggested_edits, profiles
- *
- * For now everything lives in localStorage. To swap to Supabase later, just
- * replace the body of these functions with `supabase.from('places')...` calls.
+ * Places are loaded from Supabase when configured; everything else
+ * (reviews, favorites, auth, edits, checkins) stays in localStorage.
+ * Swap remaining functions to Supabase as needed later.
  */
 import type { AppUser, CheckIn, Place, Review, SuggestedEdit } from "./types";
 import { SEED_PLACES, SEED_REVIEWS } from "./mock-data";
+import { supabase } from "./supabase";
 
 const KEYS = {
   PLACES: "pawmap.places.v1",
@@ -50,14 +49,43 @@ if (isBrowser) ensureSeed();
 
 // ===================== Places =====================
 export const placesApi = {
+  /** Sync read — localStorage only (fallback / SSR). */
   list(): Place[] {
     if (!isBrowser) return SEED_PLACES;
     ensureSeed();
     return read<Place[]>(KEYS.PLACES, SEED_PLACES);
   },
+
+  /** Async read — Supabase when configured, localStorage fallback. */
+  async listAsync(): Promise<Place[]> {
+    if (supabase) {
+      const { data, error } = await supabase
+        .from("places")
+        .select("*")
+        .order("added_at", { ascending: false });
+      if (!error && data && data.length > 0) {
+        return data as Place[];
+      }
+    }
+    return this.list();
+  },
+
   byId(id: string): Place | null {
     return this.list().find((p) => p.id === id) ?? null;
   },
+
+  async byIdAsync(id: string): Promise<Place | null> {
+    if (supabase) {
+      const { data, error } = await supabase
+        .from("places")
+        .select("*")
+        .eq("id", id)
+        .single();
+      if (!error && data) return data as Place;
+    }
+    return this.byId(id);
+  },
+
   create(p: Omit<Place, "id" | "added_at" | "rating" | "review_count">): Place {
     const newPlace: Place = {
       ...p,
@@ -70,6 +98,7 @@ export const placesApi = {
     write(KEYS.PLACES, [newPlace, ...all]);
     return newPlace;
   },
+
   update(id: string, patch: Partial<Place>): Place | null {
     const all = this.list();
     const idx = all.findIndex((p) => p.id === id);

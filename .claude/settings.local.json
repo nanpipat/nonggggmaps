@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(curl *)",
+      "WebSearch",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(echo \"PID: $!\")",
+      "WebFetch(domain:topgolfthailand.com)",
+      "WebFetch(domain:www.cleverthai.com)",
+      "WebFetch(domain:myhotelsbangkok.com)",
+      "WebFetch(domain:www.bkmagazine.com)",
+      "WebFetch(domain:www.timeout.com)",
+      "WebFetch(domain:blog.cheewid.com)",
+      "WebFetch(domain:petsinthailand.com)",
+      "WebFetch(domain:bubuupaws.com)",
+      "WebFetch(domain:www.bkkkids.com)",
+      "WebFetch(domain:bangkokdays.com)",
+      "WebFetch(domain:blog.hungryhub.com)",
+      "WebFetch(domain:hivelife.com)",
+      "WebFetch(domain:caffeinespots.com)",
+      "WebFetch(domain:dogparkbangkok.com)",
+      "WebFetch(domain:wylietraveldog.com)",
+      "WebFetch(domain:www.bringfido.com)",
+      "WebFetch(domain:thesmartlocal.co.th)",
+      "WebFetch(domain:thethaiger.com)",
+      "Bash(node *)",
+      "Bash(python3 *)",
+      "Bash(mv /Users/nanpipat/Documents/mine/nongggggmaps/real-places-bangkok.json /Users/nanpipat/Documents/mine/nongggggmaps/src/lib/)",
+      "Bash(mv /Users/nanpipat/Documents/mine/nongggggmaps/real-places-bangkok-additional.json /Users/nanpipat/Documents/mine/nongggggmaps/src/lib/)",
+      "Bash(mv /Users/nanpipat/Documents/mine/nongggggmaps/real-places-phuket.json /Users/nanpipat/Documents/mine/nongggggmaps/src/lib/)",
+      "Bash(mv /Users/nanpipat/Documents/mine/nongggggmaps/real-places-pattaya-huahin-samui.json /Users/nanpipat/Documents/mine/nongggggmaps/src/lib/)",
+      "Bash(mv /Users/nanpipat/Documents/mine/nongggggmaps/real-places-chiangmai.json /Users/nanpipat/Documents/mine/nongggggmaps/src/lib/)",
+      "Bash(xargs ls)"
+    ]
+  }
+}

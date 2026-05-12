@@ -49,10 +49,10 @@ interface AppState {
   ): void;
 
   // Actions
-  hydrate(): void;
+  hydrate(): Promise<void>;
   setUser(u: AppUser | null): void;
   setUserLocation(c: Coords | null): void;
-  refreshPlaces(): void;
+  refreshPlaces(): Promise<void>;
   toggleFavorite(id: string): void;
 
   selectPlace(id: string | null): void;
@@ -117,16 +117,14 @@ export const useApp = create<AppState>((set, get) => ({
   sortBy: "distance",
   mapBounds: null,
 
-  hydrate() {
+  async hydrate() {
     let u = authApi.current();
     if (!u) {
       u = authApi.signInAsGuest();
     }
-    set({
-      places: placesApi.list(),
-      user: u,
-      favorites: favoritesApi.list(),
-    });
+    set({ user: u, favorites: favoritesApi.list() });
+    const places = await placesApi.listAsync();
+    set({ places });
   },
 
   setUser(u) {
@@ -135,8 +133,9 @@ export const useApp = create<AppState>((set, get) => ({
   setUserLocation(c) {
     set({ userLocation: c });
   },
-  refreshPlaces() {
-    set({ places: placesApi.list() });
+  async refreshPlaces() {
+    const places = await placesApi.listAsync();
+    set({ places });
   },
   toggleFavorite(id) {
     favoritesApi.toggle(id);
