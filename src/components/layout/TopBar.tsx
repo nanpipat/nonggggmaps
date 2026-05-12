@@ -50,12 +50,9 @@ export function TopBar() {
   const user = useApp((s) => s.user);
   const setDrawerOpen = useApp((s) => s.setDrawerOpen);
   const setAddOpen = useApp((s) => s.setAddOpen);
-  const setLoginModalOpen = useApp((s) => s.setLoginModalOpen);
   const selectPlace = useApp((s) => s.selectPlace);
   const openDetail = useApp((s) => s.openDetail);
   const places = useApp((s) => s.places);
-
-  const isGuest = user?.provider === "guest";
 
   const [focused, setFocused] = useState(false);
   const [geoResults, setGeoResults] = useState<NominatimResult[]>([]);

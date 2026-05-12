@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useRef } from "react";
 import L from "leaflet";
 import "leaflet.markercluster";
 import { useApp } from "@/lib/store";
@@ -37,6 +37,7 @@ export default function MapView() {
   // Init map once
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
+    const markersById = markersByIdRef.current;
 
     // Fix leaflet's default icon path for retina
     delete (L.Icon.Default.prototype as { _getIconUrl?: unknown })._getIconUrl;
@@ -88,7 +89,7 @@ export default function MapView() {
       map.remove();
       mapRef.current = null;
       clusterRef.current = null;
-      markersByIdRef.current.clear();
+      markersById.clear();
       setMapBounds(null);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps

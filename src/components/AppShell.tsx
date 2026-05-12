@@ -16,10 +16,8 @@ import { AddPlaceModal } from "@/components/modals/AddPlaceModal";
 import { ReviewModal } from "@/components/modals/ReviewModal";
 import { LoginModal } from "@/components/modals/LoginModal";
 import { PickingBanner } from "@/components/map/PickingBanner";
-import { LoginScreen } from "@/components/auth/LoginScreen";
 
 export function AppShell() {
-  const user = useApp((s) => s.user);
   const hydrate = useApp((s) => s.hydrate);
   const setUserLocation = useApp((s) => s.setUserLocation);
   const detailOpen = useApp((s) => s.detailOpen);

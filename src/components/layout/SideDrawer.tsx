@@ -20,7 +20,6 @@ import {
   Upload,
   LogOut,
   Sparkles,
-  ShieldCheck,
   LogIn,
 } from "lucide-react";
 import {
@@ -36,7 +35,6 @@ export function SideDrawer() {
   const drawerOpen = useApp((s) => s.drawerOpen);
   const setDrawerOpen = useApp((s) => s.setDrawerOpen);
   const user = useApp((s) => s.user);
-  const setUser = useApp((s) => s.setUser);
   const setActiveTab = useApp((s) => s.setActiveTab);
   const setAddOpen = useApp((s) => s.setAddOpen);
   const setLoginModalOpen = useApp((s) => s.setLoginModalOpen);
