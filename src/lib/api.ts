@@ -16,7 +16,7 @@ const KEYS = {
   FAVORITES: "pawmap.favorites.v1",
   USER: "pawmap.user.v1",
   EDITS: "pawmap.edits.v1",
-  SEEDED: "pawmap.seeded.v1",
+  SEEDED: "pawmap.seeded.v2",
 } as const;
 
 const isBrowser = typeof window !== "undefined";
@@ -195,7 +195,11 @@ export const editsApi = {
 };
 
 // ===================== Export/Import =====================
-export const dataApi = {
+export const dataApi: {
+  exportAll(): { places: Place[]; reviews: Review[]; favorites: string[]; user: AppUser | null; edits: SuggestedEdit[]; exported_at: string };
+  importAll(data: ReturnType<typeof dataApi.exportAll>): void;
+  reset(): void;
+} = {
   exportAll() {
     return {
       places: placesApi.list(),

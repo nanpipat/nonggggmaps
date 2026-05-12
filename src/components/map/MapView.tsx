@@ -53,7 +53,6 @@ export default function MapView() {
       zoom: 12,
       zoomControl: true,
       attributionControl: true,
-      tap: true,
     });
 
     L.tileLayer(TILE_URL, {
@@ -176,12 +175,15 @@ export default function MapView() {
       window as unknown as {
         __pawmap?: {
           flyTo: (lat: number, lng: number, z?: number) => void;
+          flyToBounds: (bounds: [[number, number], [number, number]]) => void;
           getCenter: () => L.LatLng | null;
         };
       }
     ).__pawmap = {
       flyTo: (lat, lng, z = 15) =>
-        mapRef.current?.flyTo([lat, lng], z, { duration: 0.6 }),
+        mapRef.current?.flyTo([lat, lng], z, { duration: 0.8 }),
+      flyToBounds: (bounds) =>
+        mapRef.current?.fitBounds(bounds, { animate: true, maxZoom: 16, padding: [40, 40] }),
       getCenter: () => mapRef.current?.getCenter() ?? null,
     };
   }, []);
