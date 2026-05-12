@@ -14,6 +14,7 @@ import { SideDrawer } from "@/components/layout/SideDrawer";
 import { FilterModal } from "@/components/modals/FilterModal";
 import { AddPlaceModal } from "@/components/modals/AddPlaceModal";
 import { ReviewModal } from "@/components/modals/ReviewModal";
+import { LoginModal } from "@/components/modals/LoginModal";
 import { PickingBanner } from "@/components/map/PickingBanner";
 import { LoginScreen } from "@/components/auth/LoginScreen";
 
@@ -22,19 +23,38 @@ export function AppShell() {
   const hydrate = useApp((s) => s.hydrate);
   const setUserLocation = useApp((s) => s.setUserLocation);
   const detailOpen = useApp((s) => s.detailOpen);
+  const selectPlace = useApp((s) => s.selectPlace);
+  const openDetail = useApp((s) => s.openDetail);
+  const places = useApp((s) => s.places);
 
-  useEffect(() => { hydrate(); }, [hydrate]);
+  useEffect(() => {
+    hydrate();
+  }, [hydrate]);
 
   useEffect(() => {
     if (!navigator.geolocation) return;
     navigator.geolocation.getCurrentPosition(
-      (pos) => setUserLocation({ lat: pos.coords.latitude, lng: pos.coords.longitude }),
+      (pos) =>
+        setUserLocation({
+          lat: pos.coords.latitude,
+          lng: pos.coords.longitude,
+        }),
       () => {},
       { timeout: 5000, maximumAge: 600_000 },
     );
   }, [setUserLocation]);
 
-  if (!user) return <LoginScreen />;
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const placeId = params.get("place");
+    if (placeId && places.length > 0) {
+      const exists = places.find((p) => p.id === placeId);
+      if (exists) {
+        selectPlace(placeId);
+        openDetail();
+      }
+    }
+  }, [places, selectPlace, openDetail]);
 
   return (
     <main className="flex h-dvh w-full overflow-hidden bg-background">
@@ -74,6 +94,7 @@ export function AppShell() {
       <FilterModal />
       <AddPlaceModal />
       <ReviewModal />
+      <LoginModal />
     </main>
   );
 }

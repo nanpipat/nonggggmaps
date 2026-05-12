@@ -8,6 +8,7 @@ const PET_CHIPS = [
   { value: null, label: "ทั้งหมด", emoji: "🐾" },
   { value: "dog" as const, label: "น้องหมา", emoji: "🐶" },
   { value: "cat" as const, label: "น้องแมว", emoji: "🐱" },
+  { value: "other" as const, label: "อื่นๆ", emoji: "🐰" },
 ];
 
 export function CategoryChips() {
@@ -18,11 +19,9 @@ export function CategoryChips() {
   const activePet =
     filters.pet_types.size === 0
       ? null
-      : filters.pet_types.has("dog") && filters.pet_types.has("cat")
-      ? null
-      : filters.pet_types.has("dog")
-      ? "dog"
-      : "cat";
+      : filters.pet_types.size === 1
+        ? [...filters.pet_types][0]
+        : null;
 
   return (
     <div className="absolute left-0 right-0 top-[calc(env(safe-area-inset-top)+72px)] z-20">
@@ -42,7 +41,9 @@ export function CategoryChips() {
                 : "border-border/50 bg-white/90 text-foreground shadow-soft hover:border-border",
             )}
           >
-            <span aria-hidden className="text-[12px]">{c.emoji}</span>
+            <span aria-hidden className="text-[12px]">
+              {c.emoji}
+            </span>
             <span>{c.label}</span>
           </button>
         ))}
@@ -61,7 +62,9 @@ export function CategoryChips() {
                 : "border-border/50 bg-white/90 text-foreground shadow-soft hover:border-border",
             )}
           >
-            <span aria-hidden className="text-[12px]">{c.emoji}</span>
+            <span aria-hidden className="text-[12px]">
+              {c.emoji}
+            </span>
             <span>{c.label}</span>
           </button>
         ))}

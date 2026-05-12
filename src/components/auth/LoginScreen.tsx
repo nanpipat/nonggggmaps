@@ -104,12 +104,17 @@ export function LoginScreen() {
             </Button>
           </form>
 
-          <button
-            onClick={handleGuest}
-            className="mt-3 w-full text-center text-[13px] font-semibold text-primary hover:underline"
-          >
-            ใช้งานแบบไม่ล็อกอิน →
-          </button>
+          <div className="mt-3 flex flex-col items-center gap-2">
+            <button
+              onClick={handleGuest}
+              className="w-full text-center text-[14px] font-semibold text-primary hover:underline"
+            >
+              เข้าดูแผนที่ก่อนได้ →
+            </button>
+            <p className="text-[11px] text-muted-foreground">
+              ไม่ต้องสมัคร ดูได้เลย แต่จะรีวิวหรือเพิ่มสถานที่ต้องล็อกอิน
+            </p>
+          </div>
         </div>
 
         <p className="mt-4 text-center text-[11px] text-muted-foreground">

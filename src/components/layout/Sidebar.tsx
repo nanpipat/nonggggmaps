@@ -68,6 +68,7 @@ const PET_CHIPS = [
   { value: null, label: "ทั้งหมด", emoji: "🐾" },
   { value: "dog" as PetType, label: "น้องหมา", emoji: "🐶" },
   { value: "cat" as PetType, label: "น้องแมว", emoji: "🐱" },
+  { value: "other" as PetType, label: "อื่นๆ", emoji: "🐰" },
 ];
 
 const TABS = [
@@ -83,8 +84,11 @@ export function Sidebar() {
   const toggleCat = useApp((s) => s.toggleCategory);
   const setFilterOpen = useApp((s) => s.setFilterOpen);
   const setAddOpen = useApp((s) => s.setAddOpen);
+  const setLoginModalOpen = useApp((s) => s.setLoginModalOpen);
   const setDrawerOpen = useApp((s) => s.setDrawerOpen);
   const user = useApp((s) => s.user);
+
+  const isGuest = user?.provider === "guest";
   const filtered = useApp(useShallow((s) => s.getFiltered()));
   const sortBy = useApp((s) => s.sortBy);
   const setSort = useApp((s) => s.setSort);
@@ -393,7 +397,13 @@ export function Sidebar() {
               {TABS.map((t) => (
                 <button
                   key={t.id}
-                  onClick={() => setActiveTab(t.id)}
+                  onClick={() => {
+                    if (t.id !== "explore" && isGuest) {
+                      setLoginModalOpen(true);
+                    } else {
+                      setActiveTab(t.id);
+                    }
+                  }}
                   className={cn(
                     "rounded-full px-3 py-1 text-[13px] font-semibold transition-colors",
                     activeTab === t.id
@@ -448,7 +458,13 @@ export function Sidebar() {
           {/* Add place */}
           <div className="border-t border-border/60 px-4 py-3">
             <button
-              onClick={() => setAddOpen(true)}
+              onClick={() => {
+                if (isGuest) {
+                  setLoginModalOpen(true);
+                } else {
+                  setAddOpen(true);
+                }
+              }}
               className="flex w-full items-center justify-center gap-2 rounded-xl border border-dashed border-border/70 py-2.5 text-[13px] text-muted-foreground transition hover:border-primary/40 hover:text-primary"
             >
               <Plus className="size-4" />

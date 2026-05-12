@@ -7,7 +7,7 @@
  * For now everything lives in localStorage. To swap to Supabase later, just
  * replace the body of these functions with `supabase.from('places')...` calls.
  */
-import type { AppUser, Place, Review, SuggestedEdit } from "./types";
+import type { AppUser, CheckIn, Place, Review, SuggestedEdit } from "./types";
 import { SEED_PLACES, SEED_REVIEWS } from "./mock-data";
 
 const KEYS = {
@@ -16,6 +16,7 @@ const KEYS = {
   FAVORITES: "pawmap.favorites.v1",
   USER: "pawmap.user.v1",
   EDITS: "pawmap.edits.v1",
+  CHECKINS: "pawmap.checkins.v1",
   SEEDED: "pawmap.seeded.v2",
 } as const;
 
@@ -73,7 +74,11 @@ export const placesApi = {
     const all = this.list();
     const idx = all.findIndex((p) => p.id === id);
     if (idx === -1) return null;
-    const merged = { ...all[idx], ...patch, updated_at: new Date().toISOString() };
+    const merged = {
+      ...all[idx],
+      ...patch,
+      updated_at: new Date().toISOString(),
+    };
     all[idx] = merged;
     write(KEYS.PLACES, all);
     return merged;
@@ -83,10 +88,14 @@ export const placesApi = {
 // ===================== Reviews =====================
 export const reviewsApi = {
   byPlace(placeId: string): Review[] {
-    return read<Review[]>(KEYS.REVIEWS, SEED_REVIEWS).filter((r) => r.place_id === placeId);
+    return read<Review[]>(KEYS.REVIEWS, SEED_REVIEWS).filter(
+      (r) => r.place_id === placeId,
+    );
   },
   byUser(userId: string): Review[] {
-    return read<Review[]>(KEYS.REVIEWS, SEED_REVIEWS).filter((r) => r.user_id === userId);
+    return read<Review[]>(KEYS.REVIEWS, SEED_REVIEWS).filter(
+      (r) => r.user_id === userId,
+    );
   },
   create(input: Omit<Review, "id" | "created_at">): Review {
     const review: Review = {
@@ -97,8 +106,11 @@ export const reviewsApi = {
     const all = read<Review[]>(KEYS.REVIEWS, []);
     write(KEYS.REVIEWS, [review, ...all]);
     // Recompute place rating
-    const placeReviews = [review, ...all].filter((r) => r.place_id === review.place_id);
-    const avg = placeReviews.reduce((a, b) => a + b.rating, 0) / placeReviews.length;
+    const placeReviews = [review, ...all].filter(
+      (r) => r.place_id === review.place_id,
+    );
+    const avg =
+      placeReviews.reduce((a, b) => a + b.rating, 0) / placeReviews.length;
     placesApi.update(review.place_id, {
       rating: Math.round(avg * 10) / 10,
       review_count: placeReviews.length,
@@ -179,6 +191,7 @@ export const authApi = {
   signOut(): void {
     if (!isBrowser) return;
     localStorage.removeItem(KEYS.USER);
+    this.signInAsGuest();
   },
 };
 
@@ -188,15 +201,45 @@ export const editsApi = {
     return read<SuggestedEdit[]>(KEYS.EDITS, []);
   },
   create(input: Omit<SuggestedEdit, "id" | "created_at">): SuggestedEdit {
-    const e: SuggestedEdit = { ...input, id: "e_" + Date.now(), created_at: new Date().toISOString() };
+    const e: SuggestedEdit = {
+      ...input,
+      id: "e_" + Date.now(),
+      created_at: new Date().toISOString(),
+    };
     write(KEYS.EDITS, [e, ...this.list()]);
     return e;
   },
 };
 
+// ===================== Check-ins =====================
+export const checkinsApi = {
+  byPlace(placeId: string): CheckIn[] {
+    return read<CheckIn[]>(KEYS.CHECKINS, []).filter(
+      (c) => c.place_id === placeId,
+    );
+  },
+  create(input: Omit<CheckIn, "id" | "created_at">): CheckIn {
+    const ci: CheckIn = {
+      ...input,
+      id: "ci_" + Date.now(),
+      created_at: new Date().toISOString(),
+    };
+    const all = read<CheckIn[]>(KEYS.CHECKINS, []);
+    write(KEYS.CHECKINS, [ci, ...all]);
+    return ci;
+  },
+};
+
 // ===================== Export/Import =====================
 export const dataApi: {
-  exportAll(): { places: Place[]; reviews: Review[]; favorites: string[]; user: AppUser | null; edits: SuggestedEdit[]; exported_at: string };
+  exportAll(): {
+    places: Place[];
+    reviews: Review[];
+    favorites: string[];
+    user: AppUser | null;
+    edits: SuggestedEdit[];
+    exported_at: string;
+  };
   importAll(data: ReturnType<typeof dataApi.exportAll>): void;
   reset(): void;
 } = {

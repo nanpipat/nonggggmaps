@@ -27,6 +27,7 @@ interface AppState {
   filterOpen: boolean;
   addOpen: boolean;
   reviewOpen: boolean;
+  loginModalOpen: boolean;
   pickingLocation: boolean;
   pickingResult: Coords | null;
   drawerOpen: boolean;
@@ -37,8 +38,15 @@ interface AppState {
   sortBy: SortBy;
 
   // Map viewport
-  mapBounds: { north: number; south: number; east: number; west: number } | null;
-  setMapBounds(b: { north: number; south: number; east: number; west: number } | null): void;
+  mapBounds: {
+    north: number;
+    south: number;
+    east: number;
+    west: number;
+  } | null;
+  setMapBounds(
+    b: { north: number; south: number; east: number; west: number } | null,
+  ): void;
 
   // Actions
   hydrate(): void;
@@ -54,6 +62,7 @@ interface AppState {
   setFilterOpen(open: boolean): void;
   setAddOpen(open: boolean): void;
   setReviewOpen(open: boolean): void;
+  setLoginModalOpen(open: boolean): void;
   setDrawerOpen(open: boolean): void;
   setActiveTab(tab: AppState["activeTab"]): void;
 
@@ -68,6 +77,7 @@ interface AppState {
   toggleCondition(k: keyof Filters["conditions"] | string): void;
   toggleSize(s: "small" | "medium" | "large"): void;
   setMinRating(r: number): void;
+  setRadius(km: number): void;
   resetFilters(): void;
   setSort(s: SortBy): void;
 
@@ -83,6 +93,7 @@ const initialFilters = (): Filters => ({
   conditions: new Set(),
   sizes: new Set(),
   min_rating: 0,
+  radius_km: 0,
 });
 
 export const useApp = create<AppState>((set, get) => ({
@@ -96,6 +107,7 @@ export const useApp = create<AppState>((set, get) => ({
   filterOpen: false,
   addOpen: false,
   reviewOpen: false,
+  loginModalOpen: false,
   pickingLocation: false,
   pickingResult: null,
   drawerOpen: false,
@@ -106,34 +118,69 @@ export const useApp = create<AppState>((set, get) => ({
   mapBounds: null,
 
   hydrate() {
+    let u = authApi.current();
+    if (!u) {
+      u = authApi.signInAsGuest();
+    }
     set({
       places: placesApi.list(),
-      user: authApi.current(),
+      user: u,
       favorites: favoritesApi.list(),
     });
   },
 
-  setUser(u) { set({ user: u }); },
-  setUserLocation(c) { set({ userLocation: c }); },
-  refreshPlaces() { set({ places: placesApi.list() }); },
+  setUser(u) {
+    set({ user: u });
+  },
+  setUserLocation(c) {
+    set({ userLocation: c });
+  },
+  refreshPlaces() {
+    set({ places: placesApi.list() });
+  },
   toggleFavorite(id) {
     favoritesApi.toggle(id);
     set({ favorites: favoritesApi.list() });
   },
 
-  selectPlace(id) { set({ selectedPlaceId: id, detailOpen: false }); },
-  openDetail() { set({ detailOpen: true }); },
-  closeDetail() { set({ detailOpen: false, selectedPlaceId: null }); },
+  selectPlace(id) {
+    set({ selectedPlaceId: id, detailOpen: false });
+  },
+  openDetail() {
+    set({ detailOpen: true });
+  },
+  closeDetail() {
+    set({ detailOpen: false, selectedPlaceId: null });
+  },
 
-  setFilterOpen(open) { set({ filterOpen: open }); },
-  setAddOpen(open) { set({ addOpen: open }); },
-  setReviewOpen(open) { set({ reviewOpen: open }); },
-  setDrawerOpen(open) { set({ drawerOpen: open }); },
-  setActiveTab(tab) { set({ activeTab: tab }); },
+  setFilterOpen(open) {
+    set({ filterOpen: open });
+  },
+  setAddOpen(open) {
+    set({ addOpen: open });
+  },
+  setReviewOpen(open) {
+    set({ reviewOpen: open });
+  },
+  setLoginModalOpen(open) {
+    set({ loginModalOpen: open });
+  },
+  setDrawerOpen(open) {
+    set({ drawerOpen: open });
+  },
+  setActiveTab(tab) {
+    set({ activeTab: tab });
+  },
 
-  startPickingLocation() { set({ pickingLocation: true, pickingResult: null, addOpen: false }); },
-  cancelPickingLocation() { set({ pickingLocation: false }); },
-  confirmPickingLocation(c) { set({ pickingLocation: false, pickingResult: c, addOpen: true }); },
+  startPickingLocation() {
+    set({ pickingLocation: true, pickingResult: null, addOpen: false });
+  },
+  cancelPickingLocation() {
+    set({ pickingLocation: false });
+  },
+  confirmPickingLocation(c) {
+    set({ pickingLocation: false, pickingResult: c, addOpen: true });
+  },
 
   setSearch(q) {
     const f = { ...get().filters, search: q };
@@ -142,7 +189,8 @@ export const useApp = create<AppState>((set, get) => ({
   togglePet(p) {
     const f = get().filters;
     const next = new Set(f.pet_types);
-    if (next.has(p)) next.delete(p); else next.add(p);
+    if (next.has(p)) next.delete(p);
+    else next.add(p);
     set({ filters: { ...f, pet_types: next } });
   },
   setPet(p) {
@@ -154,28 +202,51 @@ export const useApp = create<AppState>((set, get) => ({
   toggleCategory(c) {
     const f = get().filters;
     const next = new Set(f.categories);
-    if (next.has(c)) next.delete(c); else next.add(c);
+    if (next.has(c)) next.delete(c);
+    else next.add(c);
     set({ filters: { ...f, categories: next } });
   },
   toggleCondition(k) {
     const f = get().filters;
     const next = new Set(f.conditions);
-    if (next.has(k as never)) next.delete(k as never); else next.add(k as never);
+    if (next.has(k as never)) next.delete(k as never);
+    else next.add(k as never);
     set({ filters: { ...f, conditions: next } });
   },
   toggleSize(s) {
     const f = get().filters;
     const next = new Set(f.sizes);
-    if (next.has(s)) next.delete(s); else next.add(s);
+    if (next.has(s)) next.delete(s);
+    else next.add(s);
     set({ filters: { ...f, sizes: next } });
   },
-  setMinRating(r) { set({ filters: { ...get().filters, min_rating: r } }); },
-  resetFilters() { set({ filters: initialFilters() }); },
-  setSort(s) { set({ sortBy: s }); },
-  setMapBounds(b) { set({ mapBounds: b }); },
+  setMinRating(r) {
+    set({ filters: { ...get().filters, min_rating: r } });
+  },
+  setRadius(km) {
+    set({ filters: { ...get().filters, radius_km: km } });
+  },
+  resetFilters() {
+    set({ filters: initialFilters() });
+  },
+  setSort(s) {
+    set({ sortBy: s });
+  },
+  setMapBounds(b) {
+    set({ mapBounds: b });
+  },
 
   getFiltered() {
-    const { places, filters: f, sortBy, userLocation, activeTab, favorites, user, mapBounds } = get();
+    const {
+      places,
+      filters: f,
+      sortBy,
+      userLocation,
+      activeTab,
+      favorites,
+      user,
+      mapBounds,
+    } = get();
     let list = places.slice();
 
     if (activeTab === "favorites") {
@@ -187,14 +258,17 @@ export const useApp = create<AppState>((set, get) => ({
 
     if (f.search) {
       const q = f.search.toLowerCase();
-      list = list.filter((p) =>
-        p.name.toLowerCase().includes(q) ||
-        p.address.toLowerCase().includes(q) ||
-        (p.notes ?? "").toLowerCase().includes(q),
+      list = list.filter(
+        (p) =>
+          p.name.toLowerCase().includes(q) ||
+          p.address.toLowerCase().includes(q) ||
+          (p.notes ?? "").toLowerCase().includes(q),
       );
     }
     if (f.pet_types.size) {
-      list = list.filter((p) => Array.from(f.pet_types).every((t) => p.pet_types.includes(t)));
+      list = list.filter((p) =>
+        Array.from(f.pet_types).every((t) => p.pet_types.includes(t)),
+      );
     }
     if (f.categories.size) {
       list = list.filter((p) => f.categories.has(p.category));
@@ -202,17 +276,30 @@ export const useApp = create<AppState>((set, get) => ({
     if (f.conditions.size) {
       list = list.filter((p) => {
         const pol = p.policy;
-        if (f.conditions.has("no_carrier" as never) && pol.carrier_required) return false;
-        if (f.conditions.has("indoor" as never) && !pol.indoor_allowed) return false;
+        if (f.conditions.has("no_carrier" as never) && pol.carrier_required)
+          return false;
+        if (f.conditions.has("indoor" as never) && !pol.indoor_allowed)
+          return false;
         if (f.conditions.has("ac" as never) && !pol.ac) return false;
-        if (f.conditions.has("verified" as never) && !pol.verified) return false;
-        if (f.conditions.has("pet_zone" as never) && !pol.pet_zone) return false;
+        if (f.conditions.has("verified" as never) && !pol.verified)
+          return false;
+        if (f.conditions.has("pet_zone" as never) && !pol.pet_zone)
+          return false;
         return true;
       });
     }
     if (f.sizes.size) {
-      const order: Record<string, number> = { small: 1, medium: 2, large: 3, any: 4 };
-      list = list.filter((p) => Array.from(f.sizes).every((s) => order[p.policy.size_limit] >= order[s]));
+      const order: Record<string, number> = {
+        small: 1,
+        medium: 2,
+        large: 3,
+        any: 4,
+      };
+      list = list.filter((p) =>
+        Array.from(f.sizes).every(
+          (s) => order[p.policy.size_limit] >= order[s],
+        ),
+      );
     }
     if (f.min_rating > 0) {
       list = list.filter((p) => p.rating >= f.min_rating);
@@ -229,6 +316,9 @@ export const useApp = create<AppState>((set, get) => ({
     }
 
     const me = userLocation ?? null;
+    if (f.radius_km > 0 && me) {
+      list = list.filter((p) => distanceKm(me, p) <= f.radius_km);
+    }
     if (sortBy === "distance" && me) {
       list = list
         .map((p) => ({ p, d: distanceKm(me, p) }))

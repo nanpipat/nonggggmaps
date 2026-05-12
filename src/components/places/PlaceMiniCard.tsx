@@ -69,6 +69,9 @@ export function PlaceMiniCard() {
               {place.pet_types.includes("cat") && (
                 <Badge variant="cat" className="px-1.5 py-0 text-[10px]">🐱 น้องแมว</Badge>
               )}
+              {place.pet_types.includes("other") && (
+                <Badge variant="outline" className="px-1.5 py-0 text-[10px]">🐰 อื่นๆ</Badge>
+              )}
               {place.policy.indoor_allowed && (
                 <Badge variant="success" className="px-1.5 py-0 text-[10px]">🏠 เข้าในร้านได้</Badge>
               )}

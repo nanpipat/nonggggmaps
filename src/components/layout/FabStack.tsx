@@ -1,6 +1,6 @@
 "use client";
 
-import { Crosshair, SlidersHorizontal } from "lucide-react";
+import { Crosshair, SlidersHorizontal, Plus } from "lucide-react";
 import { toast } from "sonner";
 import { useApp } from "@/lib/store";
 import { cn } from "@/lib/utils";
@@ -8,8 +8,13 @@ import { flyTo } from "@/lib/map-helpers";
 
 export function FabStack() {
   const setFilterOpen = useApp((s) => s.setFilterOpen);
+  const setAddOpen = useApp((s) => s.setAddOpen);
+  const setLoginModalOpen = useApp((s) => s.setLoginModalOpen);
   const setUserLocation = useApp((s) => s.setUserLocation);
+  const user = useApp((s) => s.user);
   const filters = useApp((s) => s.filters);
+
+  const isGuest = user?.provider === "guest";
 
   const filterCount =
     filters.pet_types.size +
@@ -32,18 +37,42 @@ export function FabStack() {
         toast.success("พบตำแหน่งของคุณแล้ว", { id: "locate" });
       },
       (err) =>
-        toast.error("ไม่สามารถค้นหาตำแหน่งได้: " + err.message, { id: "locate" }),
+        toast.error("ไม่สามารถค้นหาตำแหน่งได้: " + err.message, {
+          id: "locate",
+        }),
       { enableHighAccuracy: true, timeout: 7000 },
     );
   };
 
   return (
     <div className="absolute bottom-24 right-3 z-30 flex flex-col gap-2 md:bottom-6">
-      <button onClick={onLocate} className="fab" aria-label="ค้นหาตำแหน่งของฉัน">
+      <button
+        onClick={() => {
+          if (isGuest) {
+            setLoginModalOpen(true);
+          } else {
+            setAddOpen(true);
+          }
+        }}
+        className="fab bg-primary text-primary-foreground shadow-pop"
+        aria-label="เพิ่มสถานที่"
+      >
+        <Plus className="size-5" />
+      </button>
+
+      <button
+        onClick={onLocate}
+        className="fab"
+        aria-label="ค้นหาตำแหน่งของฉัน"
+      >
         <Crosshair className="size-5" />
       </button>
 
-      <button onClick={() => setFilterOpen(true)} className="fab relative" aria-label="ตัวกรอง">
+      <button
+        onClick={() => setFilterOpen(true)}
+        className="fab relative"
+        aria-label="ตัวกรอง"
+      >
         <SlidersHorizontal className="size-5" />
         {filterCount > 0 ? (
           <span

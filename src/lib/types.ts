@@ -1,6 +1,6 @@
 // Core domain types — shaped to match a future Supabase schema 1:1
 
-export type PetType = "dog" | "cat";
+export type PetType = "dog" | "cat" | "other";
 export type PlaceCategory =
   | "cafe"
   | "restaurant"
@@ -62,6 +62,15 @@ export interface SuggestedEdit {
   created_at: string;
 }
 
+export interface CheckIn {
+  id: string;
+  place_id: string;
+  user_id: string;
+  user_name: string;
+  user_avatar: string;
+  created_at: string;
+}
+
 export interface AppUser {
   id: string;
   name: string;
@@ -78,6 +87,7 @@ export interface Filters {
   conditions: Set<"no_carrier" | "indoor" | "ac" | "verified" | "pet_zone">;
   sizes: Set<"small" | "medium" | "large">;
   min_rating: number;
+  radius_km: number;
 }
 
 export type SortBy = "distance" | "rating" | "review_count" | "newest";

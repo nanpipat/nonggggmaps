@@ -35,7 +35,11 @@ export function BottomSheetPanel() {
   const selectPlace = useApp((s) => s.selectPlace);
   const activeTab = useApp((s) => s.activeTab);
   const setActiveTab = useApp((s) => s.setActiveTab);
+  const setLoginModalOpen = useApp((s) => s.setLoginModalOpen);
+  const user = useApp((s) => s.user);
   const mapBounds = useApp((s) => s.mapBounds);
+
+  const isGuest = user?.provider === "guest";
 
   const [snap, setSnap] = useState<Snap>("half");
 
@@ -48,7 +52,9 @@ export function BottomSheetPanel() {
   if (selectedId) return null;
 
   const cycleSnap = () =>
-    setSnap((cur) => (cur === "peek" ? "half" : cur === "half" ? "full" : "peek"));
+    setSnap((cur) =>
+      cur === "peek" ? "half" : cur === "half" ? "full" : "peek",
+    );
 
   return (
     <section
@@ -75,8 +81,12 @@ export function BottomSheetPanel() {
             <button
               key={t.id}
               onClick={() => {
-                setActiveTab(t.id);
-                if (snap === "peek") setSnap("half");
+                if (t.id !== "explore" && isGuest) {
+                  setLoginModalOpen(true);
+                } else {
+                  setActiveTab(t.id);
+                  if (snap === "peek") setSnap("half");
+                }
               }}
               className={cn(
                 "rounded-full px-3 py-1 text-[13px] font-semibold transition-colors",
@@ -89,11 +99,15 @@ export function BottomSheetPanel() {
             </button>
           ))}
           <span className="ml-1.5 text-[11px] text-muted-foreground/70">
-            {filtered.length.toLocaleString()} แห่ง{mapBounds ? " · ในพื้นที่นี้" : ""}
+            {filtered.length.toLocaleString()} แห่ง
+            {mapBounds ? " · ในพื้นที่นี้" : ""}
           </span>
         </div>
 
-        <Select value={sortBy} onValueChange={(v) => setSort(v as typeof sortBy)}>
+        <Select
+          value={sortBy}
+          onValueChange={(v) => setSort(v as typeof sortBy)}
+        >
           <SelectTrigger className="h-8 w-[116px] rounded-xl border-border/50 text-[12px]">
             <SelectValue />
           </SelectTrigger>
@@ -115,9 +129,19 @@ export function BottomSheetPanel() {
         {filtered.length === 0 ? (
           <div className="flex flex-col items-center justify-center px-6 py-10 text-center">
             <div className="text-4xl">🐾</div>
-            <h4 className="mt-2 font-bold">ยังหาไม่เจอเลย</h4>
+            <h4 className="mt-2 font-bold">
+              {activeTab === "favorites"
+                ? "ยังไม่มีที่ชอบ"
+                : activeTab === "myreviews"
+                  ? "ยังไม่มีรีวิว"
+                  : "ยังหาไม่เจอเลย"}
+            </h4>
             <p className="mt-1 text-[13px] text-muted-foreground">
-              ลองซูมออกดูนะ หรือปรับตัวกรองดูก็ได้
+              {activeTab === "favorites"
+                ? "กด ❤️ ที่สถานที่ที่ชอบ จะเก็บไว้ให้ที่นี่"
+                : activeTab === "myreviews"
+                  ? "เขียนรีวิวแรกของคุณเลย!"
+                  : "ลองซูมออกดูนะ หรือปรับตัวกรองดูก็ได้"}
             </p>
           </div>
         ) : (

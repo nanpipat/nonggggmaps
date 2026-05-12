@@ -41,3 +41,47 @@ export function relativeTimeTH(dateStr: string): string {
   if (diff < 7 * day) return `${Math.floor(diff / day)} วันก่อน`;
   return d.toLocaleDateString("th-TH", { day: "numeric", month: "short", year: "numeric" });
 }
+
+export function parseOpenStatus(hours: string | null | undefined): { open: boolean; text: string } | null {
+  if (!hours) return null;
+  const now = new Date();
+  const currentMinutes = now.getHours() * 60 + now.getMinutes();
+
+  const timeRegex = /(\d{1,2}):(\d{2})\s*[-–—]\s*(\d{1,2}):(\d{2})/g;
+  let match;
+  const ranges: { open: number; close: number }[] = [];
+
+  while ((match = timeRegex.exec(hours)) !== null) {
+    const openMin = parseInt(match[1]) * 60 + parseInt(match[2]);
+    let closeMin = parseInt(match[3]) * 60 + parseInt(match[4]);
+    if (closeMin < openMin) closeMin += 24 * 60;
+    ranges.push({ open: openMin, close: closeMin });
+  }
+
+  if (ranges.length === 0) {
+    if (/24\s*ชม/i.test(hours) || /24\s*hrs/i.test(hours) || /ตลอด/i.test(hours)) {
+      return { open: true, text: "เปิด 24 ชม." };
+    }
+    if (/ปิด/i.test(hours)) {
+      return { open: false, text: "ปิดชั่วคราว" };
+    }
+    return null;
+  }
+
+  for (const r of ranges) {
+    if (currentMinutes >= r.open && currentMinutes < r.close) {
+      const closeH = Math.floor(r.close % (24 * 60) / 60);
+      const closeM = r.close % 60;
+      return { open: true, text: `เปิดอยู่ · ปิด ${closeH.toString().padStart(2, "0")}:${closeM.toString().padStart(2, "0")} น.` };
+    }
+  }
+
+  const nextOpen = ranges.find((r) => currentMinutes < r.open);
+  if (nextOpen) {
+    const openH = Math.floor(nextOpen.open / 60);
+    const openM = nextOpen.open % 60;
+    return { open: false, text: `ปิดแล้ว · เปิด ${openH.toString().padStart(2, "0")}:${openM.toString().padStart(2, "0")} น.` };
+  }
+
+  return { open: false, text: "ปิดแล้ว" };
+}

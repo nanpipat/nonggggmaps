@@ -1,15 +1,35 @@
 "use client";
 
 import { useApp } from "@/lib/store";
-import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+} from "@/components/ui/sheet";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import {
-  Map, Heart, MessageSquareText, Plus, BarChart3, Download,
-  Upload, LogOut, Sparkles, ShieldCheck,
+  Map,
+  Heart,
+  MessageSquareText,
+  Plus,
+  BarChart3,
+  Download,
+  Upload,
+  LogOut,
+  Sparkles,
+  ShieldCheck,
+  LogIn,
 } from "lucide-react";
-import { authApi, dataApi, favoritesApi, reviewsApi, placesApi } from "@/lib/api";
+import {
+  authApi,
+  dataApi,
+  favoritesApi,
+  reviewsApi,
+  placesApi,
+} from "@/lib/api";
 import { toast } from "sonner";
 
 export function SideDrawer() {
@@ -19,17 +39,22 @@ export function SideDrawer() {
   const setUser = useApp((s) => s.setUser);
   const setActiveTab = useApp((s) => s.setActiveTab);
   const setAddOpen = useApp((s) => s.setAddOpen);
+  const setLoginModalOpen = useApp((s) => s.setLoginModalOpen);
+
+  const isGuest = user?.provider === "guest";
 
   const handleSignOut = () => {
     if (!confirm("ออกจากระบบ?")) return;
     authApi.signOut();
-    setUser(null);
+    useApp.getState().hydrate();
     setDrawerOpen(false);
   };
 
   const handleExport = () => {
     const data = dataApi.exportAll();
-    const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+    const blob = new Blob([JSON.stringify(data, null, 2)], {
+      type: "application/json",
+    });
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
     a.download = `pawmap-${Date.now()}.json`;
@@ -60,24 +85,27 @@ export function SideDrawer() {
   const handleStats = () => {
     const places = placesApi.list();
     const myReviews = user ? reviewsApi.byUser(user.id).length : 0;
-    const myPlaces = user ? places.filter((p) => p.added_by === user.id).length : 0;
+    const myPlaces = user
+      ? places.filter((p) => p.added_by === user.id).length
+      : 0;
     const favs = favoritesApi.list().length;
     const avg =
       places.length > 0
         ? (places.reduce((a, b) => a + b.rating, 0) / places.length).toFixed(2)
         : "0.00";
 
-    toast.message(
-      `📊 สถิติของคุณ`,
-      {
-        description: `สถานที่ทั้งหมด: ${places.length}\nที่ชอบ: ${favs}\nรีวิวที่เขียน: ${myReviews}\nสถานที่ที่เพิ่ม: ${myPlaces}\nคะแนนเฉลี่ย: ⭐ ${avg}`,
-        duration: 6000,
-      },
-    );
+    toast.message(`📊 สถิติของคุณ`, {
+      description: `สถานที่ทั้งหมด: ${places.length}\nที่ชอบ: ${favs}\nรีวิวที่เขียน: ${myReviews}\nสถานที่ที่เพิ่ม: ${myPlaces}\nคะแนนเฉลี่ย: ⭐ ${avg}`,
+      duration: 6000,
+    });
     setDrawerOpen(false);
   };
 
-  const goTab = (tab: typeof user extends never ? never : "explore" | "favorites" | "myreviews") => {
+  const goTab = (
+    tab: typeof user extends never
+      ? never
+      : "explore" | "favorites" | "myreviews",
+  ) => {
     setActiveTab(tab);
     setDrawerOpen(false);
   };
@@ -104,14 +132,50 @@ export function SideDrawer() {
         </SheetHeader>
 
         <div className="flex flex-1 flex-col gap-1 p-4">
-          <DrawerItem icon={Map} label="สำรวจแผนที่" onClick={() => goTab("explore")} />
-          <DrawerItem icon={Heart} label="ที่ชอบของฉัน" onClick={() => goTab("favorites")} />
-          <DrawerItem icon={MessageSquareText} label="รีวิวของฉัน" onClick={() => goTab("myreviews")} />
+          <DrawerItem
+            icon={Map}
+            label="สำรวจแผนที่"
+            onClick={() => goTab("explore")}
+          />
+          {isGuest ? (
+            <div className="mx-3 my-2 rounded-2xl bg-primary/10 p-4 border border-primary/20">
+              <p className="text-[13px] font-bold text-primary mb-2">
+                เข้าสู่ระบบเพื่อใช้งานครบทุกฟีเจอร์
+              </p>
+              <Button
+                size="sm"
+                className="w-full font-bold shadow-pop"
+                onClick={() => {
+                  setLoginModalOpen(true);
+                  setDrawerOpen(false);
+                }}
+              >
+                <LogIn className="size-4 mr-2" /> เข้าสู่ระบบ
+              </Button>
+            </div>
+          ) : (
+            <>
+              <DrawerItem
+                icon={Heart}
+                label="ที่ชอบของฉัน"
+                onClick={() => goTab("favorites")}
+              />
+              <DrawerItem
+                icon={MessageSquareText}
+                label="รีวิวของฉัน"
+                onClick={() => goTab("myreviews")}
+              />
+            </>
+          )}
           <DrawerItem
             icon={Plus}
             label="เพิ่มสถานที่ใหม่"
             onClick={() => {
-              setAddOpen(true);
+              if (isGuest) {
+                setLoginModalOpen(true);
+              } else {
+                setAddOpen(true);
+              }
               setDrawerOpen(false);
             }}
           />
@@ -119,8 +183,16 @@ export function SideDrawer() {
           <Separator className="my-3" />
 
           <DrawerItem icon={BarChart3} label="สถิติ" onClick={handleStats} />
-          <DrawerItem icon={Download} label="ส่งออกข้อมูล" onClick={handleExport} />
-          <DrawerItem icon={Upload} label="นำเข้าข้อมูล" onClick={handleImport} />
+          <DrawerItem
+            icon={Download}
+            label="ส่งออกข้อมูล"
+            onClick={handleExport}
+          />
+          <DrawerItem
+            icon={Upload}
+            label="นำเข้าข้อมูล"
+            onClick={handleImport}
+          />
 
           <Separator className="my-3" />
 
@@ -129,18 +201,21 @@ export function SideDrawer() {
               <Sparkles className="size-4 text-primary" /> เกี่ยวกับ
             </div>
             <p className="mt-1 text-[12px] text-muted-foreground">
-              PawMap MVP v1.0 · กรุงเทพฯ 🇹🇭<br />
+              PawMap MVP v1.0 · กรุงเทพฯ 🇹🇭
+              <br />
               ขับเคลื่อนด้วย Next.js · OpenStreetMap · ❤️ จาก community
             </p>
           </div>
 
-          <Button
-            variant="ghost"
-            className="mt-auto justify-start text-rose-600 hover:bg-rose-50 hover:text-rose-700"
-            onClick={handleSignOut}
-          >
-            <LogOut className="size-4" /> ออกจากระบบ
-          </Button>
+          {isGuest ? null : (
+            <Button
+              variant="ghost"
+              className="mt-auto justify-start text-rose-600 hover:bg-rose-50 hover:text-rose-700"
+              onClick={handleSignOut}
+            >
+              <LogOut className="size-4" /> ออกจากระบบ
+            </Button>
+          )}
         </div>
       </SheetContent>
     </Sheet>

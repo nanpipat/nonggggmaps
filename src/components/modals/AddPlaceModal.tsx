@@ -235,6 +235,12 @@ export function AddPlaceModal() {
               >
                 🐱 น้องแมว
               </PetToggle>
+              <PetToggle
+                active={pets.has("other")}
+                onClick={() => togglePet("other")}
+              >
+                🐰 สัตว์อื่นๆ
+              </PetToggle>
             </div>
           </div>
 

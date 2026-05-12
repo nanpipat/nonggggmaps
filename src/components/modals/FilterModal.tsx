@@ -1,7 +1,12 @@
 "use client";
 
 import { useApp } from "@/lib/store";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { CATEGORIES, CONDITION_LABELS, SIZE_LABELS } from "@/lib/categories";
@@ -11,15 +16,34 @@ import { cn } from "@/lib/utils";
 const PET_OPTIONS: { id: PetType; label: string; emoji: string }[] = [
   { id: "dog", label: "น้องหมา", emoji: "🐶" },
   { id: "cat", label: "น้องแมว", emoji: "🐱" },
+  { id: "other", label: "สัตว์อื่นๆ", emoji: "🐰" },
 ];
 
-const CONDITION_KEYS: (keyof typeof CONDITION_LABELS)[] = ["no_carrier", "indoor", "ac", "pet_zone", "verified"];
-const SIZE_KEYS: ("small" | "medium" | "large")[] = ["small", "medium", "large"];
+const CONDITION_KEYS: (keyof typeof CONDITION_LABELS)[] = [
+  "no_carrier",
+  "indoor",
+  "ac",
+  "pet_zone",
+  "verified",
+];
+const SIZE_KEYS: ("small" | "medium" | "large")[] = [
+  "small",
+  "medium",
+  "large",
+];
 const RATING_OPTIONS = [
   { value: 0, label: "ทุกคะแนน" },
   { value: 3, label: "⭐ 3.0+" },
   { value: 4, label: "⭐ 4.0+" },
   { value: 4.5, label: "⭐ 4.5+" },
+];
+
+const RADIUS_OPTIONS = [
+  { value: 0, label: "ทุกระยะ" },
+  { value: 1, label: "📍 1 กม." },
+  { value: 2, label: "📍 2 กม." },
+  { value: 5, label: "📍 5 กม." },
+  { value: 10, label: "📍 10 กม." },
 ];
 
 export function FilterModal() {
@@ -31,6 +55,7 @@ export function FilterModal() {
   const toggleCondition = useApp((s) => s.toggleCondition);
   const toggleSize = useApp((s) => s.toggleSize);
   const setMinRating = useApp((s) => s.setMinRating);
+  const setRadius = useApp((s) => s.setRadius);
   const resetFilters = useApp((s) => s.resetFilters);
 
   return (
@@ -38,7 +63,9 @@ export function FilterModal() {
       <DialogContent className="!max-w-[480px] !p-0">
         <DialogHeader className="border-b border-border px-5 pb-4 pt-5">
           <DialogTitle>ตัวกรอง 🐾</DialogTitle>
-          <p className="text-sm text-muted-foreground">เลือกเงื่อนไขที่ใช่สำหรับน้อง</p>
+          <p className="text-sm text-muted-foreground">
+            เลือกเงื่อนไขที่ใช่สำหรับน้อง
+          </p>
         </DialogHeader>
 
         <div className="space-y-5 px-5 py-5">
@@ -88,8 +115,13 @@ export function FilterModal() {
           <Group title="ขนาดน้อง">
             <div className="flex flex-wrap gap-2">
               {SIZE_KEYS.map((s) => (
-                <Pill key={s} active={filters.sizes.has(s)} onClick={() => toggleSize(s)}>
-                  <span className="mr-1">{SIZE_LABELS[s].emoji}</span> {SIZE_LABELS[s].label}
+                <Pill
+                  key={s}
+                  active={filters.sizes.has(s)}
+                  onClick={() => toggleSize(s)}
+                >
+                  <span className="mr-1">{SIZE_LABELS[s].emoji}</span>{" "}
+                  {SIZE_LABELS[s].label}
                 </Pill>
               ))}
             </div>
@@ -102,6 +134,20 @@ export function FilterModal() {
                   key={r.value}
                   active={filters.min_rating === r.value}
                   onClick={() => setMinRating(r.value)}
+                >
+                  {r.label}
+                </Pill>
+              ))}
+            </div>
+          </Group>
+
+          <Group title="ระยะทาง">
+            <div className="flex flex-wrap gap-2">
+              {RADIUS_OPTIONS.map((r) => (
+                <Pill
+                  key={r.value}
+                  active={filters.radius_km === r.value}
+                  onClick={() => setRadius(r.value)}
                 >
                   {r.label}
                 </Pill>
@@ -123,7 +169,13 @@ export function FilterModal() {
   );
 }
 
-function Group({ title, children }: { title: string; children: React.ReactNode }) {
+function Group({
+  title,
+  children,
+}: {
+  title: string;
+  children: React.ReactNode;
+}) {
   return (
     <div>
       <h3 className="mb-2.5 text-[13px] font-bold uppercase tracking-wider text-muted-foreground">

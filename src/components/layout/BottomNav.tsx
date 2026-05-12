@@ -44,7 +44,7 @@ export function BottomNav() {
         className="relative -mt-5 flex flex-1 items-center justify-center"
         aria-label="เพิ่มสถานที่"
       >
-        <span className="grid size-14 place-items-center rounded-full bg-gradient-to-br from-primary via-primary to-accent text-primary-foreground shadow-pop">
+        <span className="grid size-14 place-items-center rounded-full bg-primary text-primary-foreground shadow-pop">
           <Plus className="size-6" strokeWidth={2.5} />
         </span>
       </button>

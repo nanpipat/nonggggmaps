@@ -106,17 +106,35 @@ export function ReviewModal() {
           </div>
 
           <div className="space-y-1.5">
-            <Label htmlFor="r-photos">รูปภาพ (เลือกได้สูงสุด 5 รูป)</Label>
-            <Input
-              id="r-photos"
-              type="file"
-              accept="image/*"
-              multiple
-              onChange={async (e) => {
-                const arr = await filesToDataUrls(e.target.files, { limit: 5 });
-                setPhotos(arr);
-              }}
-            />
+            <Label htmlFor="r-photos">📷 รูปภาพ (เลือกได้สูงสุด 5 รูป)</Label>
+            <p className="text-[12px] text-muted-foreground">
+              ถ่ายรูปน้องที่ร้านมาแชร์กัน! เช่น ที่นั่ง โซนน้อง บรรยากาศ — จะช่วยคนอื่นตัดสินใจได้มาก 🐾
+            </p>
+            <div className="mt-1 flex items-center gap-2">
+              <label
+                htmlFor="r-photos"
+                className="flex cursor-pointer items-center gap-2 rounded-xl border-2 border-dashed border-primary/30 bg-primary-soft/30 px-4 py-3 text-[13px] font-semibold text-primary transition hover:border-primary/50 hover:bg-primary-soft/50"
+              >
+                <span className="text-lg">📷</span>
+                เลือกรูปภาพ
+              </label>
+              <Input
+                id="r-photos"
+                type="file"
+                accept="image/*"
+                multiple
+                className="hidden"
+                onChange={async (e) => {
+                  const arr = await filesToDataUrls(e.target.files, { limit: 5 });
+                  setPhotos(arr);
+                }}
+              />
+              {photos.length > 0 && (
+                <span className="text-[12px] text-muted-foreground">
+                  {photos.length} รูปแล้ว ✅
+                </span>
+              )}
+            </div>
             {photos.length > 0 ? (
               <div className="mt-2 flex flex-wrap gap-2">
                 {photos.map((src, i) => (
