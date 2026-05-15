@@ -138,14 +138,14 @@ export function AddPlaceModal() {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent className="!max-w-[540px] !p-0">
-        <DialogHeader className="border-b border-border px-5 pb-4 pt-5">
+        <DialogHeader className="border-b-2 border-foreground px-5 pb-4 pr-14 pt-5">
           <DialogTitle>เพิ่มสถานที่ใหม่</DialogTitle>
           <p className="text-sm text-muted-foreground">
             ช่วยกันเติมแผนที่ ให้น้องๆ ได้ออกไปเที่ยวกัน 🐾
           </p>
         </DialogHeader>
 
-        <form onSubmit={handleSubmit} className="space-y-4 px-5 py-5">
+        <form onSubmit={handleSubmit} className="space-y-5 px-5 py-5 pr-7 sm:pr-5">
           <Field id="name" label="ชื่อสถานที่ *">
             <Input
               id="name"
@@ -183,7 +183,7 @@ export function AddPlaceModal() {
             />
           </Field>
 
-          <div className="grid grid-cols-2 gap-2.5">
+          <div className="grid gap-3 sm:grid-cols-2">
             <Field id="lat" label="Latitude *">
               <Input
                 id="lat"
@@ -222,7 +222,7 @@ export function AddPlaceModal() {
 
           <div>
             <Label>ประเภทสัตว์เลี้ยง *</Label>
-            <div className="mt-2 flex flex-wrap gap-2">
+            <div className="mt-2 flex flex-wrap gap-3">
               <PetToggle
                 active={pets.has("dog")}
                 onClick={() => togglePet("dog")}
@@ -246,7 +246,7 @@ export function AddPlaceModal() {
 
           <div>
             <Label>นโยบายสัตว์เลี้ยง</Label>
-            <div className="mt-2 grid grid-cols-2 gap-2">
+            <div className="mt-2 grid gap-3 sm:grid-cols-2">
               <PolicyChk
                 checked={policy.indoor_allowed}
                 onChange={(c) => setPolicy({ ...policy, indoor_allowed: c })}
@@ -318,14 +318,14 @@ export function AddPlaceModal() {
                       width={64}
                       height={64}
                       unoptimized
-                      className="size-16 rounded-lg object-cover"
+                      className="size-16 rounded-md border-2 border-foreground object-cover shadow-soft"
                     />
                     <button
                       type="button"
                       onClick={() =>
                         setPhotos(photos.filter((_, j) => j !== i))
                       }
-                      className="absolute -right-1.5 -top-1.5 grid size-5 place-items-center rounded-full bg-rose-500 text-white"
+                      className="absolute -right-1.5 -top-1.5 grid size-6 place-items-center rounded-md border-2 border-foreground bg-accent text-foreground shadow-soft"
                     >
                       <X className="size-3" />
                     </button>
@@ -335,7 +335,7 @@ export function AddPlaceModal() {
             ) : null}
           </Field>
 
-          <div className="flex gap-2 pt-2">
+          <div className="flex flex-col gap-3 pt-2 sm:flex-row">
             <Button
               type="button"
               variant="ghost"
@@ -389,7 +389,7 @@ function PetToggle({
       type="button"
       onClick={onClick}
       data-active={active}
-      className="rounded-full border border-border bg-white px-4 py-2 text-sm font-semibold transition-colors data-[active=true]:border-primary data-[active=true]:bg-primary-soft data-[active=true]:text-primary"
+      className="rounded-md border-2 border-foreground bg-card px-4 py-2 text-sm font-black shadow-soft transition-all data-[active=true]:bg-primary data-[active=true]:text-primary-foreground active:translate-x-1 active:translate-y-1 active:shadow-none"
     >
       {children}
     </button>
@@ -406,9 +406,9 @@ function PolicyChk({
   label: string;
 }) {
   return (
-    <label className="flex cursor-pointer items-center gap-2 rounded-xl border border-border bg-white px-3 py-2.5">
+    <label className="flex cursor-pointer items-center gap-2 rounded-lg border-2 border-foreground bg-card px-3 py-2.5 shadow-soft transition-colors hover:bg-secondary">
       <Checkbox checked={checked} onCheckedChange={(v) => onChange(!!v)} />
-      <span className="text-sm font-medium">{label}</span>
+      <span className="text-sm font-bold">{label}</span>
     </label>
   );
 }

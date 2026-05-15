@@ -193,10 +193,10 @@ export function Sidebar() {
   return (
     <div className="flex h-full flex-col bg-background">
       {/* ── Search bar (always visible) ── */}
-      <div className="flex items-center gap-2 px-4 pb-3 pt-5">
+      <div className="flex items-center gap-3 px-5 pb-4 pt-5 lg:px-6">
         <button
           onClick={() => setDrawerOpen(true)}
-          className="size-9 shrink-0 overflow-hidden rounded-full border border-border/50 shadow-soft transition hover:shadow-soft-md active:scale-95"
+          className="size-10 shrink-0 overflow-hidden rounded-lg border-2 border-foreground bg-secondary shadow-soft transition-all hover:-translate-x-0.5 hover:-translate-y-0.5 active:translate-x-1 active:translate-y-1 active:shadow-none"
           aria-label="เมนู"
         >
           <Avatar className="size-full">
@@ -207,7 +207,7 @@ export function Sidebar() {
         </button>
 
         <div className="relative flex-1">
-          <Search className="pointer-events-none absolute left-3 top-1/2 size-[15px] -translate-y-1/2 text-muted-foreground/60" />
+          <Search className="pointer-events-none absolute left-3 top-1/2 size-[15px] -translate-y-1/2 text-foreground" />
           <input
             ref={searchInputRef}
             type="text"
@@ -216,7 +216,7 @@ export function Sidebar() {
             onFocus={() => setSearchFocused(true)}
             onBlur={() => setTimeout(() => setSearchFocused(false), 150)}
             placeholder="ค้นหาสถานที่ ถนน หรือย่าน…"
-            className="h-10 w-full rounded-xl border border-border/60 bg-muted/30 pl-9 pr-8 text-[14px] outline-none transition placeholder:text-muted-foreground/50 focus:border-primary/40 focus:bg-white"
+            className="h-10 w-full rounded-lg border-2 border-foreground bg-card pl-9 pr-8 text-[14px] font-semibold outline-none shadow-soft transition placeholder:text-muted-foreground focus:bg-muted"
           />
           {filters.search ? (
             <button
@@ -224,7 +224,7 @@ export function Sidebar() {
                 setSearch("");
                 setGeoResults([]);
               }}
-              className="absolute right-2.5 top-1/2 -translate-y-1/2 rounded-full p-0.5 text-muted-foreground hover:text-foreground"
+              className="absolute right-2.5 top-1/2 -translate-y-1/2 rounded-md border-2 border-transparent p-0.5 text-foreground hover:border-foreground hover:bg-secondary"
             >
               <X className="size-3.5" />
             </button>
@@ -233,12 +233,12 @@ export function Sidebar() {
 
         <button
           onClick={() => setFilterOpen(true)}
-          className="relative flex size-10 shrink-0 items-center justify-center rounded-xl border border-border/60 bg-muted/30 text-muted-foreground transition hover:bg-muted"
+          className="relative flex size-10 shrink-0 items-center justify-center rounded-lg border-2 border-foreground bg-card text-foreground shadow-soft transition-all hover:-translate-x-0.5 hover:-translate-y-0.5 active:translate-x-1 active:translate-y-1 active:shadow-none"
           aria-label="ตัวกรอง"
         >
           <SlidersHorizontal className="size-[15px]" />
           {filterCount > 0 && (
-            <span className="absolute -right-1 -top-1 grid size-4 place-items-center rounded-full bg-primary text-[9px] font-bold text-primary-foreground ring-1 ring-background">
+            <span className="absolute -right-1 -top-1 grid size-5 place-items-center rounded-md border-2 border-foreground bg-secondary text-[9px] font-black text-secondary-foreground">
               {filterCount}
             </span>
           )}
@@ -247,7 +247,7 @@ export function Sidebar() {
 
       {/* ── Search suggestions dropdown ── */}
       {showSearchDropdown && (
-        <div className="mx-4 mb-2 overflow-hidden rounded-xl border border-border/40 bg-white shadow-soft-md">
+        <div className="mx-5 mb-4 overflow-hidden rounded-lg border-2 border-foreground bg-card shadow-soft-md lg:mx-6">
           {matchingPlaces.length > 0 && (
             <section>
               <p className="px-3 pb-1 pt-2 text-[11px] font-semibold uppercase tracking-widest text-muted-foreground">
@@ -257,9 +257,9 @@ export function Sidebar() {
                 <button
                   key={place.id}
                   onMouseDown={() => handleSelectPlace(place)}
-                  className="flex w-full items-center gap-2.5 px-3 py-2 text-left transition-colors hover:bg-muted/50 active:bg-muted"
+                  className="flex w-full items-center gap-2.5 px-3 py-2 text-left font-semibold transition-colors hover:bg-secondary active:bg-secondary"
                 >
-                  <span className="flex size-7 shrink-0 items-center justify-center rounded-full bg-primary/10 text-sm">
+                  <span className="flex size-7 shrink-0 items-center justify-center rounded-md border-2 border-foreground bg-primary text-sm shadow-soft">
                     {CATEGORY_EMOJI[place.category] ?? "🐾"}
                   </span>
                   <div className="min-w-0">
@@ -278,7 +278,7 @@ export function Sidebar() {
           {geoResults.length > 0 && (
             <section
               className={
-                matchingPlaces.length > 0 ? "border-t border-border/30" : ""
+                matchingPlaces.length > 0 ? "border-t-2 border-foreground" : ""
               }
             >
               <p className="px-3 pb-1 pt-2 text-[11px] font-semibold uppercase tracking-widest text-muted-foreground">
@@ -292,10 +292,10 @@ export function Sidebar() {
                   <button
                     key={r.place_id}
                     onMouseDown={() => handleSelectGeoResult(r)}
-                    className="flex w-full items-center gap-2.5 px-3 py-2 text-left transition-colors hover:bg-muted/50 active:bg-muted"
+                    className="flex w-full items-center gap-2.5 px-3 py-2 text-left font-semibold transition-colors hover:bg-secondary active:bg-secondary"
                   >
-                    <span className="flex size-7 shrink-0 items-center justify-center rounded-full bg-sky-50">
-                      <MapPin className="size-3.5 text-sky-500" />
+                    <span className="flex size-7 shrink-0 items-center justify-center rounded-md border-2 border-foreground bg-muted shadow-soft">
+                      <MapPin className="size-3.5 text-foreground" />
                     </span>
                     <div className="min-w-0">
                       <p className="truncate text-[13px] font-medium leading-tight">
@@ -315,7 +315,7 @@ export function Sidebar() {
 
           {geoLoading && (
             <div
-              className={`flex items-center justify-center gap-2 px-3 py-3 text-[13px] text-muted-foreground ${hasSearchResults ? "border-t border-border/30" : ""}`}
+              className={`flex items-center justify-center gap-2 px-3 py-3 text-[13px] font-bold text-muted-foreground ${hasSearchResults ? "border-t-2 border-foreground" : ""}`}
             >
               <Loader2 className="size-3.5 animate-spin" />
               <span>กำลังค้นหาตำแหน่ง…</span>
@@ -337,7 +337,7 @@ export function Sidebar() {
         <div className="flex flex-1 flex-col overflow-hidden">
           <button
             onClick={closeDetail}
-            className="flex shrink-0 items-center gap-1.5 px-4 py-2 text-[13px] text-muted-foreground transition hover:text-foreground"
+            className="mx-5 mb-4 mt-1 flex shrink-0 items-center gap-1.5 rounded-lg border-2 border-foreground bg-card px-3 py-2 text-[13px] font-black text-foreground shadow-soft transition hover:bg-secondary active:translate-x-1 active:translate-y-1 active:shadow-none lg:mx-6"
           >
             <ArrowLeft className="size-4" />
             กลับไปรายการ
@@ -353,7 +353,7 @@ export function Sidebar() {
         <div className="flex flex-1 flex-col overflow-hidden">
           {/* Category chips */}
           <div
-            className="no-scrollbar flex items-center gap-1.5 overflow-x-auto px-4 pb-3"
+            className="no-scrollbar flex items-center gap-2 overflow-x-auto px-5 pb-5 pt-1 lg:px-6"
             style={{ scrollbarWidth: "none" }}
           >
             {PET_CHIPS.map((c) => (
@@ -361,26 +361,26 @@ export function Sidebar() {
                 key={c.label}
                 onClick={() => setPet(c.value)}
                 className={cn(
-                  "inline-flex shrink-0 items-center gap-1 rounded-full border px-2.5 py-1 text-[12px] font-medium transition-all active:scale-95",
+                  "inline-flex shrink-0 items-center gap-1 rounded-md border-2 px-2.5 py-1 text-[12px] font-black transition-all active:translate-x-1 active:translate-y-1 active:shadow-none",
                   activePet === c.value
-                    ? "border-primary bg-primary text-primary-foreground"
-                    : "border-transparent bg-muted/50 text-muted-foreground hover:border-border/60 hover:text-foreground",
+                    ? "border-foreground bg-primary text-primary-foreground shadow-soft"
+                    : "border-foreground bg-card text-foreground shadow-soft hover:bg-secondary",
                 )}
               >
                 <span>{c.emoji}</span>
                 <span>{c.label}</span>
               </button>
             ))}
-            <span className="mx-0.5 h-3.5 w-px shrink-0 bg-border/60" />
+            <span className="mx-0.5 h-5 w-0.5 shrink-0 bg-foreground" />
             {CATEGORIES.map((c) => (
               <button
                 key={c.id}
                 onClick={() => toggleCat(c.id)}
                 className={cn(
-                  "inline-flex shrink-0 items-center gap-1 rounded-full border px-2.5 py-1 text-[12px] font-medium transition-all active:scale-95",
+                  "inline-flex shrink-0 items-center gap-1 rounded-md border-2 px-2.5 py-1 text-[12px] font-black transition-all active:translate-x-1 active:translate-y-1 active:shadow-none",
                   filters.categories.has(c.id)
-                    ? "border-primary bg-primary text-primary-foreground"
-                    : "border-transparent bg-muted/50 text-muted-foreground hover:border-border/60 hover:text-foreground",
+                    ? "border-foreground bg-accent text-accent-foreground shadow-soft"
+                    : "border-foreground bg-card text-foreground shadow-soft hover:bg-secondary",
                 )}
               >
                 <span>{c.emoji}</span>
@@ -389,11 +389,11 @@ export function Sidebar() {
             ))}
           </div>
 
-          <div className="h-px bg-border/60" />
+          <div className="h-0.5 bg-foreground" />
 
           {/* Tabs + sort */}
-          <div className="flex items-center gap-2 px-4 py-2.5">
-            <div className="flex flex-1 items-center gap-0.5">
+          <div className="flex flex-wrap items-center gap-3 px-5 py-4 lg:px-6">
+            <div className="flex min-w-[220px] flex-1 flex-wrap items-center gap-2">
               {TABS.map((t) => (
                 <button
                   key={t.id}
@@ -405,16 +405,16 @@ export function Sidebar() {
                     }
                   }}
                   className={cn(
-                    "rounded-full px-3 py-1 text-[13px] font-semibold transition-colors",
+                    "rounded-md border-2 px-3 py-1 text-[13px] font-black transition-all",
                     activeTab === t.id
-                      ? "bg-primary/10 text-primary"
-                      : "text-muted-foreground hover:text-foreground",
+                      ? "border-foreground bg-secondary text-secondary-foreground shadow-soft"
+                      : "border-transparent text-foreground hover:border-foreground hover:bg-muted",
                   )}
                 >
                   {t.label}
                 </button>
               ))}
-              <span className="ml-1.5 text-[11px] text-muted-foreground/60">
+              <span className="ml-1 text-[11px] font-bold text-muted-foreground/70">
                 {filtered.length} แห่ง
               </span>
             </div>
@@ -422,7 +422,7 @@ export function Sidebar() {
               value={sortBy}
               onValueChange={(v) => setSort(v as typeof sortBy)}
             >
-              <SelectTrigger className="h-7 w-[100px] rounded-xl border-border/50 text-[11px]">
+              <SelectTrigger className="h-9 w-[128px] rounded-md text-[11px] shadow-none">
                 <SelectValue />
               </SelectTrigger>
               <SelectContent>
@@ -435,7 +435,7 @@ export function Sidebar() {
           </div>
 
           {/* Place list */}
-          <div className="flex-1 space-y-1.5 overflow-y-auto px-3 pb-2">
+          <div className="flex-1 space-y-3 overflow-y-auto px-5 pb-6 pr-7 pt-1 lg:px-6 lg:pr-8">
             {filtered.length === 0 ? (
               <div className="flex flex-col items-center justify-center py-16 text-center">
                 <div className="text-4xl">🐾</div>
@@ -456,7 +456,7 @@ export function Sidebar() {
           </div>
 
           {/* Add place */}
-          <div className="border-t border-border/60 px-4 py-3">
+          <div className="border-t-2 border-foreground px-5 py-4 lg:px-6">
             <button
               onClick={() => {
                 if (isGuest) {
@@ -465,7 +465,7 @@ export function Sidebar() {
                   setAddOpen(true);
                 }
               }}
-              className="flex w-full items-center justify-center gap-2 rounded-xl border border-dashed border-border/70 py-2.5 text-[13px] text-muted-foreground transition hover:border-primary/40 hover:text-primary"
+              className="flex w-full items-center justify-center gap-2 rounded-lg border-2 border-dashed border-foreground bg-card py-2.5 text-[13px] font-black text-foreground shadow-soft transition-all hover:bg-primary active:translate-x-1 active:translate-y-1 active:shadow-none"
             >
               <Plus className="size-4" />
               เพิ่มสถานที่ใหม่

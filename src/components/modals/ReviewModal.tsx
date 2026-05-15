@@ -75,15 +75,15 @@ export function ReviewModal() {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent className="!max-w-[480px] !p-0">
-        <DialogHeader className="border-b border-border px-5 pb-4 pt-5">
+        <DialogHeader className="border-b-2 border-foreground px-5 pb-4 pr-14 pt-5">
           <DialogTitle>เขียนรีวิว</DialogTitle>
           <p className="text-sm text-muted-foreground">เล่าให้ฟังหน่อยนะ พาน้องไปแล้วเป็นยังไง? 🐾</p>
         </DialogHeader>
 
-        <form onSubmit={handleSubmit} className="space-y-4 px-5 py-5">
-          <div className="rounded-2xl border border-primary-soft bg-primary-soft/50 p-3.5">
-            <p className="text-[12px] font-medium text-muted-foreground">รีวิวสถานที่</p>
-            <p className="text-[15px] font-bold text-primary">{place.name}</p>
+        <form onSubmit={handleSubmit} className="space-y-5 px-5 py-5 pr-7 sm:pr-5">
+          <div className="rounded-lg border-2 border-foreground bg-secondary p-3.5 shadow-soft">
+            <p className="text-[12px] font-black uppercase tracking-wide text-foreground/70">รีวิวสถานที่</p>
+            <p className="text-[15px] font-black text-foreground">{place.name}</p>
           </div>
 
           <div className="space-y-2">
@@ -110,10 +110,10 @@ export function ReviewModal() {
             <p className="text-[12px] text-muted-foreground">
               ถ่ายรูปน้องที่ร้านมาแชร์กัน! เช่น ที่นั่ง โซนน้อง บรรยากาศ — จะช่วยคนอื่นตัดสินใจได้มาก 🐾
             </p>
-            <div className="mt-1 flex items-center gap-2">
+            <div className="mt-1 flex flex-wrap items-center gap-3">
               <label
                 htmlFor="r-photos"
-                className="flex cursor-pointer items-center gap-2 rounded-xl border-2 border-dashed border-primary/30 bg-primary-soft/30 px-4 py-3 text-[13px] font-semibold text-primary transition hover:border-primary/50 hover:bg-primary-soft/50"
+                className="flex cursor-pointer items-center gap-2 rounded-lg border-2 border-dashed border-foreground bg-card px-4 py-3 text-[13px] font-black text-foreground shadow-soft transition hover:bg-primary"
               >
                 <span className="text-lg">📷</span>
                 เลือกรูปภาพ
@@ -136,7 +136,7 @@ export function ReviewModal() {
               )}
             </div>
             {photos.length > 0 ? (
-              <div className="mt-2 flex flex-wrap gap-2">
+              <div className="mt-2 flex flex-wrap gap-3">
                 {photos.map((src, i) => (
                   <div key={i} className="relative">
                     <Image
@@ -145,12 +145,12 @@ export function ReviewModal() {
                       width={64}
                       height={64}
                       unoptimized
-                      className="size-16 rounded-lg object-cover"
+                      className="size-16 rounded-md border-2 border-foreground object-cover shadow-soft"
                     />
                     <button
                       type="button"
                       onClick={() => setPhotos(photos.filter((_, j) => j !== i))}
-                      className="absolute -right-1.5 -top-1.5 grid size-5 place-items-center rounded-full bg-rose-500 text-white"
+                      className="absolute -right-1.5 -top-1.5 grid size-6 place-items-center rounded-md border-2 border-foreground bg-accent text-foreground shadow-soft"
                     >
                       <X className="size-3" />
                     </button>
@@ -160,7 +160,7 @@ export function ReviewModal() {
             ) : null}
           </div>
 
-          <div className="flex gap-2 pt-2">
+          <div className="flex flex-col gap-3 pt-2 sm:flex-row">
             <Button type="button" variant="ghost" onClick={() => setOpen(false)} className="flex-1">
               ยกเลิก
             </Button>

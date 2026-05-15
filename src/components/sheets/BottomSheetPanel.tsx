@@ -17,8 +17,8 @@ type Snap = "peek" | "half" | "full";
 
 const SNAP_HEIGHTS: Record<Snap, string> = {
   peek: "h-[76px]",
-  half: "h-[48dvh]",
-  full: "h-[calc(100dvh-80px)]",
+  half: "h-[46dvh] sm:h-[48dvh]",
+  full: "h-[calc(100dvh-92px)] sm:h-[calc(100dvh-84px)]",
 };
 
 const TABS = [
@@ -60,8 +60,8 @@ export function BottomSheetPanel() {
     <section
       aria-label="Place list"
       className={cn(
-        "sheet-snap absolute inset-x-0 bottom-0 z-20 mx-auto flex w-full max-w-3xl flex-col",
-        "rounded-t-3xl border border-b-0 border-border/60 bg-card shadow-soft-xl pb-safe",
+        "sheet-snap absolute inset-x-4 bottom-0 z-20 mx-auto flex w-auto max-w-3xl flex-col sm:inset-x-5",
+        "rounded-t-lg border-2 border-b-0 border-foreground bg-card shadow-soft-xl pb-safe",
         SNAP_HEIGHTS[snap],
       )}
     >
@@ -71,12 +71,12 @@ export function BottomSheetPanel() {
         className="flex w-full items-center justify-center py-2.5"
         aria-label="ขยายรายการ"
       >
-        <span className="h-1 w-10 rounded-full bg-border/70" />
+        <span className="h-1.5 w-12 rounded-sm bg-foreground" />
       </button>
 
       {/* Header: tabs + count + sort in one row */}
-      <div className="flex items-center gap-2 px-4 pb-3">
-        <div className="flex flex-1 items-center gap-0.5">
+      <div className="flex flex-wrap items-center gap-3 px-4 pb-4 sm:px-5">
+        <div className="flex min-w-[210px] flex-1 flex-wrap items-center gap-2">
           {TABS.map((t) => (
             <button
               key={t.id}
@@ -89,16 +89,16 @@ export function BottomSheetPanel() {
                 }
               }}
               className={cn(
-                "rounded-full px-3 py-1 text-[13px] font-semibold transition-colors",
+                "rounded-md border-2 px-3 py-1 text-[13px] font-black transition-all",
                 activeTab === t.id
-                  ? "bg-primary/10 text-primary"
-                  : "text-muted-foreground hover:text-foreground",
+                  ? "border-foreground bg-secondary text-secondary-foreground shadow-soft"
+                  : "border-transparent text-foreground hover:border-foreground hover:bg-muted",
               )}
             >
               {t.label}
             </button>
           ))}
-          <span className="ml-1.5 text-[11px] text-muted-foreground/70">
+          <span className="ml-1 text-[11px] font-bold text-muted-foreground/70">
             {filtered.length.toLocaleString()} แห่ง
             {mapBounds ? " · ในพื้นที่นี้" : ""}
           </span>
@@ -108,7 +108,7 @@ export function BottomSheetPanel() {
           value={sortBy}
           onValueChange={(v) => setSort(v as typeof sortBy)}
         >
-          <SelectTrigger className="h-8 w-[116px] rounded-xl border-border/50 text-[12px]">
+          <SelectTrigger className="h-9 w-[128px] rounded-md text-[12px] shadow-none">
             <SelectValue />
           </SelectTrigger>
           <SelectContent>
@@ -123,7 +123,7 @@ export function BottomSheetPanel() {
       {/* Body */}
       <div
         ref={bodyRef}
-        className="flex-1 space-y-2 overflow-y-auto px-3 pb-4"
+        className="flex-1 space-y-3 overflow-y-auto px-4 pb-6 pr-6 sm:px-5 sm:pr-7"
         style={{ overscrollBehavior: "contain" }}
       >
         {filtered.length === 0 ? (

@@ -36,19 +36,19 @@ export function LoginModal() {
 
   return (
     <Dialog open={open} onOpenChange={setOpen}>
-      <DialogContent className="!max-w-[400px] !p-0 overflow-hidden rounded-3xl border-none shadow-soft-xl">
-        <DialogHeader className="bg-gradient-to-br from-primary via-primary to-accent px-6 pb-8 pt-8 text-white">
-          <div className="mx-auto mb-4 grid size-16 place-items-center rounded-2xl bg-white/20 shadow-inner backdrop-blur-sm">
-            <PawPrint size={32} className="text-white" />
+      <DialogContent className="!max-w-[400px] !p-0 overflow-hidden rounded-lg border-2 border-foreground shadow-soft-xl">
+        <DialogHeader className="border-b-2 border-foreground bg-primary px-6 pb-8 pr-14 pt-8 text-foreground">
+          <div className="mx-auto mb-4 grid size-16 place-items-center rounded-lg border-2 border-foreground bg-secondary shadow-soft">
+            <PawPrint size={32} className="text-foreground" />
           </div>
-          <DialogTitle className="text-center text-2xl font-extrabold text-white">เข้าสู่ระบบ PawMap</DialogTitle>
-          <p className="text-center text-sm text-white/80">
+          <DialogTitle className="text-center text-2xl font-black text-foreground">เข้าสู่ระบบ PawMap</DialogTitle>
+          <p className="text-center text-sm font-semibold text-foreground/80">
             เพื่อร่วมแชร์รีวิว และบันทึกสถานที่โปรดของคุณ 🐾
           </p>
         </DialogHeader>
 
-        <div className="bg-white p-6">
-          <Button variant="outline" size="lg" className="w-full h-12 rounded-xl border-border/60 font-semibold" onClick={handleGoogle}>
+        <div className="bg-card p-6">
+          <Button variant="outline" size="lg" className="w-full h-12 rounded-lg font-black" onClick={handleGoogle}>
             <svg width="18" height="18" viewBox="0 0 48 48" className="mr-2">
               <path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.4 29.3 35.5 24 35.5c-6.4 0-11.5-5.1-11.5-11.5S17.6 12.5 24 12.5c2.9 0 5.6 1.1 7.6 2.9l5.7-5.7C33.6 6.3 29 4.5 24 4.5 13.2 4.5 4.5 13.2 4.5 24S13.2 43.5 24 43.5 43.5 34.8 43.5 24c0-1.2-.1-2.4-.4-3.5z"/>
               <path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 16 19 12.5 24 12.5c2.9 0 5.6 1.1 7.6 2.9l5.7-5.7C33.6 6.3 29 4.5 24 4.5 16.4 4.5 9.8 8.7 6.3 14.7z"/>
@@ -66,29 +66,29 @@ export function LoginModal() {
 
           <form className="space-y-4" onSubmit={handleEmail}>
             <div className="space-y-1.5">
-              <Label htmlFor="modal-email" className="text-[13px] font-bold text-muted-foreground">อีเมล</Label>
+              <Label htmlFor="modal-email" className="text-[13px] font-black text-foreground">อีเมล</Label>
               <Input
                 id="modal-email"
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="your@email.com"
-                className="h-11 rounded-xl bg-muted/30 border-none focus:bg-white focus:ring-1 focus:ring-primary/40 transition-all"
+                className="h-11"
                 required
               />
             </div>
             <div className="space-y-1.5">
-              <Label htmlFor="modal-name" className="text-[13px] font-bold text-muted-foreground">ชื่อที่จะแสดง</Label>
+              <Label htmlFor="modal-name" className="text-[13px] font-black text-foreground">ชื่อที่จะแสดง</Label>
               <Input
                 id="modal-name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 placeholder="เช่น Pim"
-                className="h-11 rounded-xl bg-muted/30 border-none focus:bg-white focus:ring-1 focus:ring-primary/40 transition-all"
+                className="h-11"
                 required
               />
             </div>
-            <Button type="submit" size="lg" className="mt-2 w-full h-11 rounded-xl font-bold shadow-pop transition-transform active:scale-95">
+            <Button type="submit" size="lg" className="mt-2 h-11 w-full rounded-lg font-black shadow-pop">
               เข้าสู่ระบบด้วยอีเมล
             </Button>
           </form>

@@ -57,12 +57,12 @@ export function AppShell() {
   return (
     <main className="flex h-dvh w-full overflow-hidden bg-background">
       {/* Desktop: permanent left sidebar */}
-      <aside className="hidden md:flex md:w-[380px] md:shrink-0 md:flex-col md:border-r md:border-border/60">
+      <aside className="z-10 hidden md:flex md:w-[420px] md:shrink-0 md:flex-col md:border-r-2 md:border-foreground md:shadow-soft lg:w-[460px] 2xl:w-[500px]">
         <Sidebar />
       </aside>
 
       {/* Map area — full-width on mobile, flex-1 on desktop */}
-      <div className="relative flex-1 overflow-hidden">
+      <div className="relative min-w-0 flex-1 overflow-hidden">
         <MapMount />
 
         {/* Mobile-only floating search + category chips */}
@@ -82,7 +82,7 @@ export function AppShell() {
 
         {/* Mobile: full place detail — slides up from bottom */}
         {detailOpen && (
-          <div className="absolute inset-x-0 bottom-0 z-40 flex h-[90dvh] animate-slide-up flex-col overflow-hidden rounded-t-3xl bg-background shadow-soft-xl md:hidden">
+          <div className="absolute inset-x-0 bottom-0 z-40 flex h-[90dvh] animate-slide-up flex-col overflow-hidden rounded-t-lg border-2 border-b-0 border-foreground bg-background shadow-soft-xl md:hidden">
             <PlaceDetail />
           </div>
         )}

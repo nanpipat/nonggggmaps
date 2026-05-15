@@ -35,15 +35,15 @@ export function PlaceCard({ place, onClick }: Props) {
       onKeyDown={(e) => {
         if (e.key === "Enter" || e.key === " ") onClick?.();
       }}
-      className="group flex w-full cursor-pointer gap-3 rounded-2xl border border-border/60 bg-card p-2.5 text-left shadow-soft transition-all hover:shadow-soft-md active:scale-[0.99]"
+      className="group flex w-full cursor-pointer gap-3 rounded-lg border-2 border-foreground bg-card p-3 text-left shadow-soft transition-all hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-soft-md active:translate-x-1 active:translate-y-1 active:shadow-none sm:gap-4"
     >
-      <div className="relative size-[88px] shrink-0 overflow-hidden rounded-xl bg-muted">
+      <div className="relative size-[82px] shrink-0 overflow-hidden rounded-md border-2 border-foreground bg-muted sm:size-[96px] md:size-[104px]">
         {place.cover_photo ? (
           <Image
             src={place.cover_photo}
             alt={place.name}
             fill
-            sizes="88px"
+            sizes="(max-width: 640px) 82px, (max-width: 768px) 96px, 104px"
             className="object-cover transition group-hover:scale-105"
           />
         ) : (
@@ -53,7 +53,7 @@ export function PlaceCard({ place, onClick }: Props) {
         )}
         <div
           className={cn(
-            "absolute left-1.5 top-1.5 inline-flex items-center gap-1 rounded-full px-1.5 py-0.5 text-[10px] font-bold backdrop-blur-md",
+            "absolute left-1.5 top-1.5 inline-flex items-center gap-1 rounded-md border-2 border-foreground px-1.5 py-0.5 text-[10px] font-black shadow-soft",
             category.bg,
             category.color,
           )}
@@ -77,7 +77,7 @@ export function PlaceCard({ place, onClick }: Props) {
                 toggleFavorite(place.id);
               }
             }}
-            className="-mt-0.5 -mr-1 rounded-full p-1.5 text-muted-foreground transition hover:bg-muted/70 hover:text-rose-500"
+            className="-mr-1 -mt-0.5 rounded-md border-2 border-transparent p-1.5 text-foreground transition hover:border-foreground hover:bg-accent hover:text-foreground"
             aria-label={isFav ? "เอาออกจากที่ชอบ" : "บันทึกเป็นที่ชอบ"}
           >
             <Heart
@@ -91,7 +91,7 @@ export function PlaceCard({ place, onClick }: Props) {
 
         <div className="mt-0.5 flex items-center gap-1 text-[12px] text-muted-foreground">
           <Star className="size-3 fill-amber-400 text-amber-400" />
-          <span className="font-semibold text-foreground">
+          <span className="font-black text-foreground">
             {formatRating(place.rating)}
           </span>
           <span>·</span>
@@ -105,13 +105,13 @@ export function PlaceCard({ place, onClick }: Props) {
           <MapPin className="size-3" />
           <span className="line-clamp-1">{place.address}</span>
           {distance != null ? (
-            <span className="ml-auto shrink-0 font-semibold text-primary">
+            <span className="ml-auto shrink-0 rounded-md bg-secondary px-1.5 font-black text-secondary-foreground">
               {formatDistance(distance)}
             </span>
           ) : null}
         </div>
 
-        <div className="mt-1.5 flex flex-wrap items-center gap-1">
+        <div className="mt-2 flex flex-wrap items-center gap-1.5">
           {place.pet_types.includes("dog") ? (
             <Badge variant="dog" className="px-2 text-[10px]">
               🐶 น้องหมา

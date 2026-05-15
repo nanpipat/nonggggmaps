@@ -60,16 +60,16 @@ export function FilterModal() {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent className="!max-w-[480px] !p-0">
-        <DialogHeader className="border-b border-border px-5 pb-4 pt-5">
+        <DialogHeader className="border-b-2 border-foreground px-5 pb-4 pr-14 pt-5">
           <DialogTitle>ตัวกรอง 🐾</DialogTitle>
           <p className="text-sm text-muted-foreground">
             เลือกเงื่อนไขที่ใช่สำหรับน้อง
           </p>
         </DialogHeader>
 
-        <div className="space-y-5 px-5 py-5">
+        <div className="space-y-6 px-5 py-5 pr-7 sm:pr-5">
           <Group title="น้องของคุณ">
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-3">
               {PET_OPTIONS.map((p) => (
                 <Pill
                   key={p.id}
@@ -83,7 +83,7 @@ export function FilterModal() {
           </Group>
 
           <Group title="เงื่อนไขที่น้องต้องการ">
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-3">
               {CONDITION_KEYS.map((k) => (
                 <Pill
                   key={k}
@@ -98,7 +98,7 @@ export function FilterModal() {
           </Group>
 
           <Group title="ประเภทสถานที่">
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-3">
               {CATEGORIES.map((c) => (
                 <Pill
                   key={c.id}
@@ -112,7 +112,7 @@ export function FilterModal() {
           </Group>
 
           <Group title="ขนาดน้อง">
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-3">
               {SIZE_KEYS.map((s) => (
                 <Pill
                   key={s}
@@ -127,7 +127,7 @@ export function FilterModal() {
           </Group>
 
           <Group title="คะแนนขั้นต่ำ">
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-3">
               {RATING_OPTIONS.map((r) => (
                 <Pill
                   key={r.value}
@@ -141,7 +141,7 @@ export function FilterModal() {
           </Group>
 
           <Group title="ระยะทาง">
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-3">
               {RADIUS_OPTIONS.map((r) => (
                 <Pill
                   key={r.value}
@@ -155,7 +155,7 @@ export function FilterModal() {
           </Group>
         </div>
 
-        <div className="flex gap-2 border-t border-border px-5 py-4">
+        <div className="flex flex-col gap-3 border-t-2 border-foreground px-5 py-4 sm:flex-row">
           <Button variant="ghost" onClick={resetFilters} className="flex-1">
             ล้างทั้งหมด
           </Button>
@@ -177,7 +177,7 @@ function Group({
 }) {
   return (
     <div>
-      <h3 className="mb-2.5 text-[13px] font-bold uppercase tracking-wider text-muted-foreground">
+      <h3 className="mb-2.5 text-[13px] font-black uppercase tracking-wider text-foreground">
         {title}
       </h3>
       {children}
@@ -200,8 +200,8 @@ function Pill({
       onClick={onClick}
       data-active={active}
       className={cn(
-        "rounded-full border border-border bg-white px-3.5 py-2 text-[13px] font-semibold transition-colors active:scale-95",
-        active && "border-primary bg-primary-soft text-primary",
+        "rounded-md border-2 border-foreground bg-card px-3.5 py-2 text-[13px] font-black shadow-soft transition-all active:translate-x-1 active:translate-y-1 active:shadow-none",
+        active ? "bg-primary text-primary-foreground" : "hover:bg-secondary",
       )}
     >
       {children}

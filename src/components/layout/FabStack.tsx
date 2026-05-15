@@ -45,7 +45,7 @@ export function FabStack() {
   };
 
   return (
-    <div className="absolute bottom-24 right-3 z-30 flex flex-col gap-2 md:bottom-6">
+    <div className="absolute bottom-[calc(48dvh+18px)] right-4 z-30 flex flex-col gap-3 md:bottom-6 md:right-6">
       <button
         onClick={() => {
           if (isGuest) {
@@ -77,8 +77,8 @@ export function FabStack() {
         {filterCount > 0 ? (
           <span
             className={cn(
-              "absolute -right-1 -top-1 grid size-5 place-items-center rounded-full",
-              "bg-primary text-[10px] font-bold text-primary-foreground ring-2 ring-card",
+              "absolute -right-1 -top-1 grid size-5 place-items-center rounded-md border-2 border-foreground",
+              "bg-secondary text-[10px] font-black text-secondary-foreground",
             )}
           >
             {filterCount}

@@ -33,20 +33,13 @@ export function LoginScreen() {
   };
 
   return (
-    <div className="relative flex min-h-dvh w-full items-center justify-center overflow-hidden bg-gradient-to-br from-rose-50 via-amber-50 to-violet-50 px-4 py-safe">
-      {/* decorative blobs */}
-      <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -left-20 -top-20 size-80 rounded-full bg-primary/30 blur-3xl" />
-        <div className="absolute -right-20 -bottom-20 size-96 rounded-full bg-accent/40 blur-3xl" />
-        <div className="absolute right-1/4 top-1/3 size-60 rounded-full bg-secondary/40 blur-3xl" />
-      </div>
-
+    <div className="relative flex min-h-dvh w-full items-center justify-center overflow-hidden bg-background px-4 py-safe">
       <div className="relative z-10 w-full max-w-sm">
         <div className="mb-7 text-center">
-          <div className="mx-auto mb-3 grid size-16 place-items-center rounded-3xl bg-gradient-to-br from-primary to-accent shadow-pop">
-            <PawPrint size={32} className="text-white" />
+          <div className="mx-auto mb-3 grid size-16 place-items-center rounded-lg border-2 border-foreground bg-primary shadow-pop">
+            <PawPrint size={32} className="text-foreground" />
           </div>
-          <h1 className="text-balance bg-gradient-to-br from-primary via-rose-500 to-accent bg-clip-text font-display text-3xl font-extrabold tracking-tight text-transparent">
+          <h1 className="text-balance font-display text-3xl font-black tracking-tight text-foreground">
             PawMap
           </h1>
           <p className="mt-1.5 text-pretty text-sm text-muted-foreground">
@@ -55,8 +48,8 @@ export function LoginScreen() {
           </p>
         </div>
 
-        <div className="rounded-3xl border border-border/60 bg-white p-6 shadow-soft-lg">
-          <h2 className="text-lg font-bold">เข้าสู่ระบบ</h2>
+        <div className="rounded-lg border-2 border-foreground bg-card p-6 shadow-soft-lg">
+          <h2 className="text-lg font-black">เข้าสู่ระบบ</h2>
           <p className="mb-4 text-[13px] text-muted-foreground">
             เพื่อรีวิว เพิ่มสถานที่ และบันทึกที่โปรด
           </p>
@@ -107,7 +100,7 @@ export function LoginScreen() {
           <div className="mt-3 flex flex-col items-center gap-2">
             <button
               onClick={handleGuest}
-              className="w-full text-center text-[14px] font-semibold text-primary hover:underline"
+              className="w-full rounded-md border-2 border-foreground bg-secondary px-3 py-2 text-center text-[14px] font-black text-foreground shadow-soft transition-all hover:bg-primary active:translate-x-1 active:translate-y-1 active:shadow-none"
             >
               เข้าดูแผนที่ก่อนได้ →
             </button>
