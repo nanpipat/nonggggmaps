@@ -54,7 +54,7 @@ export function FabStack() {
             setAddOpen(true);
           }
         }}
-        className="fab bg-primary text-primary-foreground shadow-pop"
+        className="fab fab-primary"
         aria-label="เพิ่มสถานที่"
       >
         <Plus className="size-5" />
@@ -77,8 +77,8 @@ export function FabStack() {
         {filterCount > 0 ? (
           <span
             className={cn(
-              "absolute -right-1 -top-1 grid size-5 place-items-center rounded-md border-2 border-foreground",
-              "bg-secondary text-[10px] font-black text-secondary-foreground",
+              "absolute -right-1 -top-1 grid size-5 place-items-center rounded-full",
+              "bg-primary text-[10px] font-bold text-primary-foreground",
             )}
           >
             {filterCount}

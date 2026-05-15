@@ -5,8 +5,6 @@ import { useApp } from "@/lib/store";
 import { Button } from "@/components/ui/button";
 import { getMapCenter } from "@/lib/map-helpers";
 
-/** Shows when user is picking a location for "Add place".
- *  A center pin floats over the map; user pans to position; tap "เลือก" or click anywhere on the map. */
 export function PickingBanner() {
   const picking = useApp((s) => s.pickingLocation);
   const cancel = useApp((s) => s.cancelPickingLocation);
@@ -16,29 +14,28 @@ export function PickingBanner() {
 
   return (
     <>
-      {/* Center pin overlay */}
       <div className="pointer-events-none absolute left-1/2 top-1/2 z-30 -translate-x-1/2 -translate-y-full">
         <div className="relative">
-          <div className="grid size-12 place-items-center rounded-lg border-2 border-foreground bg-primary text-2xl text-primary-foreground shadow-pop">
+          <div className="grid size-12 place-items-center rounded-full bg-primary text-2xl text-primary-foreground shadow-lg shadow-primary/30">
             📍
           </div>
-          <div className="absolute left-1/2 top-full size-2 -translate-x-1/2 rounded-sm border-2 border-foreground bg-secondary" />
+          <div className="absolute left-1/2 top-full size-2 -translate-x-1/2 rounded-full bg-primary" />
         </div>
       </div>
 
-      {/* Banner */}
       <div
         className="absolute left-1/2 z-30 w-[min(640px,calc(100vw-24px))] -translate-x-1/2 px-3"
         style={{ top: "calc(env(safe-area-inset-top) + 76px)" }}
       >
-        <div className="flex items-center gap-2 rounded-lg border-2 border-foreground bg-primary px-4 py-3 text-primary-foreground shadow-soft-lg">
+        <div className="flex items-center gap-2 rounded-2xl bg-primary px-4 py-3 text-primary-foreground shadow-soft-lg">
           <MapPin className="size-5 shrink-0" />
-          <p className="flex-1 text-[13px] font-semibold">
+          <p className="flex-1 text-[13px] font-medium">
             เลื่อนแผนที่ไปยังตำแหน่งที่ต้องการ แล้วกดยืนยัน
           </p>
           <Button
             size="sm"
             variant="secondary"
+            className="rounded-full font-semibold"
             onClick={() => {
               const c = getMapCenter();
               if (c) confirm({ lat: c.lat, lng: c.lng });
@@ -49,7 +46,7 @@ export function PickingBanner() {
           <Button
             size="sm"
             variant="ghost"
-            className="text-foreground hover:bg-secondary"
+            className="rounded-full text-primary-foreground hover:bg-white/15"
             onClick={cancel}
           >
             ยกเลิก

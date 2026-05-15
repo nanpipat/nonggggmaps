@@ -4,74 +4,72 @@
 
 @layer base {
   :root {
-    /* Retro brutalist system */
-    --background: 48 100% 96%;
-    --foreground: 222 24% 8%;
-    --card: 0 0% 100%;
-    --card-foreground: 222 24% 8%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222 24% 8%;
+    --background: 0 0% 7%;
+    --foreground: 0 0% 100%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 100%;
 
-    --primary: 163 92% 42%;
-    --primary-foreground: 222 24% 8%;
-    --primary-soft: 163 88% 84%;
+    --primary: 141 73% 42%;
+    --primary-foreground: 0 0% 100%;
+    --primary-soft: 141 50% 14%;
 
-    --secondary: 48 100% 62%;
-    --secondary-foreground: 222 24% 8%;
+    --secondary: 0 0% 14%;
+    --secondary-foreground: 0 0% 100%;
 
-    --accent: 345 100% 68%;
-    --accent-foreground: 222 24% 8%;
+    --accent: 141 73% 42%;
+    --accent-foreground: 0 0% 100%;
 
-    --muted: 204 100% 90%;
-    --muted-foreground: 222 12% 34%;
+    --muted: 0 0% 14%;
+    --muted-foreground: 0 0% 65%;
 
-    --destructive: 0 84% 60%;
+    --destructive: 0 84% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 222 24% 8%;
-    --input: 222 24% 8%;
-    --ring: 345 100% 68%;
+    --border: 0 0% 22%;
+    --input: 0 0% 22%;
+    --ring: 141 73% 42%;
 
-    --shadow-color: 222 24% 8%;
+    --shadow-color: 0 0% 0%;
 
-    /* Pet palette */
     --coral: 345 100% 68%;
     --peach: 27 100% 62%;
-    --mint: 163 92% 42%;
+    --mint: 141 73% 42%;
     --lavender: 262 90% 74%;
     --butter: 48 100% 62%;
-    --cream: 48 100% 96%;
+    --cream: 0 0% 10%;
 
-    --dog: 27 100% 58%;
-    --dog-soft: 27 100% 84%;
-    --cat: 262 90% 70%;
-    --cat-soft: 262 100% 90%;
+    --dog: 27 90% 55%;
+    --dog-soft: 27 60% 18%;
+    --cat: 262 70% 60%;
+    --cat-soft: 262 50% 18%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
   }
 
   .dark {
-    --background: 222 24% 8%;
-    --foreground: 48 100% 96%;
-    --card: 222 20% 13%;
-    --card-foreground: 48 100% 96%;
-    --popover: 222 20% 13%;
-    --popover-foreground: 48 100% 96%;
-    --primary: 163 88% 48%;
-    --primary-foreground: 222 24% 8%;
-    --primary-soft: 163 70% 22%;
-    --secondary: 48 100% 58%;
-    --secondary-foreground: 222 24% 8%;
-    --accent: 345 100% 68%;
-    --accent-foreground: 222 24% 8%;
-    --muted: 222 16% 22%;
-    --muted-foreground: 48 18% 78%;
-    --destructive: 0 70% 50%;
+    --background: 0 0% 7%;
+    --foreground: 0 0% 100%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 141 73% 42%;
+    --primary-foreground: 0 0% 100%;
+    --primary-soft: 141 50% 14%;
+    --secondary: 0 0% 14%;
+    --secondary-foreground: 0 0% 100%;
+    --accent: 141 73% 42%;
+    --accent-foreground: 0 0% 100%;
+    --muted: 0 0% 14%;
+    --muted-foreground: 0 0% 65%;
+    --destructive: 0 84% 50%;
     --destructive-foreground: 0 0% 100%;
-    --border: 48 100% 96%;
-    --input: 48 100% 96%;
-    --ring: 345 100% 68%;
-    --shadow-color: 48 100% 96%;
+    --border: 0 0% 22%;
+    --input: 0 0% 22%;
+    --ring: 141 73% 42%;
+    --shadow-color: 0 0% 0%;
   }
 
   * {
@@ -82,12 +80,12 @@
     height: 100%;
   }
 
+  html {
+    color-scheme: dark;
+  }
+
   body {
     @apply bg-background text-foreground antialiased;
-    background-image:
-      linear-gradient(hsl(var(--foreground) / 0.055) 1px, transparent 1px),
-      linear-gradient(90deg, hsl(var(--foreground) / 0.055) 1px, transparent 1px);
-    background-size: 22px 22px;
     -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: transparent;
     overscroll-behavior: none;
@@ -95,52 +93,49 @@
   }
 
   ::selection {
-    @apply bg-primary/30 text-foreground;
+    @apply bg-primary/40 text-foreground;
   }
 
-  /* Scrollbar */
-  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
   ::-webkit-scrollbar-track { background: transparent; }
-  ::-webkit-scrollbar-thumb { background: hsl(var(--foreground)); border-radius: 0; }
-  ::-webkit-scrollbar-thumb:hover { background: hsl(var(--muted-foreground) / 0.3); }
+  ::-webkit-scrollbar-thumb { background: hsl(var(--muted)); border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: hsl(var(--muted-foreground) / 0.4); }
 }
 
 @layer components {
   .glass {
-    @apply border-2 border-foreground bg-card shadow-soft;
-  }
-  .dark .glass {
-    @apply bg-card border-foreground;
+    @apply rounded-xl bg-card/80 backdrop-blur-xl border border-white/10 shadow-lg;
   }
 
   .chip {
-    @apply inline-flex items-center gap-1.5 rounded-md border-2 border-foreground
-           bg-card px-3.5 py-2 text-sm font-black text-foreground shadow-soft
-           transition-all active:translate-x-1 active:translate-y-1 active:shadow-none;
+    @apply inline-flex items-center gap-1.5 rounded-full border border-white/10
+           bg-secondary/60 px-4 py-2 text-sm font-medium text-foreground/80
+           transition-all duration-200 hover:bg-secondary hover:text-foreground
+           active:scale-95;
   }
   .chip[data-active="true"] {
-    @apply bg-primary text-primary-foreground shadow-pop;
+    @apply bg-primary text-primary-foreground border-primary font-semibold;
   }
 
   .fab {
-    @apply flex size-11 items-center justify-center rounded-lg border-2 border-foreground
-           bg-card text-foreground shadow-soft transition-all
-           hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-soft-md
-           active:translate-x-1 active:translate-y-1 active:shadow-none;
+    @apply flex size-12 items-center justify-center rounded-full
+           bg-card border border-white/10 text-foreground shadow-lg
+           transition-all duration-200
+           hover:bg-secondary hover:scale-105
+           active:scale-95;
   }
   .fab-primary {
-    @apply bg-primary text-primary-foreground shadow-pop;
+    @apply bg-primary text-primary-foreground border-primary shadow-lg shadow-primary/25;
   }
 
-  /* Pet pin marker */
   .pet-pin {
     position: relative;
-    width: 44px;
-    height: 54px;
-    filter: drop-shadow(4px 4px 0 hsl(var(--foreground)));
+    width: 40px;
+    height: 50px;
+    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.4));
     transition: transform 200ms cubic-bezier(.2,.8,.25,1);
   }
-  .pet-pin:hover { transform: scale(1.08) translateY(-2px); }
+  .pet-pin:hover { transform: scale(1.12) translateY(-3px); }
   .pet-pin .body {
     position: absolute;
     inset: 0;
@@ -155,15 +150,13 @@
     position: absolute;
     top: 6px; left: 50%;
     transform: translateX(-50%);
-    width: 30px; height: 30px;
+    width: 28px; height: 28px;
     border-radius: 50%;
     background: white;
     display: flex; align-items: center; justify-content: center;
-    font-size: 18px;
-    box-shadow: inset 0 0 0 2px rgba(255,255,255,0.9);
+    font-size: 16px;
   }
 
-  /* User location marker */
   .user-marker {
     position: relative;
     width: 18px; height: 18px;
@@ -171,75 +164,75 @@
   .user-marker::after {
     content: '';
     position: absolute; inset: 0;
-    background: #2563eb;
+    background: hsl(var(--primary));
     border-radius: 50%;
     border: 3px solid white;
-    box-shadow: 0 0 0 3px hsl(var(--foreground)), 4px 4px 0 hsl(var(--foreground));
+    box-shadow: 0 0 0 2px hsl(var(--primary));
   }
   .user-marker::before {
     content: '';
     position: absolute; inset: 0;
-    background: #2563eb;
+    background: hsl(var(--primary));
     border-radius: 50%;
     animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
   }
 
-  /* Marker cluster overrides */
   .marker-cluster {
-    background: hsl(var(--secondary)) !important;
-    border: 2px solid hsl(var(--foreground)) !important;
+    background: hsl(var(--primary) / 0.9) !important;
+    border: 2px solid hsl(var(--primary)) !important;
+    border-radius: 50% !important;
   }
   .marker-cluster div {
     background: hsl(var(--primary)) !important;
-    color: hsl(var(--primary-foreground)) !important;
+    color: white !important;
     font-family: var(--font-sans), system-ui !important;
     font-weight: 700 !important;
-    border: 2px solid hsl(var(--foreground)) !important;
-    border-radius: 8px !important;
+    border: none !important;
+    border-radius: 50% !important;
   }
 
-  /* Leaflet container background */
   .leaflet-container {
-    background: hsl(var(--muted)) !important;
+    background: hsl(0 0% 12%) !important;
     font-family: var(--font-sans), system-ui;
   }
   .leaflet-control-attribution {
-    @apply !border-2 !border-foreground !bg-card !text-[10px] !font-bold !text-foreground;
+    @apply !rounded-lg !bg-card/90 !text-[10px] !font-medium !text-muted-foreground !border !border-white/5;
+    backdrop-filter: blur(8px);
   }
   .leaflet-bar {
-    @apply !border-2 !border-foreground !shadow-soft;
+    @apply !rounded-xl !border !border-white/10 !shadow-lg;
+    overflow: hidden;
   }
   .leaflet-bar a {
-    @apply !border-foreground !bg-card !font-black !text-foreground;
+    @apply !bg-card !text-foreground !border-white/5;
+    transition: background 150ms;
+  }
+  .leaflet-bar a:hover {
+    @apply !bg-secondary;
   }
   .leaflet-popup-content-wrapper {
-    @apply !overflow-hidden !rounded-lg !border-2 !border-foreground !bg-card !p-0 !shadow-soft-lg;
+    @apply !overflow-hidden !rounded-xl !bg-card !p-0 !shadow-xl !border !border-white/10;
   }
   .leaflet-popup-content {
     @apply !m-0 !w-[260px];
   }
   .leaflet-popup-tip {
-    @apply !border-2 !border-foreground !shadow-none;
+    @apply !shadow-none;
   }
 
-  /* No-tap-highlight on leaflet markers */
   .leaflet-marker-icon { -webkit-tap-highlight-color: transparent; outline: none; }
 
-  /* Hide leaflet zoom on small screens */
   @media (max-width: 768px) {
     .leaflet-control-zoom { display: none; }
   }
 
-  /* Sheet snap states (handled via class) */
   .sheet-snap {
     transition: height 350ms cubic-bezier(.2,.8,.25,1);
   }
 
-  /* Hide scrollbar utility */
   .no-scrollbar::-webkit-scrollbar { display: none; }
   .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
-  /* Safe area helpers */
   .pb-safe { padding-bottom: max(env(safe-area-inset-bottom), 0px); }
   .pt-safe { padding-top: max(env(safe-area-inset-top), 0px); }
 }

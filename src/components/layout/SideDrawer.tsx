@@ -110,19 +110,19 @@ export function SideDrawer() {
 
   return (
     <Sheet open={drawerOpen} onOpenChange={setDrawerOpen}>
-      <SheetContent side="left" className="w-[88%] max-w-sm p-0">
-        <SheetHeader className="border-b-2 border-foreground bg-primary px-6 pb-8 pt-safe">
+      <SheetContent side="left" className="w-[88%] max-w-sm p-0" showClose={false}>
+        <SheetHeader className="bg-primary px-6 pb-8 pt-safe">
           <div className="flex items-center gap-3 pt-6">
-            <Avatar className="size-14 rounded-lg border-2 border-foreground bg-secondary shadow-soft">
-              <AvatarFallback className="bg-secondary text-lg text-foreground">
+            <Avatar className="size-14 rounded-full border-2 border-white/20">
+              <AvatarFallback className="bg-white/20 text-lg">
                 {user?.avatar ?? "G"}
               </AvatarFallback>
             </Avatar>
-            <div className="text-foreground">
-              <SheetTitle className="text-foreground">
+            <div className="text-white">
+              <SheetTitle className="text-white">
                 {user?.name ?? "Guest"}
               </SheetTitle>
-              <p className="text-[12px] font-semibold opacity-80">
+              <p className="text-[12px] font-medium opacity-80">
                 {user?.email || "ยังไม่ได้ล็อกอิน"}
               </p>
             </div>
@@ -136,13 +136,13 @@ export function SideDrawer() {
             onClick={() => goTab("explore")}
           />
           {isGuest ? (
-            <div className="mx-3 my-2 rounded-lg border-2 border-foreground bg-secondary p-4 shadow-soft">
-              <p className="mb-2 text-[13px] font-black text-foreground">
+            <div className="mx-3 my-2 rounded-xl bg-secondary p-4">
+              <p className="mb-2 text-[13px] font-semibold">
                 เข้าสู่ระบบเพื่อใช้งานครบทุกฟีเจอร์
               </p>
               <Button
                 size="sm"
-                className="w-full font-bold shadow-pop"
+                className="w-full font-semibold"
                 onClick={() => {
                   setLoginModalOpen(true);
                   setDrawerOpen(false);
@@ -194,9 +194,9 @@ export function SideDrawer() {
 
           <Separator className="my-3" />
 
-          <div className="rounded-lg border-2 border-foreground bg-muted p-3.5 shadow-soft">
-            <div className="flex items-center gap-2 text-[13px] font-black">
-              <Sparkles className="size-4 text-foreground" /> เกี่ยวกับ
+          <div className="rounded-xl bg-secondary p-3.5">
+            <div className="flex items-center gap-2 text-[13px] font-semibold">
+              <Sparkles className="size-4 text-primary" /> เกี่ยวกับ
             </div>
             <p className="mt-1 text-[12px] text-muted-foreground">
               PawMap MVP v1.0 · กรุงเทพฯ 🇹🇭
@@ -208,7 +208,7 @@ export function SideDrawer() {
           {isGuest ? null : (
             <Button
               variant="ghost"
-              className="mt-auto justify-start text-rose-600 hover:bg-rose-50 hover:text-rose-700"
+              className="mt-auto justify-start text-rose-400 hover:bg-rose-500/10 hover:text-rose-400"
               onClick={handleSignOut}
             >
               <LogOut className="size-4" /> ออกจากระบบ
@@ -234,12 +234,12 @@ function DrawerItem({
   return (
     <button
       onClick={onClick}
-      className="flex items-center gap-3 rounded-lg border-2 border-transparent px-3 py-3 text-[14px] font-bold text-foreground transition hover:border-foreground hover:bg-secondary hover:shadow-soft active:translate-x-1 active:translate-y-1 active:shadow-none"
+      className="flex items-center gap-3 rounded-xl px-3 py-3 text-[14px] font-medium text-foreground transition-colors hover:bg-secondary active:scale-[0.98]"
     >
-      <Icon className="size-[18px] text-foreground" />
+      <Icon className="size-[18px] text-muted-foreground" />
       <span className="flex-1 text-left">{label}</span>
       {badge ? (
-        <span className="rounded-md border-2 border-foreground bg-primary-soft px-2 py-0.5 text-[11px] font-black text-foreground">
+        <span className="rounded-full bg-primary-soft px-2.5 py-0.5 text-[11px] font-semibold text-primary">
           {badge}
         </span>
       ) : null}

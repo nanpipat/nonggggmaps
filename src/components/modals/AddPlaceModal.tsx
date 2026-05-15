@@ -58,7 +58,6 @@ export function AddPlaceModal() {
   const [photos, setPhotos] = useState<string[]>([]);
   const [submitting, setSubmitting] = useState(false);
 
-  // Sync result from map picker
   useEffect(() => {
     if (pickingResult) {
       setLat(pickingResult.lat.toFixed(6));
@@ -138,7 +137,7 @@ export function AddPlaceModal() {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogContent className="!max-w-[540px] !p-0">
-        <DialogHeader className="border-b-2 border-foreground px-5 pb-4 pr-14 pt-5">
+        <DialogHeader className="border-b border-white/5 px-5 pb-4 pr-14 pt-5">
           <DialogTitle>เพิ่มสถานที่ใหม่</DialogTitle>
           <p className="text-sm text-muted-foreground">
             ช่วยกันเติมแผนที่ ให้น้องๆ ได้ออกไปเที่ยวกัน 🐾
@@ -211,7 +210,7 @@ export function AddPlaceModal() {
           <Button
             type="button"
             variant="soft"
-            className="w-full"
+            className="w-full rounded-full"
             onClick={() => {
               setOpen(false);
               setTimeout(startPicking, 250);
@@ -222,7 +221,7 @@ export function AddPlaceModal() {
 
           <div>
             <Label>ประเภทสัตว์เลี้ยง *</Label>
-            <div className="mt-2 flex flex-wrap gap-3">
+            <div className="mt-2 flex flex-wrap gap-2">
               <PetToggle
                 active={pets.has("dog")}
                 onClick={() => togglePet("dog")}
@@ -318,14 +317,14 @@ export function AddPlaceModal() {
                       width={64}
                       height={64}
                       unoptimized
-                      className="size-16 rounded-md border-2 border-foreground object-cover shadow-soft"
+                      className="size-16 rounded-xl object-cover"
                     />
                     <button
                       type="button"
                       onClick={() =>
                         setPhotos(photos.filter((_, j) => j !== i))
                       }
-                      className="absolute -right-1.5 -top-1.5 grid size-6 place-items-center rounded-md border-2 border-foreground bg-accent text-foreground shadow-soft"
+                      className="absolute -right-1.5 -top-1.5 grid size-6 place-items-center rounded-full bg-rose-500 text-white"
                     >
                       <X className="size-3" />
                     </button>
@@ -340,11 +339,11 @@ export function AddPlaceModal() {
               type="button"
               variant="ghost"
               onClick={() => setOpen(false)}
-              className="flex-1"
+              className="flex-1 rounded-full"
             >
               ยกเลิก
             </Button>
-            <Button type="submit" disabled={submitting} className="flex-1">
+            <Button type="submit" disabled={submitting} className="flex-1 rounded-full">
               {submitting ? (
                 <Loader2 className="size-4 animate-spin" />
               ) : (
@@ -389,7 +388,7 @@ function PetToggle({
       type="button"
       onClick={onClick}
       data-active={active}
-      className="rounded-md border-2 border-foreground bg-card px-4 py-2 text-sm font-black shadow-soft transition-all data-[active=true]:bg-primary data-[active=true]:text-primary-foreground active:translate-x-1 active:translate-y-1 active:shadow-none"
+      className="rounded-full bg-secondary px-4 py-2 text-sm font-medium transition-all data-[active=true]:bg-primary data-[active=true]:text-primary-foreground"
     >
       {children}
     </button>
@@ -406,9 +405,9 @@ function PolicyChk({
   label: string;
 }) {
   return (
-    <label className="flex cursor-pointer items-center gap-2 rounded-lg border-2 border-foreground bg-card px-3 py-2.5 shadow-soft transition-colors hover:bg-secondary">
+    <label className="flex cursor-pointer items-center gap-2 rounded-xl bg-secondary px-3 py-2.5 transition-colors hover:bg-white/10">
       <Checkbox checked={checked} onCheckedChange={(v) => onChange(!!v)} />
-      <span className="text-sm font-bold">{label}</span>
+      <span className="text-sm font-medium">{label}</span>
     </label>
   );
 }

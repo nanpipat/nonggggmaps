@@ -30,7 +30,6 @@ import { editsApi, checkinsApi } from "@/lib/api";
 import { toast } from "sonner";
 
 interface Props {
-  /** When true: compact hero, no back button, no internal scroll (sidebar handles it) */
   sidebar?: boolean;
 }
 
@@ -116,12 +115,11 @@ export function PlaceDetail({ sidebar = false }: Props) {
           : "mx-auto max-w-2xl px-5 pb-28 pr-7 pt-6 sm:px-6 sm:pr-8",
       )}
     >
-      {/* Title block */}
       <div>
         <div className="flex flex-wrap items-center gap-3">
           <span
             className={cn(
-              "inline-flex items-center gap-1 rounded-md border-2 border-foreground px-2.5 py-1 text-[11px] font-black shadow-soft",
+              "inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-[11px] font-semibold",
               category.bg,
               category.color,
             )}
@@ -134,11 +132,11 @@ export function PlaceDetail({ sidebar = false }: Props) {
             </Badge>
           )}
         </div>
-        <h1 className="mt-2 text-pretty text-[24px] font-black leading-tight tracking-tight">
+        <h1 className="mt-2 text-pretty text-[24px] font-bold leading-tight tracking-tight">
           {place.name}
         </h1>
         <div className="mt-2 flex flex-wrap items-center gap-3 text-sm">
-          <span className="inline-flex items-center gap-1 font-bold">
+          <span className="inline-flex items-center gap-1 font-semibold">
             <Star className="size-4 fill-amber-400 text-amber-400" />
             {formatRating(place.rating)}
           </span>
@@ -164,8 +162,7 @@ export function PlaceDetail({ sidebar = false }: Props) {
         </div>
       </div>
 
-      {/* Info rows */}
-      <div className="space-y-1 rounded-lg border-2 border-foreground bg-card p-1.5 shadow-soft">
+      <div className="space-y-0.5 rounded-xl bg-secondary/50 p-1.5">
         <InfoRow icon={MapPin} text={place.address} />
         <InfoRow icon={Clock} text={place.hours ?? "ไม่ระบุเวลาทำการ"} />
         {(() => {
@@ -175,14 +172,14 @@ export function PlaceDetail({ sidebar = false }: Props) {
             <div className="flex items-center gap-2 px-3 py-2">
               <span
                 className={cn(
-                  "size-2 shrink-0 rounded-sm",
-                  status.open ? "bg-emerald-500" : "bg-rose-500",
+                  "size-2 shrink-0 rounded-full",
+                  status.open ? "bg-emerald-400" : "bg-rose-400",
                 )}
               />
               <span
                 className={cn(
-                  "text-[13px] font-semibold",
-                  status.open ? "text-emerald-700" : "text-rose-700",
+                  "text-[13px] font-medium",
+                  status.open ? "text-emerald-400" : "text-rose-400",
                 )}
               >
                 {status.text}
@@ -202,9 +199,8 @@ export function PlaceDetail({ sidebar = false }: Props) {
         )}
       </div>
 
-      {/* CTAs */}
       <div className="grid gap-3 sm:grid-cols-3">
-        <Button size="lg" className="rounded-lg" asChild>
+        <Button size="lg" className="rounded-full" asChild>
           <a
             href={googleMapsDirectionsUrl(place, place.name)}
             target="_blank"
@@ -216,7 +212,7 @@ export function PlaceDetail({ sidebar = false }: Props) {
         <Button
           variant="soft"
           size="lg"
-          className="rounded-lg"
+          className="rounded-full"
           disabled={!place.phone}
           asChild={!!place.phone}
         >
@@ -233,24 +229,22 @@ export function PlaceDetail({ sidebar = false }: Props) {
         <Button
           variant="outline"
           size="lg"
-          className="rounded-lg"
+          className="rounded-full"
           onClick={handleShare}
         >
           <Share2 className="size-4" /> แชร์
         </Button>
       </div>
 
-      {/* Pet policy */}
       <Section title="นโยบายรับน้อง" emoji="🐾">
         <PolicyBadges policy={place.policy} />
       </Section>
 
-      {/* Check-in */}
       <Section title="เช็คอิน" emoji="📍">
         <Button
           variant="soft"
           size="lg"
-          className="w-full justify-start rounded-lg"
+          className="w-full justify-start rounded-full"
           onClick={handleCheckIn}
         >
           📍 พาน้องมาแล้ว!
@@ -267,16 +261,14 @@ export function PlaceDetail({ sidebar = false }: Props) {
         )}
       </Section>
 
-      {/* Notes */}
       {place.notes && (
         <Section title="เกร็ดจากชุมชน" emoji="💬">
-          <p className="text-pretty rounded-lg border-2 border-foreground bg-muted p-4 text-[14px] font-semibold leading-relaxed shadow-soft">
+          <p className="text-pretty rounded-xl bg-secondary p-4 text-[14px] font-medium leading-relaxed">
             {place.notes}
           </p>
         </Section>
       )}
 
-      {/* Photos */}
       {place.photos.length > 0 && (
         <Section title="รูปภาพ" emoji="📷">
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
@@ -284,7 +276,7 @@ export function PlaceDetail({ sidebar = false }: Props) {
               <button
                 key={i}
                 onClick={() => setLightboxIndex(i)}
-                className="relative aspect-square overflow-hidden rounded-md border-2 border-foreground bg-muted shadow-soft transition-all hover:-translate-x-0.5 hover:-translate-y-0.5"
+                className="relative aspect-square overflow-hidden rounded-xl bg-secondary transition-all hover:scale-[1.02] hover:opacity-90"
               >
                 <Image
                   src={src}
@@ -305,12 +297,12 @@ export function PlaceDetail({ sidebar = false }: Props) {
           onClick={() => setLightboxIndex(-1)}
         >
           <div className="flex items-center justify-between px-4 pt-safe">
-            <span className="text-[13px] font-semibold text-white/70">
+            <span className="text-[13px] font-medium text-white/70">
               {lightboxIndex + 1} / {place.photos.length}
             </span>
             <button
               onClick={() => setLightboxIndex(-1)}
-              className="grid size-10 place-items-center rounded-md border-2 border-white bg-black text-white shadow-soft hover:bg-secondary hover:text-foreground"
+              className="grid size-10 place-items-center rounded-full bg-white/10 text-white transition hover:bg-white/20"
             >
               <X className="size-6" />
             </button>
@@ -324,7 +316,7 @@ export function PlaceDetail({ sidebar = false }: Props) {
               alt={`${place.name} - ${lightboxIndex + 1}`}
               width={1200}
               height={900}
-              className="max-h-[80dvh] w-auto rounded-lg object-contain"
+              className="max-h-[80dvh] w-auto rounded-xl object-contain"
             />
           </div>
           <div className="flex items-center justify-center gap-6 pb-safe pt-2">
@@ -333,7 +325,7 @@ export function PlaceDetail({ sidebar = false }: Props) {
                 e.stopPropagation();
                 setLightboxIndex(Math.max(0, lightboxIndex - 1));
               }}
-              className="grid size-12 place-items-center rounded-md border-2 border-white bg-black text-white shadow-soft transition hover:bg-secondary hover:text-foreground"
+              className="grid size-12 place-items-center rounded-full bg-white/10 text-white transition hover:bg-white/20"
               disabled={lightboxIndex === 0}
             >
               ←
@@ -345,7 +337,7 @@ export function PlaceDetail({ sidebar = false }: Props) {
                   Math.min(place.photos.length - 1, lightboxIndex + 1),
                 );
               }}
-              className="grid size-12 place-items-center rounded-md border-2 border-white bg-black text-white shadow-soft transition hover:bg-secondary hover:text-foreground"
+              className="grid size-12 place-items-center rounded-full bg-white/10 text-white transition hover:bg-white/20"
               disabled={lightboxIndex === place.photos.length - 1}
             >
               →
@@ -354,12 +346,11 @@ export function PlaceDetail({ sidebar = false }: Props) {
         </div>
       )}
 
-      {/* Reviews */}
       <Section title={`รีวิว (${reviews.length})`} emoji="⭐">
         <Button
           variant="soft"
           size="lg"
-          className="w-full justify-start rounded-lg"
+          className="w-full justify-start rounded-full"
           onClick={() => {
             if (isGuest) {
               setLoginModalOpen(true);
@@ -372,14 +363,14 @@ export function PlaceDetail({ sidebar = false }: Props) {
         </Button>
         <div className="mt-3 space-y-3">
           {reviews.length === 0 ? (
-            <div className="rounded-lg border-2 border-dashed border-foreground bg-muted px-4 py-6 text-center text-sm font-bold text-foreground shadow-soft">
+            <div className="rounded-xl border border-dashed border-white/10 bg-secondary/30 px-4 py-6 text-center text-sm font-medium text-muted-foreground">
               ยังไม่มีรีวิว ✍️ พาน้องไปแล้วมาเล่าให้ฟังเป็นคนแรกได้เลย!
             </div>
           ) : (
             reviews.map((r) => (
               <div
                 key={r.id}
-                className="rounded-lg border-2 border-foreground bg-card p-4 shadow-soft"
+                className="rounded-xl bg-card p-4 border border-white/5"
               >
                 <div className="flex items-center gap-3">
                   <Avatar className="size-9">
@@ -388,12 +379,12 @@ export function PlaceDetail({ sidebar = false }: Props) {
                     </AvatarFallback>
                   </Avatar>
                   <div className="flex-1">
-                    <div className="text-[14px] font-bold">{r.user_name}</div>
+                    <div className="text-[14px] font-semibold">{r.user_name}</div>
                     <div className="text-[11px] text-muted-foreground">
                       {relativeTimeTH(r.created_at)}
                     </div>
                   </div>
-                  <div className="flex items-center gap-0.5 text-amber-500">
+                  <div className="flex items-center gap-0.5 text-amber-400">
                     {Array.from({ length: r.rating }).map((_, i) => (
                       <Star
                         key={i}
@@ -410,7 +401,7 @@ export function PlaceDetail({ sidebar = false }: Props) {
                     {r.photos.map((src, i) => (
                       <div
                         key={i}
-                        className="relative size-20 shrink-0 overflow-hidden rounded-md border-2 border-foreground"
+                        className="relative size-20 shrink-0 overflow-hidden rounded-xl"
                       >
                         <Image
                           src={src}
@@ -441,11 +432,11 @@ export function PlaceDetail({ sidebar = false }: Props) {
 
       {editModalOpen && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-[1px]"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm"
           onClick={() => setEditModalOpen(false)}
         >
           <div
-            className="mx-4 w-full max-w-md rounded-lg border-2 border-foreground bg-background p-5 shadow-soft-xl"
+            className="mx-4 w-full max-w-md rounded-2xl border border-white/10 bg-card p-5 shadow-soft-xl"
             onClick={(e) => e.stopPropagation()}
           >
             <h3 className="text-lg font-bold">แจ้งแก้ไขข้อมูล ✏️</h3>
@@ -457,12 +448,12 @@ export function PlaceDetail({ sidebar = false }: Props) {
               onChange={(e) => setEditNote(e.target.value)}
               rows={4}
               placeholder="เช่น ร้านปิดไปแล้ว, เวลาเปิดไม่ถูกต้อง, ไม่รับสัตว์แล้ว…"
-              className="mt-3 w-full rounded-lg border-2 border-foreground bg-card p-3 text-[14px] font-semibold shadow-soft outline-none placeholder:text-muted-foreground focus:bg-muted"
+              className="mt-3 w-full rounded-xl border border-white/10 bg-secondary/50 p-3 text-[14px] font-medium outline-none placeholder:text-muted-foreground focus:border-primary/30 focus:bg-secondary"
             />
             <div className="mt-3 flex gap-2">
               <Button
                 variant="ghost"
-                className="flex-1"
+                className="flex-1 rounded-full"
                 onClick={() => {
                   setEditModalOpen(false);
                   setEditNote("");
@@ -471,7 +462,7 @@ export function PlaceDetail({ sidebar = false }: Props) {
                 ยกเลิก
               </Button>
               <Button
-                className="flex-1"
+                className="flex-1 rounded-full"
                 onClick={handleSuggestEdit}
                 disabled={!editNote.trim()}
               >
@@ -487,8 +478,7 @@ export function PlaceDetail({ sidebar = false }: Props) {
   if (sidebar) {
     return (
       <div>
-        {/* Compact hero for sidebar */}
-        <div className="relative h-48 w-full bg-muted">
+        <div className="relative h-48 w-full bg-secondary">
           {place.cover_photo ? (
             <Image
               src={place.cover_photo}
@@ -503,12 +493,11 @@ export function PlaceDetail({ sidebar = false }: Props) {
               {category.emoji}
             </div>
           )}
-          <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/50 to-transparent" />
-          {/* Share + heart — top right */}
+          <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/60 to-transparent" />
           <div className="absolute right-3 top-3 flex items-center gap-2">
             <button
               onClick={handleShare}
-              className="grid size-9 place-items-center rounded-md border-2 border-foreground bg-card text-foreground shadow-soft transition-all hover:bg-secondary active:translate-x-1 active:translate-y-1 active:shadow-none"
+              className="grid size-9 place-items-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60"
             >
               <Share2 className="size-4" />
             </button>
@@ -520,7 +509,7 @@ export function PlaceDetail({ sidebar = false }: Props) {
                   toggleFavorite(place.id);
                 }
               }}
-              className="grid size-9 place-items-center rounded-md border-2 border-foreground bg-card text-foreground shadow-soft transition-all hover:bg-accent active:translate-x-1 active:translate-y-1 active:shadow-none"
+              className="grid size-9 place-items-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60"
             >
               <Heart
                 className={cn(
@@ -531,7 +520,7 @@ export function PlaceDetail({ sidebar = false }: Props) {
             </button>
           </div>
           {place.photos.length > 1 && (
-            <div className="absolute bottom-2.5 right-3 rounded-md border-2 border-white bg-black px-2 py-0.5 text-[11px] font-black text-white shadow-soft">
+            <div className="absolute bottom-2.5 right-3 rounded-full bg-black/50 px-2.5 py-0.5 text-[11px] font-semibold text-white backdrop-blur-sm">
               📷 {place.photos.length} รูป
             </div>
           )}
@@ -541,11 +530,9 @@ export function PlaceDetail({ sidebar = false }: Props) {
     );
   }
 
-  // Mobile full-height layout
   return (
     <div className="flex h-full flex-col bg-background">
-      {/* Full hero */}
-      <div className="relative h-[42dvh] min-h-[240px] w-full shrink-0 bg-muted">
+      <div className="relative h-[42dvh] min-h-[240px] w-full shrink-0 bg-secondary">
         {place.cover_photo ? (
           <Image
             src={place.cover_photo}
@@ -560,11 +547,11 @@ export function PlaceDetail({ sidebar = false }: Props) {
             {category.emoji}
           </div>
         )}
-        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-black/60 to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background to-transparent" />
         <div className="absolute inset-x-0 top-0 flex items-center justify-between p-3 pt-safe">
           <button
             onClick={closeDetail}
-            className="grid size-10 place-items-center rounded-md border-2 border-foreground bg-card text-foreground shadow-soft-md transition-all hover:bg-secondary active:translate-x-1 active:translate-y-1 active:shadow-none"
+            className="grid size-10 place-items-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60"
             aria-label="กลับ"
           >
             <ArrowLeft className="size-5" />
@@ -572,7 +559,7 @@ export function PlaceDetail({ sidebar = false }: Props) {
           <div className="flex items-center gap-2">
             <button
               onClick={handleShare}
-              className="grid size-10 place-items-center rounded-md border-2 border-foreground bg-card text-foreground shadow-soft-md transition-all hover:bg-secondary active:translate-x-1 active:translate-y-1 active:shadow-none"
+              className="grid size-10 place-items-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60"
             >
               <Share2 className="size-4" />
             </button>
@@ -584,7 +571,7 @@ export function PlaceDetail({ sidebar = false }: Props) {
                   toggleFavorite(place.id);
                 }
               }}
-              className="grid size-10 place-items-center rounded-md border-2 border-foreground bg-card text-foreground shadow-soft-md transition-all hover:bg-accent active:translate-x-1 active:translate-y-1 active:shadow-none"
+              className="grid size-10 place-items-center rounded-full bg-black/40 text-white backdrop-blur-sm transition hover:bg-black/60"
             >
               <Heart
                 className={cn(
@@ -596,7 +583,7 @@ export function PlaceDetail({ sidebar = false }: Props) {
           </div>
         </div>
         {place.photos.length > 1 && (
-          <div className="absolute bottom-3 right-3 rounded-md border-2 border-white bg-black px-2.5 py-1 text-[11px] font-black text-white shadow-soft">
+          <div className="absolute bottom-3 right-3 rounded-full bg-black/50 px-2.5 py-1 text-[11px] font-semibold text-white backdrop-blur-sm">
             📷 {place.photos.length} รูป
           </div>
         )}
@@ -617,11 +604,11 @@ function InfoRow({
   href?: string;
 }) {
   const inner = (
-    <div className="flex items-center gap-3 rounded-md px-3 py-2.5 transition hover:bg-secondary">
-      <div className="grid size-8 place-items-center rounded-md border-2 border-foreground bg-muted text-foreground shadow-soft">
+    <div className="flex items-center gap-3 rounded-lg px-3 py-2.5 transition hover:bg-secondary">
+      <div className="grid size-8 place-items-center rounded-lg bg-secondary text-muted-foreground">
         <Icon className="size-4" />
       </div>
-      <span className={cn("text-[14px] font-semibold", href && "font-black text-foreground underline decoration-2 underline-offset-2")}>
+      <span className={cn("text-[14px] font-medium", href && "font-semibold text-primary underline underline-offset-2")}>
         {text}
       </span>
     </div>
@@ -650,7 +637,7 @@ function Section({
 }) {
   return (
     <section>
-      <h3 className="mb-3 flex items-center gap-2 text-[13px] font-black uppercase tracking-wider text-foreground">
+      <h3 className="mb-3 flex items-center gap-2 text-[13px] font-bold uppercase tracking-wider text-foreground">
         {emoji && <span>{emoji}</span>}
         {title}
       </h3>

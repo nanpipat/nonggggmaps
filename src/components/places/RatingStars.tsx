@@ -37,7 +37,7 @@ export function RatingStars({ value, onChange, size = "md", readOnly = false }: 
             <Star
               className={cn(
                 sizes[size],
-                filled ? "fill-amber-400 text-amber-400" : "text-muted-foreground/40",
+                filled ? "fill-amber-400 text-amber-400" : "text-white/15",
               )}
               strokeWidth={1.5}
             />

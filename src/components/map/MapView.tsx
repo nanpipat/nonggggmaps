@@ -11,7 +11,7 @@ import { petMarkerIcon, userMarkerIcon } from "./marker-icons";
 
 const TILE_URL =
   process.env.NEXT_PUBLIC_MAP_TILE_URL ||
-  "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png";
+  "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png";
 
 const TILE_ATTR =
   process.env.NEXT_PUBLIC_MAP_ATTRIBUTION ||

@@ -35,9 +35,9 @@ export function PlaceCard({ place, onClick }: Props) {
       onKeyDown={(e) => {
         if (e.key === "Enter" || e.key === " ") onClick?.();
       }}
-      className="group flex w-full cursor-pointer gap-3 rounded-lg border-2 border-foreground bg-card p-3 text-left shadow-soft transition-all hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-soft-md active:translate-x-1 active:translate-y-1 active:shadow-none sm:gap-4"
+      className="group flex w-full cursor-pointer gap-3 rounded-xl bg-card p-3 text-left border border-white/5 transition-all hover:bg-white/[0.06] hover:border-white/10 active:scale-[0.98] sm:gap-4"
     >
-      <div className="relative size-[82px] shrink-0 overflow-hidden rounded-md border-2 border-foreground bg-muted sm:size-[96px] md:size-[104px]">
+      <div className="relative size-[82px] shrink-0 overflow-hidden rounded-xl bg-secondary sm:size-[96px] md:size-[104px]">
         {place.cover_photo ? (
           <Image
             src={place.cover_photo}
@@ -53,7 +53,7 @@ export function PlaceCard({ place, onClick }: Props) {
         )}
         <div
           className={cn(
-            "absolute left-1.5 top-1.5 inline-flex items-center gap-1 rounded-md border-2 border-foreground px-1.5 py-0.5 text-[10px] font-black shadow-soft",
+            "absolute left-1.5 top-1.5 inline-flex items-center gap-1 rounded-lg px-1.5 py-0.5 text-[10px] font-semibold",
             category.bg,
             category.color,
           )}
@@ -64,7 +64,7 @@ export function PlaceCard({ place, onClick }: Props) {
 
       <div className="min-w-0 flex-1 py-0.5">
         <div className="flex items-start justify-between gap-2">
-          <h3 className="line-clamp-1 font-bold text-[15px] leading-snug">
+          <h3 className="line-clamp-1 font-semibold text-[15px] leading-snug">
             {place.name}
           </h3>
           <button
@@ -77,7 +77,7 @@ export function PlaceCard({ place, onClick }: Props) {
                 toggleFavorite(place.id);
               }
             }}
-            className="-mr-1 -mt-0.5 rounded-md border-2 border-transparent p-1.5 text-foreground transition hover:border-foreground hover:bg-accent hover:text-foreground"
+            className="-mr-1 -mt-0.5 rounded-full p-1.5 text-muted-foreground transition hover:bg-secondary hover:text-foreground"
             aria-label={isFav ? "เอาออกจากที่ชอบ" : "บันทึกเป็นที่ชอบ"}
           >
             <Heart
@@ -91,13 +91,13 @@ export function PlaceCard({ place, onClick }: Props) {
 
         <div className="mt-0.5 flex items-center gap-1 text-[12px] text-muted-foreground">
           <Star className="size-3 fill-amber-400 text-amber-400" />
-          <span className="font-black text-foreground">
+          <span className="font-semibold text-foreground">
             {formatRating(place.rating)}
           </span>
           <span>·</span>
           <span>{place.review_count.toLocaleString()} รีวิว</span>
           {place.policy.verified ? (
-            <BadgeCheck className="ml-1 size-3.5 text-emerald-500" />
+            <BadgeCheck className="ml-1 size-3.5 text-emerald-400" />
           ) : null}
         </div>
 
@@ -105,7 +105,7 @@ export function PlaceCard({ place, onClick }: Props) {
           <MapPin className="size-3" />
           <span className="line-clamp-1">{place.address}</span>
           {distance != null ? (
-            <span className="ml-auto shrink-0 rounded-md bg-secondary px-1.5 font-black text-secondary-foreground">
+            <span className="ml-auto shrink-0 rounded-full bg-primary/15 px-2 font-semibold text-primary">
               {formatDistance(distance)}
             </span>
           ) : null}

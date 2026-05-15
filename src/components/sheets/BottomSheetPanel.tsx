@@ -48,7 +48,6 @@ export function BottomSheetPanel() {
     if (snap === "peek" && bodyRef.current) bodyRef.current.scrollTop = 0;
   }, [snap]);
 
-  // Mini card takes over when a place is selected
   if (selectedId) return null;
 
   const cycleSnap = () =>
@@ -61,20 +60,18 @@ export function BottomSheetPanel() {
       aria-label="Place list"
       className={cn(
         "sheet-snap absolute inset-x-4 bottom-0 z-20 mx-auto flex w-auto max-w-3xl flex-col sm:inset-x-5",
-        "rounded-t-lg border-2 border-b-0 border-foreground bg-card shadow-soft-xl pb-safe",
+        "rounded-t-2xl border border-b-0 border-white/10 bg-card/95 shadow-soft-xl backdrop-blur-xl pb-safe",
         SNAP_HEIGHTS[snap],
       )}
     >
-      {/* Drag handle */}
       <button
         onClick={cycleSnap}
         className="flex w-full items-center justify-center py-2.5"
         aria-label="ขยายรายการ"
       >
-        <span className="h-1.5 w-12 rounded-sm bg-foreground" />
+        <span className="h-1 w-12 rounded-full bg-white/20" />
       </button>
 
-      {/* Header: tabs + count + sort in one row */}
       <div className="flex flex-wrap items-center gap-3 px-4 pb-4 sm:px-5">
         <div className="flex min-w-[210px] flex-1 flex-wrap items-center gap-2">
           {TABS.map((t) => (
@@ -89,16 +86,16 @@ export function BottomSheetPanel() {
                 }
               }}
               className={cn(
-                "rounded-md border-2 px-3 py-1 text-[13px] font-black transition-all",
+                "rounded-full px-3 py-1 text-[13px] font-medium transition-all",
                 activeTab === t.id
-                  ? "border-foreground bg-secondary text-secondary-foreground shadow-soft"
-                  : "border-transparent text-foreground hover:border-foreground hover:bg-muted",
+                  ? "bg-secondary text-foreground font-semibold"
+                  : "text-muted-foreground hover:bg-secondary hover:text-foreground",
               )}
             >
               {t.label}
             </button>
           ))}
-          <span className="ml-1 text-[11px] font-bold text-muted-foreground/70">
+          <span className="ml-1 text-[11px] font-medium text-muted-foreground/70">
             {filtered.length.toLocaleString()} แห่ง
             {mapBounds ? " · ในพื้นที่นี้" : ""}
           </span>
@@ -108,7 +105,7 @@ export function BottomSheetPanel() {
           value={sortBy}
           onValueChange={(v) => setSort(v as typeof sortBy)}
         >
-          <SelectTrigger className="h-9 w-[128px] rounded-md text-[12px] shadow-none">
+          <SelectTrigger className="h-9 w-[128px] rounded-full text-[12px] border-0 bg-secondary">
             <SelectValue />
           </SelectTrigger>
           <SelectContent>
@@ -120,7 +117,6 @@ export function BottomSheetPanel() {
         </Select>
       </div>
 
-      {/* Body */}
       <div
         ref={bodyRef}
         className="flex-1 space-y-3 overflow-y-auto px-4 pb-6 pr-6 sm:px-5 sm:pr-7"
@@ -129,7 +125,7 @@ export function BottomSheetPanel() {
         {filtered.length === 0 ? (
           <div className="flex flex-col items-center justify-center px-6 py-10 text-center">
             <div className="text-4xl">🐾</div>
-            <h4 className="mt-2 font-bold">
+            <h4 className="mt-2 font-semibold">
               {activeTab === "favorites"
                 ? "ยังไม่มีที่ชอบ"
                 : activeTab === "myreviews"

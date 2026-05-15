@@ -21,7 +21,7 @@ export function BottomNav() {
     <nav
       className={cn(
         "absolute inset-x-0 bottom-0 z-30 mx-auto flex h-[68px] max-w-3xl items-stretch",
-        "border-t-2 border-foreground bg-card pb-safe shadow-soft-md",
+        "border-t border-white/10 bg-card/95 backdrop-blur-xl pb-safe",
       )}
       aria-label="bottom navigation"
     >
@@ -38,13 +38,12 @@ export function BottomNav() {
         />
       ))}
 
-      {/* Center FAB */}
       <button
         onClick={() => setAddOpen(true)}
         className="relative -mt-5 flex flex-1 items-center justify-center"
         aria-label="เพิ่มสถานที่"
       >
-        <span className="grid size-14 place-items-center rounded-lg border-2 border-foreground bg-primary text-primary-foreground shadow-pop">
+        <span className="grid size-14 place-items-center rounded-full bg-primary text-primary-foreground shadow-lg shadow-primary/30 transition-transform hover:scale-105 active:scale-95">
           <Plus className="size-6" strokeWidth={2.5} />
         </span>
       </button>
@@ -80,12 +79,12 @@ function NavItem({
     <button
       onClick={onClick}
       className={cn(
-        "flex flex-1 flex-col items-center justify-center gap-0.5 font-bold transition-colors",
-        active ? "bg-secondary text-foreground" : "text-foreground hover:bg-muted",
+        "flex flex-1 flex-col items-center justify-center gap-0.5 transition-colors",
+        active ? "text-primary" : "text-muted-foreground hover:text-foreground",
       )}
     >
       <Icon className="size-[22px]" />
-      <span className="text-[11px] font-semibold">{label}</span>
+      <span className={cn("text-[11px] font-medium", active && "font-semibold")}>{label}</span>
     </button>
   );
 }

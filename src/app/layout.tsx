@@ -50,7 +50,7 @@ export const viewport: Viewport = {
   maximumScale: 1,
   userScalable: false,
   viewportFit: "cover",
-  themeColor: "#fff7cc",
+  themeColor: "#121212",
 };
 
 export default function RootLayout({
@@ -59,7 +59,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="th" suppressHydrationWarning>
+    <html lang="th" className="dark" suppressHydrationWarning>
       <body className={`${inter.variable} ${display.variable} ${thai.variable} font-sans`}>
         {children}
         <Toaster />

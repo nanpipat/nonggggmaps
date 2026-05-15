@@ -20,7 +20,7 @@ export function PolicyBadges({ policy }: Props) {
   return (
     <div className="space-y-3">
       <div>
-        <p className="mb-2 text-[11px] font-bold uppercase tracking-widest text-muted-foreground">เงื่อนไขหลัก</p>
+        <p className="mb-2 text-[11px] font-semibold uppercase tracking-widest text-muted-foreground">เงื่อนไขหลัก</p>
         <div className="grid gap-2 sm:grid-cols-2">
           <PolicyItem
             icon={Home}
@@ -54,7 +54,7 @@ export function PolicyBadges({ policy }: Props) {
         </div>
       </div>
       <div>
-        <p className="mb-2 text-[11px] font-bold uppercase tracking-widest text-muted-foreground">ข้อมูลเพิ่มเติม</p>
+        <p className="mb-2 text-[11px] font-semibold uppercase tracking-widest text-muted-foreground">ข้อมูลเพิ่มเติม</p>
         <div className="grid gap-2 sm:grid-cols-2">
           <PolicyItem
             icon={Snowflake}
@@ -94,31 +94,27 @@ function PolicyItem({
   return (
     <div
       className={cn(
-        "flex items-center gap-3 rounded-lg border-2 border-foreground px-3 py-3 shadow-soft",
+        "flex items-center gap-3 rounded-xl px-3 py-3",
         neutral
-          ? "bg-muted"
+          ? "bg-secondary"
           : ok
-          ? "bg-emerald-200"
-          : "bg-rose-200",
+          ? "bg-emerald-500/10"
+          : "bg-rose-500/10",
       )}
     >
       <div
         className={cn(
-          "grid size-8 place-items-center rounded-md border-2 border-foreground shadow-soft",
-          neutral ? "bg-card text-foreground" : ok ? "bg-primary text-foreground" : "bg-accent text-foreground",
+          "grid size-8 place-items-center rounded-lg",
+          neutral ? "bg-secondary text-foreground" : ok ? "bg-emerald-500/20 text-emerald-400" : "bg-rose-500/20 text-rose-400",
         )}
       >
         <Icon className="size-4" />
       </div>
       <div className="min-w-0 flex-1">
-        <div className="text-[11px] font-black uppercase tracking-wide text-foreground/70">
+        <div className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
           {label}
         </div>
-        <div
-          className={cn(
-            "text-[13px] font-black text-foreground",
-          )}
-        >
+        <div className="text-[13px] font-semibold text-foreground">
           {ok ? okText : noText}
         </div>
       </div>

@@ -50,14 +50,12 @@ const config: Config = {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
         },
-        // Pet-themed accent palette (cute & clean)
         coral: "hsl(var(--coral))",
         peach: "hsl(var(--peach))",
         mint: "hsl(var(--mint))",
         lavender: "hsl(var(--lavender))",
         butter: "hsl(var(--butter))",
         cream: "hsl(var(--cream))",
-        // Pet category colors
         dog: {
           DEFAULT: "hsl(var(--dog))",
           soft: "hsl(var(--dog-soft))",
@@ -69,19 +67,20 @@ const config: Config = {
       },
       borderRadius: {
         lg: "var(--radius)",
-        md: "calc(var(--radius) - 4px)",
-        sm: "calc(var(--radius) - 8px)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
         xl: "calc(var(--radius) + 4px)",
         "2xl": "calc(var(--radius) + 8px)",
         "3xl": "calc(var(--radius) + 16px)",
       },
       boxShadow: {
-        "soft": "4px 4px 0 hsl(var(--shadow-color))",
-        "soft-md": "6px 6px 0 hsl(var(--shadow-color))",
-        "soft-lg": "8px 8px 0 hsl(var(--shadow-color))",
-        "soft-xl": "10px 10px 0 hsl(var(--shadow-color))",
-        "pop": "5px 5px 0 hsl(var(--foreground))",
+        "soft": "0 2px 8px rgba(0, 0, 0, 0.3)",
+        "soft-md": "0 4px 16px rgba(0, 0, 0, 0.4)",
+        "soft-lg": "0 8px 24px rgba(0, 0, 0, 0.5)",
+        "soft-xl": "0 12px 32px rgba(0, 0, 0, 0.6)",
+        "pop": "0 4px 12px rgba(0, 0, 0, 0.4)",
         "mint": "0 0 0 3px hsl(var(--primary))",
+        "glow": "0 0 20px hsl(var(--primary) / 0.3)",
       },
       keyframes: {
         "accordion-down": { from: { height: "0" }, to: { height: "var(--radix-accordion-content-height)" } },
@@ -91,8 +90,8 @@ const config: Config = {
         "slide-down": { "0%": { transform: "translateY(0)" }, "100%": { transform: "translateY(100%)" } },
         "wiggle": { "0%,100%": { transform: "rotate(-3deg)" }, "50%": { transform: "rotate(3deg)" } },
         "pulse-ring": {
-          "0%": { transform: "scale(0.8)", opacity: "0.8" },
-          "100%": { transform: "scale(2.2)", opacity: "0" },
+          "0%": { transform: "scale(0.8)", opacity: "0.6" },
+          "100%": { transform: "scale(2.5)", opacity: "0" },
         },
       },
       animation: {

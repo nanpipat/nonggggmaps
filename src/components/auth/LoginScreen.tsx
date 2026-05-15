@@ -36,10 +36,10 @@ export function LoginScreen() {
     <div className="relative flex min-h-dvh w-full items-center justify-center overflow-hidden bg-background px-4 py-safe">
       <div className="relative z-10 w-full max-w-sm">
         <div className="mb-7 text-center">
-          <div className="mx-auto mb-3 grid size-16 place-items-center rounded-lg border-2 border-foreground bg-primary shadow-pop">
-            <PawPrint size={32} className="text-foreground" />
+          <div className="mx-auto mb-3 grid size-16 place-items-center rounded-full bg-primary shadow-lg shadow-primary/30">
+            <PawPrint size={32} className="text-primary-foreground" />
           </div>
-          <h1 className="text-balance font-display text-3xl font-black tracking-tight text-foreground">
+          <h1 className="text-balance font-display text-3xl font-bold tracking-tight">
             PawMap
           </h1>
           <p className="mt-1.5 text-pretty text-sm text-muted-foreground">
@@ -48,13 +48,13 @@ export function LoginScreen() {
           </p>
         </div>
 
-        <div className="rounded-lg border-2 border-foreground bg-card p-6 shadow-soft-lg">
-          <h2 className="text-lg font-black">เข้าสู่ระบบ</h2>
+        <div className="rounded-2xl border border-white/10 bg-card p-6 shadow-soft-lg">
+          <h2 className="text-lg font-bold">เข้าสู่ระบบ</h2>
           <p className="mb-4 text-[13px] text-muted-foreground">
             เพื่อรีวิว เพิ่มสถานที่ และบันทึกที่โปรด
           </p>
 
-          <Button variant="outline" size="lg" className="w-full" onClick={handleGoogle}>
+          <Button variant="outline" size="lg" className="w-full rounded-full bg-white/5" onClick={handleGoogle}>
             <svg width="18" height="18" viewBox="0 0 48 48">
               <path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.4 29.3 35.5 24 35.5c-6.4 0-11.5-5.1-11.5-11.5S17.6 12.5 24 12.5c2.9 0 5.6 1.1 7.6 2.9l5.7-5.7C33.6 6.3 29 4.5 24 4.5 13.2 4.5 4.5 13.2 4.5 24S13.2 43.5 24 43.5 43.5 34.8 43.5 24c0-1.2-.1-2.4-.4-3.5z"/>
               <path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 16 19 12.5 24 12.5c2.9 0 5.6 1.1 7.6 2.9l5.7-5.7C33.6 6.3 29 4.5 24 4.5 16.4 4.5 9.8 8.7 6.3 14.7z"/>
@@ -64,7 +64,7 @@ export function LoginScreen() {
             ดำเนินการต่อด้วย Google
           </Button>
 
-          <div className="my-4 flex items-center gap-3 text-[12px] text-muted-foreground">
+          <div className="my-4 flex items-center gap-3 text-[12px] text-muted-foreground/50">
             <Separator className="flex-1" />
             <span>หรือ</span>
             <Separator className="flex-1" />
@@ -92,7 +92,7 @@ export function LoginScreen() {
                 required
               />
             </div>
-            <Button type="submit" size="lg" className="mt-2 w-full">
+            <Button type="submit" size="lg" className="mt-2 w-full rounded-full">
               เข้าสู่ระบบด้วยอีเมล
             </Button>
           </form>
@@ -100,7 +100,7 @@ export function LoginScreen() {
           <div className="mt-3 flex flex-col items-center gap-2">
             <button
               onClick={handleGuest}
-              className="w-full rounded-md border-2 border-foreground bg-secondary px-3 py-2 text-center text-[14px] font-black text-foreground shadow-soft transition-all hover:bg-primary active:translate-x-1 active:translate-y-1 active:shadow-none"
+              className="w-full rounded-full bg-secondary px-3 py-2.5 text-center text-[14px] font-medium text-foreground transition-all hover:bg-white/10 active:scale-[0.98]"
             >
               เข้าดูแผนที่ก่อนได้ →
             </button>
