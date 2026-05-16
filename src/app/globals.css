@@ -132,6 +132,17 @@
     @apply bg-primary text-primary-foreground shadow-pop;
   }
 
+  .retro-avatar-fallback {
+    background-color: hsl(var(--secondary));
+    background-image:
+      linear-gradient(45deg, hsl(var(--foreground) / 0.14) 25%, transparent 25%),
+      linear-gradient(-45deg, hsl(var(--foreground) / 0.14) 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, hsl(var(--foreground) / 0.14) 75%),
+      linear-gradient(-45deg, transparent 75%, hsl(var(--foreground) / 0.14) 75%);
+    background-position: 0 0, 0 4px, 4px -4px, -4px 0;
+    background-size: 8px 8px;
+  }
+
   /* Pet pin marker */
   .pet-pin {
     position: relative;
