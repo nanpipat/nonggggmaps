@@ -41,9 +41,9 @@ export function SideDrawer() {
 
   const isGuest = user?.provider === "guest";
 
-  const handleSignOut = () => {
+  const handleSignOut = async () => {
     if (!confirm("ออกจากระบบ?")) return;
-    authApi.signOut();
+    await authApi.signOut();
     useApp.getState().hydrate();
     setDrawerOpen(false);
   };
@@ -111,18 +111,18 @@ export function SideDrawer() {
   return (
     <Sheet open={drawerOpen} onOpenChange={setDrawerOpen}>
       <SheetContent side="left" className="w-[88%] max-w-sm p-0">
-        <SheetHeader className="bg-gradient-to-br from-primary via-primary to-accent px-6 pb-8 pt-safe">
+        <SheetHeader className="border-b-2 border-foreground bg-primary px-6 pb-8 pt-safe">
           <div className="flex items-center gap-3 pt-6">
-            <Avatar className="size-14 ring-2 ring-white/40">
-              <AvatarFallback className="bg-white/20 text-lg text-primary-foreground backdrop-blur">
+            <Avatar className="size-14 rounded-lg border-2 border-foreground bg-secondary shadow-soft">
+              <AvatarFallback className="bg-secondary text-lg text-foreground">
                 {user?.avatar ?? "G"}
               </AvatarFallback>
             </Avatar>
-            <div className="text-primary-foreground">
-              <SheetTitle className="text-primary-foreground">
+            <div className="text-foreground">
+              <SheetTitle className="text-foreground">
                 {user?.name ?? "Guest"}
               </SheetTitle>
-              <p className="text-[12px] opacity-90">
+              <p className="text-[12px] font-semibold opacity-80">
                 {user?.email || "ยังไม่ได้ล็อกอิน"}
               </p>
             </div>
@@ -136,8 +136,8 @@ export function SideDrawer() {
             onClick={() => goTab("explore")}
           />
           {isGuest ? (
-            <div className="mx-3 my-2 rounded-2xl bg-primary/10 p-4 border border-primary/20">
-              <p className="text-[13px] font-bold text-primary mb-2">
+            <div className="mx-3 my-2 rounded-lg border-2 border-foreground bg-secondary p-4 shadow-soft">
+              <p className="mb-2 text-[13px] font-black text-foreground">
                 เข้าสู่ระบบเพื่อใช้งานครบทุกฟีเจอร์
               </p>
               <Button
@@ -194,9 +194,9 @@ export function SideDrawer() {
 
           <Separator className="my-3" />
 
-          <div className="rounded-2xl border border-border/60 bg-muted/40 p-3.5">
-            <div className="flex items-center gap-2 text-[13px] font-semibold">
-              <Sparkles className="size-4 text-primary" /> เกี่ยวกับ
+          <div className="rounded-lg border-2 border-foreground bg-muted p-3.5 shadow-soft">
+            <div className="flex items-center gap-2 text-[13px] font-black">
+              <Sparkles className="size-4 text-foreground" /> เกี่ยวกับ
             </div>
             <p className="mt-1 text-[12px] text-muted-foreground">
               PawMap MVP v1.0 · กรุงเทพฯ 🇹🇭
@@ -234,12 +234,12 @@ function DrawerItem({
   return (
     <button
       onClick={onClick}
-      className="flex items-center gap-3 rounded-xl px-3 py-3 text-[14px] font-medium text-foreground transition hover:bg-muted/60 active:scale-[0.99]"
+      className="flex items-center gap-3 rounded-lg border-2 border-transparent px-3 py-3 text-[14px] font-bold text-foreground transition hover:border-foreground hover:bg-secondary hover:shadow-soft active:translate-x-1 active:translate-y-1 active:shadow-none"
     >
-      <Icon className="size-[18px] text-muted-foreground" />
+      <Icon className="size-[18px] text-foreground" />
       <span className="flex-1 text-left">{label}</span>
       {badge ? (
-        <span className="rounded-full bg-primary-soft px-2 py-0.5 text-[11px] font-bold text-primary">
+        <span className="rounded-md border-2 border-foreground bg-primary-soft px-2 py-0.5 text-[11px] font-black text-foreground">
           {badge}
         </span>
       ) : null}

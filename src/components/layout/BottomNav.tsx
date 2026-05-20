@@ -21,7 +21,7 @@ export function BottomNav() {
     <nav
       className={cn(
         "absolute inset-x-0 bottom-0 z-30 mx-auto flex h-[68px] max-w-3xl items-stretch",
-        "border-t border-border/60 bg-card/95 pb-safe shadow-soft-md backdrop-blur-md",
+        "border-t-2 border-foreground bg-card pb-safe shadow-soft-md",
       )}
       aria-label="bottom navigation"
     >
@@ -44,7 +44,7 @@ export function BottomNav() {
         className="relative -mt-5 flex flex-1 items-center justify-center"
         aria-label="เพิ่มสถานที่"
       >
-        <span className="grid size-14 place-items-center rounded-full bg-primary text-primary-foreground shadow-pop">
+        <span className="grid size-14 place-items-center rounded-lg border-2 border-foreground bg-primary text-primary-foreground shadow-pop">
           <Plus className="size-6" strokeWidth={2.5} />
         </span>
       </button>
@@ -80,8 +80,8 @@ function NavItem({
     <button
       onClick={onClick}
       className={cn(
-        "flex flex-1 flex-col items-center justify-center gap-0.5 transition-colors",
-        active ? "text-primary" : "text-muted-foreground hover:text-foreground",
+        "flex flex-1 flex-col items-center justify-center gap-0.5 font-bold transition-colors",
+        active ? "bg-secondary text-foreground" : "text-foreground hover:bg-muted",
       )}
     >
       <Icon className="size-[22px]" />

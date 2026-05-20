@@ -76,12 +76,12 @@ const config: Config = {
         "3xl": "calc(var(--radius) + 16px)",
       },
       boxShadow: {
-        "soft": "0 2px 8px -1px hsl(var(--shadow-color) / 0.07)",
-        "soft-md": "0 6px 20px -4px hsl(var(--shadow-color) / 0.10)",
-        "soft-lg": "0 14px 36px -8px hsl(var(--shadow-color) / 0.14)",
-        "soft-xl": "0 24px 60px -12px hsl(var(--shadow-color) / 0.20)",
-        "pop": "0 8px 24px -4px hsl(var(--primary) / 0.40)",
-        "mint": "0 0 0 3px hsl(var(--primary) / 0.18)",
+        "soft": "4px 4px 0 hsl(var(--shadow-color))",
+        "soft-md": "6px 6px 0 hsl(var(--shadow-color))",
+        "soft-lg": "8px 8px 0 hsl(var(--shadow-color))",
+        "soft-xl": "10px 10px 0 hsl(var(--shadow-color))",
+        "pop": "5px 5px 0 hsl(var(--foreground))",
+        "mint": "0 0 0 3px hsl(var(--primary))",
       },
       keyframes: {
         "accordion-down": { from: { height: "0" }, to: { height: "var(--radix-accordion-content-height)" } },

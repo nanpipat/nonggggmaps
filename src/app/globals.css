@@ -4,77 +4,74 @@
 
 @layer base {
   :root {
-    /* Surfaces */
-    --background: 0 0% 98%;              /* clean crisp white */
-    --foreground: 220 18% 12%;           /* near-black */
+    /* Retro brutalist system */
+    --background: 48 100% 96%;
+    --foreground: 222 24% 8%;
     --card: 0 0% 100%;
-    --card-foreground: 220 18% 12%;
+    --card-foreground: 222 24% 8%;
     --popover: 0 0% 100%;
-    --popover-foreground: 220 18% 12%;
+    --popover-foreground: 222 24% 8%;
 
-    /* Brand — Mint Green #00C896 */
-    --primary: 165 100% 39%;             /* #00C896 */
-    --primary-foreground: 0 0% 100%;
-    --primary-soft: 165 85% 93%;         /* light mint tint */
+    --primary: 163 92% 42%;
+    --primary-foreground: 222 24% 8%;
+    --primary-soft: 163 88% 84%;
 
-    /* Secondary — warm amber / yellow (Mupet accent) */
-    --secondary: 38 95% 52%;             /* #F5A100 */
-    --secondary-foreground: 38 60% 12%;
+    --secondary: 48 100% 62%;
+    --secondary-foreground: 222 24% 8%;
 
-    /* Accent — deep ink (for dark cards) */
-    --accent: 220 20% 14%;               /* near-black for dark panels */
-    --accent-foreground: 0 0% 100%;
+    --accent: 345 100% 68%;
+    --accent-foreground: 222 24% 8%;
 
-    --muted: 165 15% 95%;                /* mint-tinted neutral */
-    --muted-foreground: 220 8% 48%;
+    --muted: 204 100% 90%;
+    --muted-foreground: 222 12% 34%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 10% 90%;               /* clean neutral border */
-    --input: 220 10% 90%;
-    --ring: 165 100% 39%;
+    --border: 222 24% 8%;
+    --input: 222 24% 8%;
+    --ring: 345 100% 68%;
 
-    --shadow-color: 165 40% 20%;
+    --shadow-color: 222 24% 8%;
 
     /* Pet palette */
-    --coral: 348 100% 73%;               /* kept for map pins */
-    --peach: 38 95% 52%;                 /* amber */
-    --mint: 165 100% 39%;                /* match primary */
-    --lavender: 250 70% 82%;
-    --butter: 48 90% 78%;
-    --cream: 40 30% 96%;
+    --coral: 345 100% 68%;
+    --peach: 27 100% 62%;
+    --mint: 163 92% 42%;
+    --lavender: 262 90% 74%;
+    --butter: 48 100% 62%;
+    --cream: 48 100% 96%;
 
-    --dog: 28 95% 58%;                   /* warm orange for dog */
-    --dog-soft: 28 100% 93%;
-    --cat: 250 65% 70%;                  /* lavender for cat */
-    --cat-soft: 250 75% 95%;
+    --dog: 27 100% 58%;
+    --dog-soft: 27 100% 84%;
+    --cat: 262 90% 70%;
+    --cat-soft: 262 100% 90%;
 
-    --radius: 1.125rem;                  /* 18px — bold rounded Mupet-style */
+    --radius: 0.5rem;
   }
 
   .dark {
-    --background: 220 18% 8%;
-    --foreground: 0 0% 96%;
-    --card: 220 16% 12%;
-    --card-foreground: 0 0% 96%;
-    --popover: 220 16% 12%;
-    --popover-foreground: 0 0% 96%;
-    --primary: 165 90% 46%;             /* slightly brighter mint for dark bg */
-    --primary-foreground: 0 0% 100%;
-    --primary-soft: 165 60% 16%;
-    --secondary: 38 80% 46%;
-    --secondary-foreground: 38 80% 95%;
-    --accent: 220 15% 20%;
-    --accent-foreground: 0 0% 96%;
-    --muted: 220 15% 17%;
-    --muted-foreground: 220 8% 62%;
+    --background: 222 24% 8%;
+    --foreground: 48 100% 96%;
+    --card: 222 20% 13%;
+    --card-foreground: 48 100% 96%;
+    --popover: 222 20% 13%;
+    --popover-foreground: 48 100% 96%;
+    --primary: 163 88% 48%;
+    --primary-foreground: 222 24% 8%;
+    --primary-soft: 163 70% 22%;
+    --secondary: 48 100% 58%;
+    --secondary-foreground: 222 24% 8%;
+    --accent: 345 100% 68%;
+    --accent-foreground: 222 24% 8%;
+    --muted: 222 16% 22%;
+    --muted-foreground: 48 18% 78%;
     --destructive: 0 70% 50%;
     --destructive-foreground: 0 0% 100%;
-    --border: 220 12% 20%;
-    --input: 220 12% 20%;
-    --ring: 165 90% 46%;
-    --shadow-color: 220 30% 4%;
+    --border: 48 100% 96%;
+    --input: 48 100% 96%;
+    --ring: 345 100% 68%;
+    --shadow-color: 48 100% 96%;
   }
 
   * {
@@ -87,6 +84,10 @@
 
   body {
     @apply bg-background text-foreground antialiased;
+    background-image:
+      linear-gradient(hsl(var(--foreground) / 0.055) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--foreground) / 0.055) 1px, transparent 1px);
+    background-size: 22px 22px;
     -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: transparent;
     overscroll-behavior: none;
@@ -100,37 +101,46 @@
   /* Scrollbar */
   ::-webkit-scrollbar { width: 6px; height: 6px; }
   ::-webkit-scrollbar-track { background: transparent; }
-  ::-webkit-scrollbar-thumb { background: hsl(var(--muted)); border-radius: 999px; }
+  ::-webkit-scrollbar-thumb { background: hsl(var(--foreground)); border-radius: 0; }
   ::-webkit-scrollbar-thumb:hover { background: hsl(var(--muted-foreground) / 0.3); }
 }
 
 @layer components {
-  /* Glass card */
   .glass {
-    @apply bg-white/80 backdrop-blur-xl backdrop-saturate-150 border border-white/60;
+    @apply border-2 border-foreground bg-card shadow-soft;
   }
   .dark .glass {
-    @apply bg-card/80 border-white/10;
+    @apply bg-card border-foreground;
   }
 
-  /* Pet category chip — neutral by default */
   .chip {
-    @apply inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-sm font-medium
-           bg-white/95 text-foreground border border-border/70 shadow-soft
-           transition-all active:scale-95 backdrop-blur-md;
+    @apply inline-flex items-center gap-1.5 rounded-md border-2 border-foreground
+           bg-card px-3.5 py-2 text-sm font-black text-foreground shadow-soft
+           transition-all active:translate-x-1 active:translate-y-1 active:shadow-none;
   }
   .chip[data-active="true"] {
-    @apply bg-primary text-primary-foreground border-primary shadow-pop;
+    @apply bg-primary text-primary-foreground shadow-pop;
   }
 
-  /* Floating action button */
   .fab {
-    @apply size-11 rounded-full flex items-center justify-center
-           bg-white/95 shadow-soft-md border border-border/50
-           transition-all active:scale-95 hover:shadow-soft-lg backdrop-blur-sm;
+    @apply flex size-11 items-center justify-center rounded-lg border-2 border-foreground
+           bg-card text-foreground shadow-soft transition-all
+           hover:-translate-x-0.5 hover:-translate-y-0.5 hover:shadow-soft-md
+           active:translate-x-1 active:translate-y-1 active:shadow-none;
   }
   .fab-primary {
-    @apply bg-primary text-primary-foreground border-primary shadow-pop;
+    @apply bg-primary text-primary-foreground shadow-pop;
+  }
+
+  .retro-avatar-fallback {
+    background-color: hsl(var(--secondary));
+    background-image:
+      linear-gradient(45deg, hsl(var(--foreground) / 0.14) 25%, transparent 25%),
+      linear-gradient(-45deg, hsl(var(--foreground) / 0.14) 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, hsl(var(--foreground) / 0.14) 75%),
+      linear-gradient(-45deg, transparent 75%, hsl(var(--foreground) / 0.14) 75%);
+    background-position: 0 0, 0 4px, 4px -4px, -4px 0;
+    background-size: 8px 8px;
   }
 
   /* Pet pin marker */
@@ -138,7 +148,7 @@
     position: relative;
     width: 44px;
     height: 54px;
-    filter: drop-shadow(0 4px 8px rgba(15,23,42,0.25));
+    filter: drop-shadow(4px 4px 0 hsl(var(--foreground)));
     transition: transform 200ms cubic-bezier(.2,.8,.25,1);
   }
   .pet-pin:hover { transform: scale(1.08) translateY(-2px); }
@@ -175,7 +185,7 @@
     background: #2563eb;
     border-radius: 50%;
     border: 3px solid white;
-    box-shadow: 0 0 0 4px hsl(var(--primary) / 0.18), 0 4px 10px rgba(15,23,42,0.3);
+    box-shadow: 0 0 0 3px hsl(var(--foreground)), 4px 4px 0 hsl(var(--foreground));
   }
   .user-marker::before {
     content: '';
@@ -187,14 +197,16 @@
 
   /* Marker cluster overrides */
   .marker-cluster {
-    background: hsl(var(--primary) / 0.25) !important;
+    background: hsl(var(--secondary)) !important;
+    border: 2px solid hsl(var(--foreground)) !important;
   }
   .marker-cluster div {
     background: hsl(var(--primary)) !important;
-    color: white !important;
+    color: hsl(var(--primary-foreground)) !important;
     font-family: var(--font-sans), system-ui !important;
     font-weight: 700 !important;
-    border-radius: 999px !important;
+    border: 2px solid hsl(var(--foreground)) !important;
+    border-radius: 8px !important;
   }
 
   /* Leaflet container background */
@@ -203,22 +215,22 @@
     font-family: var(--font-sans), system-ui;
   }
   .leaflet-control-attribution {
-    @apply !text-[10px] !bg-white/80 backdrop-blur-md !text-muted-foreground;
+    @apply !border-2 !border-foreground !bg-card !text-[10px] !font-bold !text-foreground;
   }
   .leaflet-bar {
-    @apply !shadow-soft-md !border-border/70;
+    @apply !border-2 !border-foreground !shadow-soft;
   }
   .leaflet-bar a {
-    @apply !bg-white !text-foreground !border-border/40 !rounded-md;
+    @apply !border-foreground !bg-card !font-black !text-foreground;
   }
   .leaflet-popup-content-wrapper {
-    @apply !rounded-2xl !shadow-soft-lg !p-0 !bg-white !overflow-hidden;
+    @apply !overflow-hidden !rounded-lg !border-2 !border-foreground !bg-card !p-0 !shadow-soft-lg;
   }
   .leaflet-popup-content {
     @apply !m-0 !w-[260px];
   }
   .leaflet-popup-tip {
-    @apply !shadow-soft;
+    @apply !border-2 !border-foreground !shadow-none;
   }
 
   /* No-tap-highlight on leaflet markers */

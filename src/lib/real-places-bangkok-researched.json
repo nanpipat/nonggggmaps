@@ -1,0 +1,1454 @@
+[
+  {
+    "id": "bkk_research_001",
+    "name": "Asok Pethouse Cat Café",
+    "category": "cafe",
+    "address": "ซอยวีรทด, 10110, Watthana, Bangkok, Thailand",
+    "district": "เขตวัฒนา",
+    "city": "กรุงเทพฯ",
+    "lat": 13.74097,
+    "lng": 100.56213,
+    "phone": "090 228 2924",
+    "hours": "8:00 am - 8:00 pm",
+    "website": "http://asokpethouse.com/",
+    "pet_types": [
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": true,
+      "carrier_required": false,
+      "ac": true,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "คาเฟ่หรือ social spot ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80",
+    "rating": 4.3,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_002",
+    "name": "Baby Bar Bangkok",
+    "category": "restaurant",
+    "address": "Craftsman Hotel 1st Floor, 34-36 Soi Phahonyothin, 11 Phahonyothin Rd, Phaya Thai, Bangkok 10400",
+    "district": "เขตพญาไท",
+    "city": "กรุงเทพฯ",
+    "lat": 13.78765,
+    "lng": 100.54488,
+    "phone": "02 279 7299",
+    "hours": "7:00 am - 11:00 pm",
+    "website": "https://www.babybarbangkok.com/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้านอาหารหรือบาร์ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nre9dBn_pgCbgmRcv-oe_tbd0E6P6QG-MozbIGLheBm5bMHkt6RvQ2CGXRdjalMSzcNARNbQ8C81ZPS3UmZPsd26vuOg-B1CrOn4RD55cX8n3tLmUua0wsdcR3CZBZhQTHC4JheHww122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nre9dBn_pgCbgmRcv-oe_tbd0E6P6QG-MozbIGLheBm5bMHkt6RvQ2CGXRdjalMSzcNARNbQ8C81ZPS3UmZPsd26vuOg-B1CrOn4RD55cX8n3tLmUua0wsdcR3CZBZhQTHC4JheHww122-h92-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_003",
+    "name": "Bangkok Heart Animal Hospital Bang Na 24 Hrs",
+    "category": "petshop",
+    "address": "148 Chaloem Phrakiat Ratchakan Thi 9 Rd, Nong Bon, Prawet, Bangkok 10250",
+    "district": "เขตประเวศ",
+    "city": "กรุงเทพฯ",
+    "lat": 13.67655,
+    "lng": 100.65865,
+    "phone": "083 959 7979",
+    "hours": null,
+    "website": "https://sites.google.com/view/motivet/%E0%B8%AB%E0%B8%99%E0%B8%B2%E0%B9%81%E0%B8%A3%E0%B8%81",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": true,
+      "carrier_required": false,
+      "ac": true,
+      "pet_zone": false,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้าน/โรงพยาบาล/บริการสัตว์เลี้ยงในกรุงเทพฯ ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/10/AC9h4nrbAfMjY2oHE9zQ5x2XVoxyBgbd8KgQaajrpW-S_HHIwi3sllHvmj0kN2cussHqdTD9BiVMsspHKzwxBTD1l1ZaipFhwp3aI4MR0KBJCP4REfphzLkxwrTqX6fiorwqY-SP93lvw80-h106-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/10/AC9h4nrbAfMjY2oHE9zQ5x2XVoxyBgbd8KgQaajrpW-S_HHIwi3sllHvmj0kN2cussHqdTD9BiVMsspHKzwxBTD1l1ZaipFhwp3aI4MR0KBJCP4REfphzLkxwrTqX6fiorwqY-SP93lvw80-h106-k-no.jpeg",
+    "rating": 4.3,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_004",
+    "name": "Bombbay Blood Artistic Mood & Space",
+    "category": "cafe",
+    "address": "Pracha Chuen Rd, Khwaeng Bang Sue, Khet Bang Sue, Bangkok 10800",
+    "district": "เขตบางซื่อ",
+    "city": "กรุงเทพฯ",
+    "lat": 13.81023,
+    "lng": 100.53413,
+    "phone": "092 894 9665",
+    "hours": null,
+    "website": "https://bit.ly/3RgMBEV",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "คาเฟ่หรือ social spot ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nrYzoWzyAZpdNMFLrhm5PvYHF7O0WqXQRVVGTyJIc4uN61q8xUcj75d1jOB5j66wV3HDF8JqXIbY6kPr-scD-yZg4RSN8jbqElqPyRfV7zbOfM2D_9u7p4TzZ7_PmzAe5UMKN8QeQw80-h106-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nrYzoWzyAZpdNMFLrhm5PvYHF7O0WqXQRVVGTyJIc4uN61q8xUcj75d1jOB5j66wV3HDF8JqXIbY6kPr-scD-yZg4RSN8jbqElqPyRfV7zbOfM2D_9u7p4TzZ7_PmzAe5UMKN8QeQw80-h106-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_005",
+    "name": "Brewdog Bangkok – Craft Beer Bar & Restaurant",
+    "category": "restaurant",
+    "address": "Canvas Building, Phloen Chit Rd, Lumphini, Pathum Wan, Bangkok 10330",
+    "district": "เขตปทุมวัน",
+    "city": "กรุงเทพฯ",
+    "lat": 13.7434,
+    "lng": 100.54627,
+    "phone": "062 826 6464",
+    "hours": "12:00 pm - 1:00 am",
+    "website": "https://www.brewdog.com/uk/ploenchit",
+    "pet_types": [
+      "dog"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้านอาหารหรือบาร์ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AF1QipO82CtQJuktgeB0oJ9EcNbPp9lWEtOQV2FSlrk_w122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AF1QipO82CtQJuktgeB0oJ9EcNbPp9lWEtOQV2FSlrk_w122-h92-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_006",
+    "name": "Calm Bangkok - Grill, Garden & Guinguette",
+    "category": "restaurant",
+    "address": "231/2 , Soi Sukhumvit 31 (Soi Sawasdee), Sukhumvit Road Khlong Ton Nuea Sub-District, Watthana, Bangkok 10110",
+    "district": "เขตวัฒนา",
+    "city": "กรุงเทพฯ",
+    "lat": 13.74294,
+    "lng": 100.56785,
+    "phone": "064 197 0432",
+    "hours": "4:30 pm - 12:00 am",
+    "website": "https://www.calm-bkk.com/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้านอาหารหรือบาร์ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nqhdkBZM3fLmvKjyWnueREJG7akLppOF9w7vs9yIcNHu9V2E51uQ-JURQh3TmBSoVYhWzKGp1h3iBplJ0q3F6rruFOUP9_lPgb9MFf7tbPdOVtjkd6lnNLBt-GNQCj6InvWR3Gpw80-h106-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nqhdkBZM3fLmvKjyWnueREJG7akLppOF9w7vs9yIcNHu9V2E51uQ-JURQh3TmBSoVYhWzKGp1h3iBplJ0q3F6rruFOUP9_lPgb9MFf7tbPdOVtjkd6lnNLBt-GNQCj6InvWR3Gpw80-h106-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_007",
+    "name": "Cataleya Estate",
+    "category": "restaurant",
+    "address": "88 Soi Punnawitthi 33 alley, Bang Chak, Phra Khanong, Bangkok 10260",
+    "district": "เขตพระโขนง",
+    "city": "กรุงเทพฯ",
+    "lat": 13.6973,
+    "lng": 100.61964,
+    "phone": "093 582 4629",
+    "hours": "8:00 am - 10:00 pm",
+    "website": "https://cataleya-estate.com/",
+    "pet_types": [
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้านอาหารหรือบาร์ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nrrT2y6KUTZJGzK_UGG2lqncHMpQoH2-ZdoM_tCIUF1zcIOLol9WaLqZwAQoTK8D6HlBAoZcZzXnBP2KPGuOILHaJr6yKCixInRFG0pXph9mcGNWjiMpuVUIbu15KWxOX9fuY0w122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nrrT2y6KUTZJGzK_UGG2lqncHMpQoH2-ZdoM_tCIUF1zcIOLol9WaLqZwAQoTK8D6HlBAoZcZzXnBP2KPGuOILHaJr6yKCixInRFG0pXph9mcGNWjiMpuVUIbu15KWxOX9fuY0w122-h92-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_008",
+    "name": "CDC Pet Park",
+    "category": "park",
+    "address": "1444 Lat Phrao 87, Khlong Chan, Bang Kapi, Bangkok 10240",
+    "district": "เขตบางกะปิ",
+    "city": "กรุงเทพฯ",
+    "lat": 13.80274,
+    "lng": 100.61786,
+    "phone": null,
+    "hours": "10:00 am - 7:00 pm",
+    "website": "https://petsinthailand.com/listing/cdc-pet-park/",
+    "pet_types": [
+      "dog"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "พื้นที่ outdoor สำหรับพาน้องหมาเดินเล่นหรือใช้โซนสัตว์เลี้ยง ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4no8C9M-FwyYIS-Iq8YZjpk3XwH2wvUKV9f5lIaREq1NcjbvOR1gfpYd7QeMK38xOmB4i5P8kDSVVErh7bmUReAapmOUdB3LfRun9qRh4HJgeJy-oOsvAa_6TnfnCDhtACUpcclauQw80-h106-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4no8C9M-FwyYIS-Iq8YZjpk3XwH2wvUKV9f5lIaREq1NcjbvOR1gfpYd7QeMK38xOmB4i5P8kDSVVErh7bmUReAapmOUdB3LfRun9qRh4HJgeJy-oOsvAa_6TnfnCDhtACUpcclauQw80-h106-k-no.jpeg",
+    "rating": 5,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_009",
+    "name": "Chatuchak Fish Market",
+    "category": "petshop",
+    "address": "588/8 Kamphaeng Phet 2 Rd, Chatuchak, Bangkok 10900",
+    "district": "เขตจตุจักร",
+    "city": "กรุงเทพฯ",
+    "lat": 13.80267,
+    "lng": 100.54879,
+    "phone": "02 265 9888",
+    "hours": "10:00 am - 6:00 pm",
+    "website": "https://xn--12cna0cec4b3dlc9kfd0g.com/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": true,
+      "carrier_required": false,
+      "ac": true,
+      "pet_zone": false,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้าน/โรงพยาบาล/บริการสัตว์เลี้ยงในกรุงเทพฯ ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/10/AF1QipMrIO-6oXAuhMbzpUrLvoa0Fs-dMJCxA9p-jlXRw122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/10/AF1QipMrIO-6oXAuhMbzpUrLvoa0Fs-dMJCxA9p-jlXRw122-h92-k-no.jpeg",
+    "rating": 4.3,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_010",
+    "name": "Dog's Paw",
+    "category": "park",
+    "address": "88/1-88/2 Borommaratchachonnani Frontage Rd, Chim Phli, Taling Chan, Bangkok 10170",
+    "district": "เขตตลิ่งชัน",
+    "city": "กรุงเทพฯ",
+    "lat": 13.77882,
+    "lng": 100.43623,
+    "phone": "061 469 9797",
+    "hours": "10:00 am - 7:00 pm",
+    "website": "https://www.petmap.co/place/dogspawbkk/",
+    "pet_types": [
+      "dog"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "พื้นที่ outdoor สำหรับพาน้องหมาเดินเล่นหรือใช้โซนสัตว์เลี้ยง ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nrk3KuyF6j2_Avg5YBCuG22IgveVEg1wW9J5Ucn8cLSri4bjyufJaUXWQLjTBxopTh0B7psFF78D6kF5uc1QqLdVGe4cBoJpyB1PFgNPHlrX6J9wyq0NXq5CxELmDwT61vrsIEYw80-h106-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nrk3KuyF6j2_Avg5YBCuG22IgveVEg1wW9J5Ucn8cLSri4bjyufJaUXWQLjTBxopTh0B7psFF78D6kF5uc1QqLdVGe4cBoJpyB1PFgNPHlrX6J9wyq0NXq5CxELmDwT61vrsIEYw80-h106-k-no.jpeg",
+    "rating": 5,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_011",
+    "name": "EmQuartier",
+    "category": "mall",
+    "address": "695 Sukhumvit Rd, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "district": "เขตวัฒนา",
+    "city": "กรุงเทพฯ",
+    "lat": 13.73123,
+    "lng": 100.56948,
+    "phone": "02 269 1000",
+    "hours": "10:00 am - 10:00 pm",
+    "website": "https://www.emquartier.co.th/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": true,
+      "carrier_required": true,
+      "ac": true,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ศูนย์การค้าในลิสต์ pet-friendly มักกำหนดให้ใช้รถเข็น/กระเป๋าหรือพื้นที่ที่ระบุ ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/09/thumbnail.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/09/thumbnail.jpeg",
+    "rating": 4.5,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_012",
+    "name": "EmSphere",
+    "category": "mall",
+    "address": "628 Sukhumvit Rd, Khlong Tan, Khlong Toei, Bangkok 10110",
+    "district": "เขตคลองเตย",
+    "city": "กรุงเทพฯ",
+    "lat": 13.73223,
+    "lng": 100.56629,
+    "phone": "02 269 1000",
+    "hours": "10:00 am - 10:00 pm",
+    "website": "https://www.emsphere.co.th/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": true,
+      "carrier_required": true,
+      "ac": true,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ศูนย์การค้าในลิสต์ pet-friendly มักกำหนดให้ใช้รถเข็น/กระเป๋าหรือพื้นที่ที่ระบุ ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/09/AC9h4nrWpOhuHj1HhVyeqJ2zxnnKbqL_oGlDrureXwIFerKh7ZE27Nc-39SffnNu3TiW0MWtP2IxnxW7E1EAyu29__bUbvmr0dFdoniccqDLETyoFI9mOfsCWpy3n2s-7CtZV84cbx2AaYHWt2Jsw122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/09/AC9h4nrWpOhuHj1HhVyeqJ2zxnnKbqL_oGlDrureXwIFerKh7ZE27Nc-39SffnNu3TiW0MWtP2IxnxW7E1EAyu29__bUbvmr0dFdoniccqDLETyoFI9mOfsCWpy3n2s-7CtZV84cbx2AaYHWt2Jsw122-h92-k-no.jpeg",
+    "rating": 4.5,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_013",
+    "name": "Gateway Ekamai",
+    "category": "mall",
+    "address": "982, เเขวง พระโขนง 22 Sukhumvit Rd, Khwaeng Phra Khanong, Khet Khlong Toei, Bangkok 10110",
+    "district": "เขตคลองเตย",
+    "city": "กรุงเทพฯ",
+    "lat": 13.7189,
+    "lng": 100.58535,
+    "phone": "02 108 2888",
+    "hours": "10:00 am - 10:00 pm",
+    "website": "https://www.facebook.com/gatewayekamai/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": true,
+      "carrier_required": true,
+      "ac": true,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ศูนย์การค้าในลิสต์ pet-friendly มักกำหนดให้ใช้รถเข็น/กระเป๋าหรือพื้นที่ที่ระบุ ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/09/AC9h4nq1i_bpNgu-iUjJEqKepHnfqzlJVD95_1kMk7iBIN9FAJDoqJXwOtPT4XrOKoRVc4IYk3yE9feT3iOYgymPe-ey9m-M0MPKiNczZ9jTrioocCXHDlf22eYSWgI_ndeBaRuMUozl0gw114-h120-k-no-pi0-ya58000015-ro-0-fo100.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/09/AC9h4nq1i_bpNgu-iUjJEqKepHnfqzlJVD95_1kMk7iBIN9FAJDoqJXwOtPT4XrOKoRVc4IYk3yE9feT3iOYgymPe-ey9m-M0MPKiNczZ9jTrioocCXHDlf22eYSWgI_ndeBaRuMUozl0gw114-h120-k-no-pi0-ya58000015-ro-0-fo100.jpeg",
+    "rating": 4.5,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_014",
+    "name": "Howdy Paws Espresso Bar",
+    "category": "cafe",
+    "address": "27, 1 Soi Phueng Mi 22, Bang Chak, Phra Khanong, Bangkok 10260",
+    "district": "เขตพระโขนง",
+    "city": "กรุงเทพฯ",
+    "lat": 13.70003,
+    "lng": 100.61483,
+    "phone": "099 246 9491",
+    "hours": null,
+    "website": "https://www.facebook.com/HowdyPaws.Cafe/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "คาเฟ่หรือ social spot ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nr5DqcD8UdCk7uDJd8lYp2eY0aUnM74IX9gETzikYYDuBp9jVze-lTl1AOAXjlBJEWWZc-pTRZBVBWQKDWpqEl84DF-gbGDjrwPZ7alAWC_Leuf-SfK9TLQekwGfMO7Ta4RCashw122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nr5DqcD8UdCk7uDJd8lYp2eY0aUnM74IX9gETzikYYDuBp9jVze-lTl1AOAXjlBJEWWZc-pTRZBVBWQKDWpqEl84DF-gbGDjrwPZ7alAWC_Leuf-SfK9TLQekwGfMO7Ta4RCashw122-h92-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_015",
+    "name": "K.U. Garden",
+    "category": "petshop",
+    "address": "1535 Kanchanaphisek Rd, Bang Khae Nuea, Bang Khae, Bangkok 10160",
+    "district": "เขตบางแค",
+    "city": "กรุงเทพฯ",
+    "lat": 13.72808,
+    "lng": 100.40548,
+    "phone": "086 335 7247",
+    "hours": "9:00 am - 6:30 pm",
+    "website": "http://www.kugarden.co.th/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": true,
+      "carrier_required": false,
+      "ac": true,
+      "pet_zone": false,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้าน/โรงพยาบาล/บริการสัตว์เลี้ยงในกรุงเทพฯ ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nrDvZe3yKut23168F3B5ZEOGR062utgWO9SpDP4AzRt6Bpj4wHU3dRkG3_RqYxWqmVy3NMjnanZQFD1xj19GQ5fktZMaOPNzYFL7fpJKNp4BJQae9B3z3o0SImlvJmasl5BKdq9w122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nrDvZe3yKut23168F3B5ZEOGR062utgWO9SpDP4AzRt6Bpj4wHU3dRkG3_RqYxWqmVy3NMjnanZQFD1xj19GQ5fktZMaOPNzYFL7fpJKNp4BJQae9B3z3o0SImlvJmasl5BKdq9w122-h92-k-no.jpeg",
+    "rating": 4.3,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_016",
+    "name": "Le Café Des Stagiaires - Bangkok",
+    "category": "restaurant",
+    "address": "142, 21 Sathon Soi 12 Alley, Si Lom, Bang Rak, Bangkok 10500",
+    "district": "เขตสาทร",
+    "city": "กรุงเทพฯ",
+    "lat": 13.72211,
+    "lng": 100.52578,
+    "phone": "097 130 7534",
+    "hours": "4:00 pm - 1:00 am",
+    "website": "https://links.cafestagiaires.co.th/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้านอาหารหรือบาร์ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AF1QipNOdU4R9cQzVSxYxT5R9yqHJmB9-zwZO3oCmnTBw138-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AF1QipNOdU4R9cQzVSxYxT5R9yqHJmB9-zwZO3oCmnTBw138-h92-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_017",
+    "name": "Little Dog Club",
+    "category": "park",
+    "address": "1604 Lat Phrao Rd, Wang Thonglang, Bangkok 10310",
+    "district": "เขตลาดพร้าว",
+    "city": "กรุงเทพฯ",
+    "lat": 13.79548,
+    "lng": 100.59227,
+    "phone": "089 777 7842",
+    "hours": null,
+    "website": "http://www.facebook.com/littledogclub",
+    "pet_types": [
+      "dog"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "พื้นที่ outdoor สำหรับพาน้องหมาเดินเล่นหรือใช้โซนสัตว์เลี้ยง ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4npS1zrsKby9peQQsBGrID0Ymu8pEJYkywW-D0xeS3pnv0RNhAtfHiKaOfIqPxRMz75bYBMttV2X_QXZhsmUpZm_LMlnEh-v5sZKS25u_xUFj_WLczntJ_bOswjdefPfO4BI_u76w122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4npS1zrsKby9peQQsBGrID0Ymu8pEJYkywW-D0xeS3pnv0RNhAtfHiKaOfIqPxRMz75bYBMttV2X_QXZhsmUpZm_LMlnEh-v5sZKS25u_xUFj_WLczntJ_bOswjdefPfO4BI_u76w122-h92-k-no.jpeg",
+    "rating": 5,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_018",
+    "name": "Little Pig Cafe",
+    "category": "cafe",
+    "address": "51 65 ซอย สยามสามัคคี Talat Bang Khen, Lak Si, Bangkok 10210",
+    "district": "เขตบางเขน",
+    "city": "กรุงเทพฯ",
+    "lat": 13.87783,
+    "lng": 100.5809,
+    "phone": "099 974 6295",
+    "hours": "7:00 am - 5:00 pm",
+    "website": "https://petsinthailand.com/listing/little-pig-cafe/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "คาเฟ่หรือ social spot ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4no5BmLf4mYz9otYo-Z0sx4IiDS_5i9zuItUG0bB5gGNWci7Ox2MDoTTZHjn8FMmKDvVvai1gFj9JrjdhGFMGqSKmx-98f3pQax8yodZUiIh2Wl690ueKuPvqPATO01jL4BTT5tWw92-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4no5BmLf4mYz9otYo-Z0sx4IiDS_5i9zuItUG0bB5gGNWci7Ox2MDoTTZHjn8FMmKDvVvai1gFj9JrjdhGFMGqSKmx-98f3pQax8yodZUiIh2Wl690ueKuPvqPATO01jL4BTT5tWw92-h92-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_019",
+    "name": "Maletkhao Petshop (Srinakarin Branch)",
+    "category": "petshop",
+    "address": "119 Seri Villa 3 Alley, Nong Bon, Prawet, Bangkok 10250",
+    "district": "เขตประเวศ",
+    "city": "กรุงเทพฯ",
+    "lat": 13.68719,
+    "lng": 100.64884,
+    "phone": "092 492 3204",
+    "hours": "9:30 am - 8:30 pm",
+    "website": "https://www.facebook.com/maletkhaopetshopofficial/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": true,
+      "carrier_required": false,
+      "ac": true,
+      "pet_zone": false,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้าน/โรงพยาบาล/บริการสัตว์เลี้ยงในกรุงเทพฯ ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/10/AF1QipMc_IYFR9cjLMg-EfHNr-m84v9ZHyElpj9OWEkgw122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/10/AF1QipMc_IYFR9cjLMg-EfHNr-m84v9ZHyElpj9OWEkgw122-h92-k-no.jpeg",
+    "rating": 4.3,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_020",
+    "name": "Manoon Pet Shop Bang Khen Branch",
+    "category": "petshop",
+    "address": "56/1-56/10 Phahonyothin Rd, Anusawari, Bang Khen, Bangkok 10220",
+    "district": "เขตบางเขน",
+    "city": "กรุงเทพฯ",
+    "lat": 13.88042,
+    "lng": 100.60002,
+    "phone": "099 323 5446",
+    "hours": "9:30 am - 8:30 pm",
+    "website": "https://ikspet.com/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": true,
+      "carrier_required": false,
+      "ac": true,
+      "pet_zone": false,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้าน/โรงพยาบาล/บริการสัตว์เลี้ยงในกรุงเทพฯ ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nozv2R8Jvd5jym0em7GrTX159Q6bp31e1dhei2lKsix6mD-6P74sXXxL5Qaln84hTpCGWpoBuVTsvYhYr_FewcIQg5yBuxnOF4fQ_H5fgUwZ2KGtRbwy0hWD5CQa2RcO4EstKRhw122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nozv2R8Jvd5jym0em7GrTX159Q6bp31e1dhei2lKsix6mD-6P74sXXxL5Qaln84hTpCGWpoBuVTsvYhYr_FewcIQg5yBuxnOF4fQ_H5fgUwZ2KGtRbwy0hWD5CQa2RcO4EstKRhw122-h92-k-no.jpeg",
+    "rating": 4.3,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_021",
+    "name": "Manoon Pet Shop (Medical Food)",
+    "category": "petshop",
+    "address": "101/46 Kamphaeng Phet 1 Alley, Chatuchak, Bangkok 10900",
+    "district": "เขตจตุจักร",
+    "city": "กรุงเทพฯ",
+    "lat": 13.79761,
+    "lng": 100.54139,
+    "phone": "02 618 4376",
+    "hours": "9:00 am - 6:00 pm",
+    "website": "http://www.manoonpetshop.com/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": true,
+      "carrier_required": false,
+      "ac": true,
+      "pet_zone": false,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้าน/โรงพยาบาล/บริการสัตว์เลี้ยงในกรุงเทพฯ ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/10/AC9h4no2qerPiXQ6njYo6s8WQ7wU-mkmJ2B3CU28mwNg5iM5AbKSbioUZAOnSGkuR7FP81yNnaMHMnTj6ID70gpxG9ld85gglH4wLSZDy2544CRKTSPCfjJexILLhKpVmWvgHv0F8nPnRAApAI68w122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/10/AC9h4no2qerPiXQ6njYo6s8WQ7wU-mkmJ2B3CU28mwNg5iM5AbKSbioUZAOnSGkuR7FP81yNnaMHMnTj6ID70gpxG9ld85gglH4wLSZDy2544CRKTSPCfjJexILLhKpVmWvgHv0F8nPnRAApAI68w122-h92-k-no.jpeg",
+    "rating": 4.3,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_022",
+    "name": "Manoon Pet Shop Chatuchak Branch",
+    "category": "petshop",
+    "address": "ก อาคารโซนสัตว์เลี้ยง อ.ต 101 Thanon Yan Phahon Yothin, Chatuchak, Bangkok 10900",
+    "district": "เขตจตุจักร",
+    "city": "กรุงเทพฯ",
+    "lat": 13.7975,
+    "lng": 100.5414,
+    "phone": "02 015 2595",
+    "hours": "9:00 am - 8:00 pm",
+    "website": "https://www.facebook.com/manoon.petshop/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": true,
+      "carrier_required": false,
+      "ac": true,
+      "pet_zone": false,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้าน/โรงพยาบาล/บริการสัตว์เลี้ยงในกรุงเทพฯ ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nq9A-_QrzOaiaCyp2y4WGOVXDWLp6dDtRTbjUlVGqUdGpHK3O98GAqJdBNFVKCYx636jg_UnpWBZH6ytwqNVJeskHuv_wizHF8sWqRDSKJJCq8Wx03ComIA1btSaXqv0dEYw122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nq9A-_QrzOaiaCyp2y4WGOVXDWLp6dDtRTbjUlVGqUdGpHK3O98GAqJdBNFVKCYx636jg_UnpWBZH6ytwqNVJeskHuv_wizHF8sWqRDSKJJCq8Wx03ComIA1btSaXqv0dEYw122-h92-k-no.jpeg",
+    "rating": 4.3,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_023",
+    "name": "Mawa Café",
+    "category": "cafe",
+    "address": "ลาดยาว, 8/71-72 งามวงศ์วาน​ 54 ซอยตรงข้าม Bangkok 10900",
+    "district": "กรุงเทพฯ",
+    "city": "กรุงเทพฯ",
+    "lat": 13.83973,
+    "lng": 100.56815,
+    "phone": "092 706 7171",
+    "hours": "7:00 am - 8:00 pm",
+    "website": "https://www.facebook.com/mawacafe42",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "คาเฟ่หรือ social spot ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AF1QipONEwqrMeY1eot5mBnulYK-LKeWH2ivha97gIBAw122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AF1QipONEwqrMeY1eot5mBnulYK-LKeWH2ivha97gIBAw122-h92-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_024",
+    "name": "My Paws Backyard",
+    "category": "park",
+    "address": "7 Soi Ram Intra 34, Tha Raeng, Bang Khen, Bangkok 10220",
+    "district": "เขตบางเขน",
+    "city": "กรุงเทพฯ",
+    "lat": 13.84818,
+    "lng": 100.63383,
+    "phone": "081 798 1796",
+    "hours": "10:00 am - 8:00 pm",
+    "website": "https://petsinthailand.com/listing/my-paws-backyard/",
+    "pet_types": [
+      "dog"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "พื้นที่ outdoor สำหรับพาน้องหมาเดินเล่นหรือใช้โซนสัตว์เลี้ยง ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4np6h_zzpaJOZE1aYA7MEAFwYo_iEaCHkqeIxrFo-6ck9Y2_abwZfFO-eNsnwOkQSxR8baEBk5OM06Ap_ehmICTCj0NXEgK1tg63IYQMYO_mJ0LdrD_C0P9MgqV4gHYGXnK4Fgw80-h106-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4np6h_zzpaJOZE1aYA7MEAFwYo_iEaCHkqeIxrFo-6ck9Y2_abwZfFO-eNsnwOkQSxR8baEBk5OM06Ap_ehmICTCj0NXEgK1tg63IYQMYO_mJ0LdrD_C0P9MgqV4gHYGXnK4Fgw80-h106-k-no.jpeg",
+    "rating": 5,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_025",
+    "name": "Nami Phutthamonthon Sai 2",
+    "category": "restaurant",
+    "address": "217 2 Thanon PhutthaMonthon Sai 2, Bang Khae Nuea, Bang Khae, Bangkok 10160",
+    "district": "เขตบางแค",
+    "city": "กรุงเทพฯ",
+    "lat": 13.72205,
+    "lng": 100.39544,
+    "phone": "02 455 8178",
+    "hours": "8:30 am - 8:00 pm",
+    "website": "https://www.namithailand2021.com/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้านอาหารหรือบาร์ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4npEmkufXmfH9O2dq2MIjJnD_Q9whrL1wMZcaAilKo5-O7leNSfycRrrPbjx1q4x1NpikhqkDf4qcMHy4XCDZcuWQP-DLzkfu7iLfMieO3YtDtBBZirlZCrj4hL4ejPe2T0VQ0KkFww122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4npEmkufXmfH9O2dq2MIjJnD_Q9whrL1wMZcaAilKo5-O7leNSfycRrrPbjx1q4x1NpikhqkDf4qcMHy4XCDZcuWQP-DLzkfu7iLfMieO3YtDtBBZirlZCrj4hL4ejPe2T0VQ0KkFww122-h92-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_026",
+    "name": "Pet Mall",
+    "category": "petshop",
+    "address": "515 1 Phran Nok Phutthamonthon Sai 4 Rd, Bang Phrom, Taling Chan, Bangkok 10170",
+    "district": "เขตตลิ่งชัน",
+    "city": "กรุงเทพฯ",
+    "lat": 13.75158,
+    "lng": 100.43971,
+    "phone": "097 264 4560",
+    "hours": "9:00 am - 9:00 pm",
+    "website": "https://petsinthailand.com/listing/pet-mall/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": true,
+      "carrier_required": false,
+      "ac": true,
+      "pet_zone": false,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้าน/โรงพยาบาล/บริการสัตว์เลี้ยงในกรุงเทพฯ ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nqfzAJq6MKJsMHl9uUZ8CTAVfJ6uY-3ACT2Ev7z6aamRa25cCSmwc7OQkR5MjvHgJBBHA3adYv9r4rpplQf934Dic8rc6RGdFXf1FuVo6HNuEe6R0J64scMfQ6coSN1V-i_AZq80Aw122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nqfzAJq6MKJsMHl9uUZ8CTAVfJ6uY-3ACT2Ev7z6aamRa25cCSmwc7OQkR5MjvHgJBBHA3adYv9r4rpplQf934Dic8rc6RGdFXf1FuVo6HNuEe6R0J64scMfQ6coSN1V-i_AZq80Aw122-h92-k-no.jpeg",
+    "rating": 4.3,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_027",
+    "name": "Petrichor Café",
+    "category": "cafe",
+    "address": "88 หมู่2 Thanon Thawi Watthana, Thawi Watthana, Bangkok 10170",
+    "district": "เขตวัฒนา",
+    "city": "กรุงเทพฯ",
+    "lat": 13.764,
+    "lng": 100.34773,
+    "phone": "064 624 3559",
+    "hours": "10:00 am - 7:00 pm",
+    "website": "https://linktr.ee/petrichorcafe.bkk?utm_source=linktree_profile_share&ltsid=da1e770a-4f54-4ec3-b0b3-b5265be3b197",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "คาเฟ่หรือ social spot ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nrj7HJUZKOulNvVDhOs8KOayh01E37VeErEMPyYk7FotUDBcgbc2oUUTjdaoj0aorrcJSHmexzMoy8RmU1_1KXi-drwL58jUQr-gzTT41M3aKFhLbFZ3mzL7tQ0WzEwKR4XT6Y1w137-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nrj7HJUZKOulNvVDhOs8KOayh01E37VeErEMPyYk7FotUDBcgbc2oUUTjdaoj0aorrcJSHmexzMoy8RmU1_1KXi-drwL58jUQr-gzTT41M3aKFhLbFZ3mzL7tQ0WzEwKR4XT6Y1w137-h92-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_028",
+    "name": "Poomjai Garden",
+    "category": "restaurant",
+    "address": "9 3 Chom Thong Rd, Chom Thong, Bangkok 10150",
+    "district": "กรุงเทพฯ",
+    "city": "กรุงเทพฯ",
+    "lat": 13.69135,
+    "lng": 100.46685,
+    "phone": "095 968 0270",
+    "hours": "10:00 am - 6:00 pm",
+    "website": "https://www.poomjaigardenbkk.com/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้านอาหารหรือบาร์ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nrKsQgLSgPtC6M4JX-D493-aij4NHfLoWZRkxOO3uOMYD93hU69WPPOVBBOu-i-iBsEyLMaRvM0pNpz6PiOiuP17-7OoXMumsGdJ8GI3s-RSgmf7OqMCLudMY2vFi06S9ozZUnDopQTs7rjw122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nrKsQgLSgPtC6M4JX-D493-aij4NHfLoWZRkxOO3uOMYD93hU69WPPOVBBOu-i-iBsEyLMaRvM0pNpz6PiOiuP17-7OoXMumsGdJ8GI3s-RSgmf7OqMCLudMY2vFi06S9ozZUnDopQTs7rjw122-h92-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_029",
+    "name": "Prem Pracha Vana Rak Park",
+    "category": "park",
+    "address": "VH47+9P8, Talat Bang Khen, Lak Si, Bangkok 10210",
+    "district": "เขตบางเขน",
+    "city": "กรุงเทพฯ",
+    "lat": 13.85592,
+    "lng": 100.56434,
+    "phone": null,
+    "hours": "6:00 am - 8:00 pm",
+    "website": "https://petsinthailand.com/listing/prem-pracha-vana-rak-park/",
+    "pet_types": [
+      "dog"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "พื้นที่ outdoor สำหรับพาน้องหมาเดินเล่นหรือใช้โซนสัตว์เลี้ยง ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nrS1OZMt1jhkfGVrbqNEOOofXACrJbCzb4W6-YDvaCQOvdO3jFCfsZAg-vuaPgn6gBxV0J1oQ-ptDihe8zcE6KPu3J9X1jTGyLuSQyjtLJA0894tMyxkGZpH2Q2CoupKQWgHj8w80-h106-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nrS1OZMt1jhkfGVrbqNEOOofXACrJbCzb4W6-YDvaCQOvdO3jFCfsZAg-vuaPgn6gBxV0J1oQ-ptDihe8zcE6KPu3J9X1jTGyLuSQyjtLJA0894tMyxkGZpH2Q2CoupKQWgHj8w80-h106-k-no.jpeg",
+    "rating": 5,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_030",
+    "name": "Prung Cafe",
+    "category": "cafe",
+    "address": "142 Inthrawat Rd, Bang Ramat, Taling Chan, Bangkok 10170",
+    "district": "เขตตลิ่งชัน",
+    "city": "กรุงเทพฯ",
+    "lat": 13.75774,
+    "lng": 100.43961,
+    "phone": "086 983 6564",
+    "hours": "7:00 pm - 2:00 am",
+    "website": "https://prung.me/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "คาเฟ่หรือ social spot ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nr07XTljkvSZYhQBLbMMBVx2wTxWIEeUPlqQuu3YBnIXaJEeFldLnHTRn7doFlx3kLl4jWXloH-4ZWnfJooDgdBaKd28iPKzZxS0xvG6d1cPgh4xTjZM90vcNy21-Xj90vYYseyw138-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nr07XTljkvSZYhQBLbMMBVx2wTxWIEeUPlqQuu3YBnIXaJEeFldLnHTRn7doFlx3kLl4jWXloH-4ZWnfJooDgdBaKd28iPKzZxS0xvG6d1cPgh4xTjZM90vcNy21-Xj90vYYseyw138-h92-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_031",
+    "name": "Rest Coffee And Brew",
+    "category": "cafe",
+    "address": "104, 70 Rama II Rd, Khwaeng Samae Dam, Khet Bang Khun Thian, Bangkok 10150",
+    "district": "กรุงเทพฯ",
+    "city": "กรุงเทพฯ",
+    "lat": 13.64493,
+    "lng": 100.42312,
+    "phone": "082 258 7205",
+    "hours": "9:00 am - 4:00 pm",
+    "website": "https://www.facebook.com/RESTcoffeeandbrew",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "คาเฟ่หรือ social spot ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nphqZNckGcYRsGvcCPBKhQrFhpSKvn5h9LHieqrgGo_SZN1p4eF1d2ZKHdlevqOcb1G4LPw75Obn3VsU1tGCgFLct3Wf6KOOyOsObYEBdyIVdrcTncdS7Npkwv42UBJi8vwKXWj0gw80-h106-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nphqZNckGcYRsGvcCPBKhQrFhpSKvn5h9LHieqrgGo_SZN1p4eF1d2ZKHdlevqOcb1G4LPw75Obn3VsU1tGCgFLct3Wf6KOOyOsObYEBdyIVdrcTncdS7Npkwv42UBJi8vwKXWj0gw80-h106-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_032",
+    "name": "Siam Paragon",
+    "category": "mall",
+    "address": "991/1 Rama I Rd, Pathum Wan, Bangkok 10330",
+    "district": "เขตปทุมวัน",
+    "city": "กรุงเทพฯ",
+    "lat": 13.74694,
+    "lng": 100.53588,
+    "phone": "02 690 1000",
+    "hours": "10:00 am - 10:00 pm",
+    "website": "https://www.siamparagon.co.th/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": true,
+      "carrier_required": true,
+      "ac": true,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ศูนย์การค้าในลิสต์ pet-friendly มักกำหนดให้ใช้รถเข็น/กระเป๋าหรือพื้นที่ที่ระบุ ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?auto=format&fit=crop&w=1200&q=80",
+    "rating": 4.5,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_033",
+    "name": "Simplycafebkk",
+    "category": "cafe",
+    "address": "88, 176 Thetsaban Songkhro Rd, Lat Yao, Chatuchak, Bangkok 10900",
+    "district": "เขตจตุจักร",
+    "city": "กรุงเทพฯ",
+    "lat": 13.83984,
+    "lng": 100.543,
+    "phone": "090 880 3838",
+    "hours": "8:30 am - 4:30 pm",
+    "website": "https://www.facebook.com/simplycafebkk",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "คาเฟ่หรือ social spot ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nqXaJRZ9DMyyam5d2oFKI4Z76J0kGan5g_AHuwkDtwJqiF_-aJgaHOnUV-TtHBro-TB7WdtM0wXNxI01y-qdZTbkRnjOe3L_NYlTC1vEq8d8qBx5uSD2PFteTI7CG4nqECAHhmkFAw122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nqXaJRZ9DMyyam5d2oFKI4Z76J0kGan5g_AHuwkDtwJqiF_-aJgaHOnUV-TtHBro-TB7WdtM0wXNxI01y-qdZTbkRnjOe3L_NYlTC1vEq8d8qBx5uSD2PFteTI7CG4nqECAHhmkFAw122-h92-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_034",
+    "name": "Tabula Trattoria",
+    "category": "restaurant",
+    "address": "14/2 ซอย สมคิด Lumphini, Pathum Wan, Bangkok 10330",
+    "district": "เขตปทุมวัน",
+    "city": "กรุงเทพฯ",
+    "lat": 13.74702,
+    "lng": 100.54529,
+    "phone": "094 868 2639",
+    "hours": "11:00 am - 11:00 pm",
+    "website": "https://www.tabularasabkk.com/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้านอาหารหรือบาร์ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4npdu3ta8uamSi4ADZLI9eR71FGJsWWCp1_Q9ZZtPx2tCjklCz-G4VrqxgYrGI09jm_a40gTa-8YsV5qRUACCyEXi9lISydVSeIjoCM4Jwm8gRU8sUESKxruvFMezAjOeUzlfW1CoAw138-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4npdu3ta8uamSi4ADZLI9eR71FGJsWWCp1_Q9ZZtPx2tCjklCz-G4VrqxgYrGI09jm_a40gTa-8YsV5qRUACCyEXi9lISydVSeIjoCM4Jwm8gRU8sUESKxruvFMezAjOeUzlfW1CoAw138-h92-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_035",
+    "name": "Terminal 21 Asok",
+    "category": "mall",
+    "address": "88 Soi Sukhumvit 19, Khlong Toei Nuea, Watthana, Bangkok 10110",
+    "district": "เขตวัฒนา",
+    "city": "กรุงเทพฯ",
+    "lat": 13.73796,
+    "lng": 100.56041,
+    "phone": "02 108 0888",
+    "hours": "10:00 am - 10:00 pm",
+    "website": "https://www.terminal21.co.th/asok/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": true,
+      "carrier_required": true,
+      "ac": true,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ศูนย์การค้าในลิสต์ pet-friendly มักกำหนดให้ใช้รถเข็น/กระเป๋าหรือพื้นที่ที่ระบุ ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/09/AC9h4noFpUzYDlq2XcaVCilTPk2HeWmkZlqxfzUbf5zGpVRZH3x0pn8xYu8l4VBFgIYkCtov5SySlRWIlcNRV2QB33K9oNFmNIHu9pOVplqlsoEqjczcRqQsPZa_B2OWtMN2hTBy3d8w211-h120-k-no-pi-10-ya21999998-ro-0-fo100.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/09/AC9h4noFpUzYDlq2XcaVCilTPk2HeWmkZlqxfzUbf5zGpVRZH3x0pn8xYu8l4VBFgIYkCtov5SySlRWIlcNRV2QB33K9oNFmNIHu9pOVplqlsoEqjczcRqQsPZa_B2OWtMN2hTBy3d8w211-h120-k-no-pi-10-ya21999998-ro-0-fo100.jpeg",
+    "rating": 4.5,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_036",
+    "name": "The 66 Cottage",
+    "category": "cafe",
+    "address": "66 Sukhumvit 66 Alley, Khwaeng Bang Na, Bang Na, Bangkok 10260",
+    "district": "เขตบางนา",
+    "city": "กรุงเทพฯ",
+    "lat": 13.68255,
+    "lng": 100.60884,
+    "phone": "086 895 0202",
+    "hours": "8:00 am - 6:00 pm",
+    "website": "https://www.facebook.com/The66Cottage/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "คาเฟ่หรือ social spot ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nppoMtF7NNHi23X3Vgfjkkmd0YmTRocblK5scNuH0ZmxFzrfH43zD0U-9Yw6p5fUdumEKYNioBj4MkHGUmGJN_vg7npzCGWNVD6Vd182XS25SdRHsDo2cmNadrrNPitEpl4Gr1cw163-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nppoMtF7NNHi23X3Vgfjkkmd0YmTRocblK5scNuH0ZmxFzrfH43zD0U-9Yw6p5fUdumEKYNioBj4MkHGUmGJN_vg7npzCGWNVD6Vd182XS25SdRHsDo2cmNadrrNPitEpl4Gr1cw163-h92-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_037",
+    "name": "The Pets Zoo Silom",
+    "category": "petshop",
+    "address": "69 Naradhiwas Rajanagarindra Rd, Si Lom, Bang Rak, Bangkok 10500",
+    "district": "เขตบางรัก",
+    "city": "กรุงเทพฯ",
+    "lat": 13.72536,
+    "lng": 100.52881,
+    "phone": "084 959 5514",
+    "hours": "9:00 am - 9:00 pm",
+    "website": "https://petsinthailand.com/listing/the-pets-zoo-silom/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": true,
+      "carrier_required": false,
+      "ac": true,
+      "pet_zone": false,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้าน/โรงพยาบาล/บริการสัตว์เลี้ยงในกรุงเทพฯ ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AF1QipPfgnxD_DmkajbiyznOKm3q86gFAJKZfb91z17ew123-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AF1QipPfgnxD_DmkajbiyznOKm3q86gFAJKZfb91z17ew123-h92-k-no.jpeg",
+    "rating": 4.3,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_038",
+    "name": "Thian Thale Phatthana Phrueksa Phirom Park",
+    "category": "park",
+    "address": "9, 20 Soi Thian Thale 22, Tha Kham, Bang Khun Thian, Bangkok 10150",
+    "district": "กรุงเทพฯ",
+    "city": "กรุงเทพฯ",
+    "lat": 13.62008,
+    "lng": 100.43816,
+    "phone": null,
+    "hours": "5:00 am - 9:00 pm",
+    "website": "https://petsinthailand.com/listing/thian-thale-phatthana-phrueksa-phirom-park/",
+    "pet_types": [
+      "dog"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "พื้นที่ outdoor สำหรับพาน้องหมาเดินเล่นหรือใช้โซนสัตว์เลี้ยง ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nqCzgPtF_GvXoyXPskeI2R7CIhT6kDRflFtGTr90lwn0sWjTULf8zd8UynPd-bXJu33HkctlpZ65_Xoet8iXrXzBXizCxlA6Giv90RdJ5i6J-gVFYA84jWDZmgTXZpldoB9eu2w80-h106-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nqCzgPtF_GvXoyXPskeI2R7CIhT6kDRflFtGTr90lwn0sWjTULf8zd8UynPd-bXJu33HkctlpZ65_Xoet8iXrXzBXizCxlA6Giv90RdJ5i6J-gVFYA84jWDZmgTXZpldoB9eu2w80-h106-k-no.jpeg",
+    "rating": 5,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_039",
+    "name": "Tokizen Cafe",
+    "category": "cafe",
+    "address": "57, Bang Khun Non, Bangkok Noi, Bangkok 10700",
+    "district": "เขตบางกอกน้อย",
+    "city": "กรุงเทพฯ",
+    "lat": 13.77456,
+    "lng": 100.46361,
+    "phone": "098 749 6979",
+    "hours": "8:00 am - 5:00 pm",
+    "website": "https://www.facebook.com/tokizenkoi",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "คาเฟ่หรือ social spot ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nrfY5B-w2PE6LmzeaVSlsZLmQAQ-v59_u8oOxP__MZ9wpvn1mljw3puhiferq0pVtwxuivDMBi0GdLJTCKLf6PdoF6hiOHZAabzLWVLHq2VUMC9JnuuSwxaODcz4aOQaQyFydhHssCeS3tpw80-h106-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nrfY5B-w2PE6LmzeaVSlsZLmQAQ-v59_u8oOxP__MZ9wpvn1mljw3puhiferq0pVtwxuivDMBi0GdLJTCKLf6PdoF6hiOHZAabzLWVLHq2VUMC9JnuuSwxaODcz4aOQaQyFydhHssCeS3tpw80-h106-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_040",
+    "name": "Treehouse Cafe & Bar",
+    "category": "restaurant",
+    "address": "20 Soi Sukhumvit 31, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "district": "เขตวัฒนา",
+    "city": "กรุงเทพฯ",
+    "lat": 13.73667,
+    "lng": 100.56697,
+    "phone": "080 899 4249",
+    "hours": "8:00 am - 11:00 pm",
+    "website": "https://petsinthailand.com/listing/treehouse-cafe-bar/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้านอาหารหรือบาร์ที่อยู่ในหมวด pet-friendly ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nqOVubQoR2q8uIBL2dps5qaPDbJeC4P84nbs2Eg2wgOwNld8kBhWwQVDvhx3RDdw6WT4NhruKWDhseAD3H_4z07CZihfgv6sdm7seKFj9aiATIfBlVBONM1xGaYIN2RFbubPPvbqSx5IP0w122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nqOVubQoR2q8uIBL2dps5qaPDbJeC4P84nbs2Eg2wgOwNld8kBhWwQVDvhx3RDdw6WT4NhruKWDhseAD3H_4z07CZihfgv6sdm7seKFj9aiATIfBlVBONM1xGaYIN2RFbubPPvbqSx5IP0w122-h92-k-no.jpeg",
+    "rating": 4.8,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_041",
+    "name": "Vet 4 Animal Hospital",
+    "category": "petshop",
+    "address": "5, RGRV+4QJ, 5/1 Thetsaban Rangsarit Nua Rd, Lat Yao, Chatuchak, Bangkok 10900",
+    "district": "เขตจตุจักร",
+    "city": "กรุงเทพฯ",
+    "lat": 13.84032,
+    "lng": 100.54436,
+    "phone": "02 953 8086",
+    "hours": null,
+    "website": "https://www.vet4hospital.com/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": true,
+      "carrier_required": false,
+      "ac": true,
+      "pet_zone": false,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้าน/โรงพยาบาล/บริการสัตว์เลี้ยงในกรุงเทพฯ ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
+    "rating": 4.3,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_042",
+    "name": "Vet 4 Animal Hospital - Sukumvit Branch",
+    "category": "petshop",
+    "address": "Soi Sukhumvit 33, Khlong Tan Nuea, Watthana, Bangkok 10110",
+    "district": "เขตวัฒนา",
+    "city": "กรุงเทพฯ",
+    "lat": 13.73739,
+    "lng": 100.56759,
+    "phone": "02 119 4571",
+    "hours": null,
+    "website": "http://vet4hospital.com/",
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
+    "policy": {
+      "indoor_allowed": true,
+      "carrier_required": false,
+      "ac": true,
+      "pet_zone": false,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "ร้าน/โรงพยาบาล/บริการสัตว์เลี้ยงในกรุงเทพฯ ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/10/AF1QipP8Xk-cEmdHY3kP-HfZVkWzJQW-DdWjgJD-0NoEw80-h106-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/10/AF1QipP8Xk-cEmdHY3kP-HfZVkWzJQW-DdWjgJD-0NoEw80-h106-k-no.jpeg",
+    "rating": 4.3,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "bkk_research_043",
+    "name": "Vibhavadi Rangsit Forest Park",
+    "category": "park",
+    "address": "QHC3+J5F, Din Daeng, Bangkok 10400",
+    "district": "เขตดินแดง",
+    "city": "กรุงเทพฯ",
+    "lat": 13.77155,
+    "lng": 100.55291,
+    "phone": null,
+    "hours": null,
+    "website": "https://petsinthailand.com/listing/vibhavadi-rangsit-forest-park/",
+    "pet_types": [
+      "dog"
+    ],
+    "policy": {
+      "indoor_allowed": false,
+      "carrier_required": false,
+      "ac": false,
+      "pet_zone": true,
+      "size_limit": "any",
+      "verified": true
+    },
+    "notes": "พื้นที่ outdoor สำหรับพาน้องหมาเดินเล่นหรือใช้โซนสัตว์เลี้ยง ข้อมูลจาก Pets in Thailand; ควรตรวจสอบกติกาสัตว์เลี้ยงกับสถานที่อีกครั้งก่อนเดินทาง",
+    "photos": [
+      "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nouyaYa84hY2N2E1aicea16J4LQYWnPV948I9jSExLc8g1rTYlSBOkjpOfRgefYhOdhBOj6yjo0Sua2ZkDc5oqPu3RRPNtoBGjfza-nyuSS__Es3LbI3g5WXB6BuDOJAFHeXn8qtAw122-h92-k-no.jpeg"
+    ],
+    "cover_photo": "https://petsinthailand.com/wp-content/uploads/2025/08/AC9h4nouyaYa84hY2N2E1aicea16J4LQYWnPV948I9jSExLc8g1rTYlSBOkjpOfRgefYhOdhBOj6yjo0Sua2ZkDc5oqPu3RRPNtoBGjfza-nyuSS__Es3LbI3g5WXB6BuDOJAFHeXn8qtAw122-h92-k-no.jpeg",
+    "rating": 5,
+    "review_count": 0,
+    "added_by": null,
+    "added_at": "2026-05-20T00:00:00Z"
+  }
+]

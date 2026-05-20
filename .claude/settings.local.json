@@ -32,7 +32,9 @@
       "Bash(mv /Users/nanpipat/Documents/mine/nongggggmaps/real-places-phuket.json /Users/nanpipat/Documents/mine/nongggggmaps/src/lib/)",
       "Bash(mv /Users/nanpipat/Documents/mine/nongggggmaps/real-places-pattaya-huahin-samui.json /Users/nanpipat/Documents/mine/nongggggmaps/src/lib/)",
       "Bash(mv /Users/nanpipat/Documents/mine/nongggggmaps/real-places-chiangmai.json /Users/nanpipat/Documents/mine/nongggggmaps/src/lib/)",
-      "Bash(xargs ls)"
+      "Bash(xargs ls)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }

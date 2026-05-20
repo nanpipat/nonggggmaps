@@ -25,7 +25,6 @@ export interface Place {
   category: PlaceCategory;
   address: string;
   district?: string;
-  city?: string;
   lat: number;
   lng: number;
   phone?: string | null;

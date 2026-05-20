@@ -8,8 +8,9 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
 import { CATEGORIES, CONDITION_LABELS, SIZE_LABELS } from "@/lib/categories";
-import type { PlaceCategory, PetType } from "@/lib/types";
+import type { Filters, PlaceCategory, PetType } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
 const PET_OPTIONS: { id: PetType; label: string; emoji: string }[] = [
