@@ -40,7 +40,6 @@ export function BottomSheetPanel() {
   const mapBounds = useApp((s) => s.mapBounds);
 
   const isGuest = user?.provider === "guest";
-
   const [snap, setSnap] = useState<Snap>("half");
 
   const bodyRef = useRef<HTMLDivElement>(null);
@@ -48,7 +47,28 @@ export function BottomSheetPanel() {
     if (snap === "peek" && bodyRef.current) bodyRef.current.scrollTop = 0;
   }, [snap]);
 
-  // Mini card takes over when a place is selected
+  // ── Real drag gesture on the handle ──
+  const dragStartY = useRef<number | null>(null);
+  const dragStartSnap = useRef<Snap>("half");
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    dragStartY.current = e.touches[0].clientY;
+    dragStartSnap.current = snap;
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    if (dragStartY.current === null) return;
+    const dy = e.changedTouches[0].clientY - dragStartY.current;
+    const threshold = 50;
+    const cur = dragStartSnap.current;
+    if (dy < -threshold) {
+      setSnap(cur === "peek" ? "half" : "full");
+    } else if (dy > threshold) {
+      setSnap(cur === "full" ? "half" : "peek");
+    }
+    dragStartY.current = null;
+  };
+
   if (selectedId) return null;
 
   const cycleSnap = () =>
@@ -65,16 +85,18 @@ export function BottomSheetPanel() {
         SNAP_HEIGHTS[snap],
       )}
     >
-      {/* Drag handle */}
+      {/* Drag handle — handles both tap (cycleSnap) and touch drag */}
       <button
         onClick={cycleSnap}
-        className="flex w-full items-center justify-center py-2.5"
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
+        className="flex w-full touch-none items-center justify-center py-3"
         aria-label="ขยายรายการ"
       >
         <span className="h-1.5 w-12 rounded-sm bg-foreground" />
       </button>
 
-      {/* Header: tabs + count + sort in one row */}
+      {/* Header: tabs + count + sort */}
       <div className="flex flex-wrap items-center gap-3 px-4 pb-4 sm:px-5">
         <div className="flex min-w-[210px] flex-1 flex-wrap items-center gap-2">
           {TABS.map((t) => (
@@ -104,10 +126,7 @@ export function BottomSheetPanel() {
           </span>
         </div>
 
-        <Select
-          value={sortBy}
-          onValueChange={(v) => setSort(v as typeof sortBy)}
-        >
+        <Select value={sortBy} onValueChange={(v) => setSort(v as typeof sortBy)}>
           <SelectTrigger className="h-9 w-[128px] rounded-md text-[12px] shadow-none">
             <SelectValue />
           </SelectTrigger>

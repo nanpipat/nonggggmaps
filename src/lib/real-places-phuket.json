@@ -6,11 +6,14 @@
     "address": "64 Moo 4 Srisoonthorn Road, Bang Tao Beach, Thalang, Phuket 83110",
     "district": "อำเภอถลาง",
     "lat": 8.0033,
-    "lng": 98.2970,
+    "lng": 98.297,
     "phone": "076-271-888",
     "hours": "24 ชม.",
     "website": "https://www.cassia.com/thailand/cassia-phuket",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -20,8 +23,10 @@
       "verified": false
     },
     "notes": "รับสัตว์เลี้ยงไม่จำกัดจำนวนต่อห้อง น้องหมา/แมว น้ำหนักไม่เกิน 10 กก. พักได้ในห้อง One Bedroom หรือ Two Bedroom น้ำหนักเกิน 10 กก. พักได้เฉพาะ Two Bedroom เท่านั้น น้ำหนักเกิน 20 กก. ต้องขออนุมัติจากผู้จัดการ ค่าธรรมเนียมสัตว์เลี้ยง 500 บาท/คืน (ยกเว้นเมื่อจองโดยตรงจากเว็บไซต์) มีสุนัขพาร์คและเส้นทางเดิน-วิ่งริมทะเลสาบบัว",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -34,12 +39,14 @@
     "category": "hotel",
     "address": "116 Moo 1 Tambol Sakhu, Talang, Phuket 83110",
     "district": "อำเภอถลาง",
-    "lat": 8.1580,
-    "lng": 98.3020,
+    "lat": 8.158,
+    "lng": 98.302,
     "phone": "076-327-006",
     "hours": "24 ชม.",
     "website": "https://www.theslatephuket.com",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -49,8 +56,10 @@
       "verified": false
     },
     "notes": "รับสุนัขสูงสุด 2 ตัว น้ำหนักไม่เกิน 15 กก. ใน Pool Villa เท่านั้น ค่าธรรมเนียม 1,500-1,780 บาท/ตัว/คืน มีเตียงน้องหมาและชามอาหารในห้อง น้องหมาสามารถว่ายน้ำในสระส่วนตัวได้ ห้ามนำสัตว์เลี้ยงเข้าในสระว่ายน้ำส่วนกลาง ร้านอาหาร บาร์ และสปา ตั้งอยู่ใกล้หาดไนยาง ใกล้สนามบินภูเก็ต",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -68,7 +77,10 @@
     "phone": "076-303-299",
     "hours": "24 ชม.",
     "website": "https://www.pullmanphuketpanwa.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -78,8 +90,10 @@
       "verified": false
     },
     "notes": "รับสัตว์เลี้ยงสูงสุด 2 ตัว น้ำหนักไม่เกิน 10 กก. ในห้องทั่วไป สำหรับสัตว์เลี้ยงน้ำหนักไม่เกิน 30 กก. พักได้ใน Pool Villa เท่านั้น ค่าธรรมเนียม 1,000 บาท/ตัว/คืน เฉพาะห้อง Garden View และ Sea View Pool Villas มีบริการดูแลสัตว์เลี้ยง กรูมมิ่ง และชุดต้อนรับสัตว์เลี้ยง มีพื้นที่เล่นสำหรับสัตว์เลี้ยง ตั้งอยู่บนหาดแหลมพานวา",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -92,12 +106,15 @@
     "category": "hotel",
     "address": "36 Patak Road Soi 10, Karon, Mueang Phuket, Phuket 83100",
     "district": "อำเภอเมืองภูเก็ต",
-    "lat": 7.8520,
-    "lng": 98.2970,
+    "lat": 7.852,
+    "lng": 98.297,
     "phone": "076-333-222",
     "hours": "24 ชม.",
     "website": "https://ccshideaway.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -107,8 +124,10 @@
       "verified": false
     },
     "notes": "รีสอร์ทบูทีคสไตล์อินดี้ รับสัตว์เลี้ยงทุกขนาดในห้องที่กำหนด ไม่มีค่าธรรมเนียมเพิ่มเติมสำหรับสัตว์เลี้ยง กรุณาแจ้งล่วงหน้าและจองห้อง Pet Friendly ก่อนเช็คอิน ใกล้หาดกะรน มีวิวทะเล",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -126,7 +145,10 @@
     "phone": "076-289-299",
     "hours": "24 ชม.",
     "website": "https://www.selinahotels.com/phuket",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -136,8 +158,10 @@
       "verified": false
     },
     "notes": "ค่าธรรมเนียมสัตว์เลี้ยง 350 บาท/ตัว/วัน พร้อมมัดจำ 3,000 บาท/การเข้าพัก ทำเลดีใกล้หาดราไวย์ มีบรรยากาศผ่อนคลายริมทะเล เหมาะกับการพักระยะยาวพร้อมน้องหมา/แมว",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.1,
     "review_count": 0,
     "added_by": null,
@@ -150,12 +174,14 @@
     "category": "cafe",
     "address": "4/72 Moo 4 Wirat Hong Yok Road, Phuket 83000",
     "district": "อำเภอเมืองภูเก็ต",
-    "lat": 7.8850,
-    "lng": 98.3870,
+    "lat": 7.885,
+    "lng": 98.387,
     "phone": "082-992-3299",
     "hours": "10:00–19:00 น. ทุกวัน",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -165,8 +191,10 @@
       "verified": false
     },
     "notes": "คาเฟ่น้องหมาสไตล์ขาว-ดำ บรรยากาศอบอุ่น ค่าเข้า 199 บาท/คน รวมเครื่องดื่ม 1 แก้ว มีสุนัขหลายสายพันธุ์ตั้งแต่ขนาดเล็กถึงใหญ่ให้เล่นด้วย ไม่บังคับสั่งเพิ่ม ตั้งอยู่ใกล้ตลาดนัดสุดสัปดาห์ภูเก็ต เสิร์ฟกาแฟออร์แกนิกจากเชียงใหม่",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -184,7 +212,9 @@
     "phone": "083-524-3888",
     "hours": "10:30–19:00 น. ทุกวัน",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -194,8 +224,10 @@
       "verified": false
     },
     "notes": "คาเฟ่น้องหมากลางเมืองเก่าภูเก็ต ค่าเข้า 390 บาท/คน รวมเครื่องดื่ม 1 แก้ว สตาฟดูแลน้องหมาอย่างดี มีน้องหมาน่ารักหลายตัวให้เล่นด้วย ตั้งอยู่ย่านเมืองเก่าภูเก็ต เหมาะสำหรับคนรักสุนัข บรรยากาศร่มรื่น",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -209,11 +241,13 @@
     "address": "12 Soi Rommani ตำบลตลาดใหญ่ อำเภอเมืองภูเก็ต จังหวัดภูเก็ต 83000",
     "district": "อำเภอเมืองภูเก็ต",
     "lat": 7.8875,
-    "lng": 98.3920,
+    "lng": 98.392,
     "phone": null,
     "hours": "จันทร์–เสาร์ 10:00–19:00 น. อาทิตย์ 10:00–20:00 น.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -223,8 +257,10 @@
       "verified": false
     },
     "notes": "คาเฟ่น้องหมาในเมืองเก่าภูเก็ต สาขาของ Box Box Dog Cafe ซึ่งได้รับความนิยมในเชียงใหม่ มีน้องหมาน่ารักหลายสายพันธุ์ เหมาะสำหรับคนรักสุนัขที่ต้องการนั่งคาเฟ่และเล่นกับน้องหมา",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -237,12 +273,15 @@
     "category": "cafe",
     "address": "หมู่บ้านเขาขาด แหลมพานวา ตำบลวิชิต อำเภอเมืองภูเก็ต จังหวัดภูเก็ต",
     "district": "อำเภอเมืองภูเก็ต",
-    "lat": 7.8120,
-    "lng": 98.4100,
+    "lat": 7.812,
+    "lng": 98.41,
     "phone": null,
     "hours": "10:00–22:00 น. ทุกวัน",
     "website": "https://www.grovephuket.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -252,8 +291,10 @@
       "verified": false
     },
     "notes": "คาเฟ่ริมทะเลแหลมพานวา บรรยากาศสวยงามท่ามกลางต้นไม้ สามารถพาสัตว์เลี้ยงเข้ามาวิ่งเล่นได้บริเวณ Outdoor มีไอศกรีมพิเศษสำหรับน้องหมา วิวอ่าวฉลองสวยงาม เหมาะกับการถ่ายรูปและพักผ่อน",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -267,11 +308,14 @@
     "address": "ตำบลตลาดใหญ่ อำเภอเมืองภูเก็ต จังหวัดภูเก็ต 83000",
     "district": "อำเภอเมืองภูเก็ต",
     "lat": 7.8842,
-    "lng": 98.3880,
+    "lng": 98.388,
     "phone": null,
     "hours": "09:00–17:30 น. พฤหัสฯ–อังคาร (ปิดวันพุธ)",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -281,8 +325,10 @@
       "verified": false
     },
     "notes": "คาเฟ่สีสันสดใสในย่านเมืองเก่าภูเก็ต บรรยากาศ Community Space สำหรับคนรักน้องหมา มีพื้นที่ Outdoor Pet Friendly เสิร์ฟอาหาร Fusion ชายฝั่ง กาแฟ สมูทตี้โบว์ล Poke Bowl เหมาะสำหรับมื้อเช้าและบรัชน์",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -295,12 +341,15 @@
     "category": "restaurant",
     "address": "98 Moo 4 Kata New Road, Kata Beach, Karon, Phuket 83100",
     "district": "อำเภอเมืองภูเก็ต",
-    "lat": 7.8200,
+    "lat": 7.82,
     "lng": 98.3003,
     "phone": "080-718-3141",
     "hours": "11:00–22:00 น. ทุกวัน",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -310,8 +359,10 @@
       "verified": false
     },
     "notes": "ร้านเบอร์เกอร์สไตล์นิวยอร์ก ใกล้หาดกะตะ รับสัตว์เลี้ยงในโซน Outdoor เมนูแนะนำ Mac & Cheese Burger, Onion Rings, Jalapeno Mac Bites บรรยากาศสบายๆ เหมาะกับมื้อเที่ยงหรือเย็นหลังเที่ยวทะเล",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -324,12 +375,15 @@
     "category": "restaurant",
     "address": "เชิงทาเลย์ อำเภอถลาง จังหวัดภูเก็ต (ห่างจากทางเข้า Laguna Phuket 1 กม.)",
     "district": "อำเภอถลาง",
-    "lat": 7.9900,
-    "lng": 98.2920,
+    "lat": 7.99,
+    "lng": 98.292,
     "phone": null,
     "hours": "12:00–22:00 น. ทุกวัน",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -339,8 +393,10 @@
       "verified": false
     },
     "notes": "ร้านอาหารแบบ Open-Air สไตล์ไม้ไผ่ เปิดมาตั้งแต่ปี 1996 รับสัตว์เลี้ยงในบริเวณ Outdoor เสิร์ฟอาหารไทย ฝรั่งเศส และนานาชาติ บรรยากาศผ่อนคลาย ราคาไม่แพง ใกล้ Laguna Phuket เหมาะพามาทานข้าวพร้อมสัตว์เลี้ยง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.1,
     "review_count": 0,
     "added_by": null,
@@ -353,12 +409,15 @@
     "category": "cafe",
     "address": "31/44 Soi Saiyuan, Rawai, Mueang Phuket, Phuket 83100",
     "district": "อำเภอเมืองภูเก็ต",
-    "lat": 7.7800,
-    "lng": 98.3310,
+    "lat": 7.78,
+    "lng": 98.331,
     "phone": null,
     "hours": "08:00–17:00 น. ทุกวัน",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -368,8 +427,10 @@
       "verified": false
     },
     "notes": "คาเฟ่บรรยากาศอบอุ่นแถวราไวย์ รับสัตว์เลี้ยงในโซน Outdoor ทีมงานดูแลสัตว์เลี้ยงของลูกค้าเป็นอย่างดี เมนูกาแฟและอาหารสด บรรยากาศสุด Cozy เหมาะกับการนั่งทำงานหรือพักผ่อน",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -382,12 +443,15 @@
     "category": "petshop",
     "address": "27 ถนนเจ้าฟ้าตะวันตก ตำบลฉลอง อำเภอเมืองภูเก็ต จังหวัดภูเก็ต 83000",
     "district": "อำเภอเมืองภูเก็ต",
-    "lat": 7.8320,
-    "lng": 98.3450,
+    "lat": 7.832,
+    "lng": 98.345,
     "phone": "081-895-3277",
     "hours": "24 ชม. (กรูมมิ่ง 08:00–20:00 น.)",
     "website": "https://thonglorpet.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -397,8 +461,10 @@
       "verified": false
     },
     "notes": "โรงพยาบาลสัตว์ครบวงจรเปิด 24 ชั่วโมง ตั้งอยู่บนถนนเจ้าฟ้าฝั่งตะวันตก ข้างเทสโก้โลตัสฉลอง มีแผนกผู้เชี่ยวชาญด้านผิวหนัง จักษุวิทยา และอายุรกรรม บริการฝากเลี้ยง กรูมมิ่ง และตรวจรักษา เป็นสาขาของโรงพยาบาลสัตว์ทองหล่อชื่อดังจากกรุงเทพฯ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -411,12 +477,15 @@
     "category": "petshop",
     "address": "310/164-165 Moo 1 ตำบลเทพกระษัตรี อำเภอถลาง จังหวัดภูเก็ต 83110",
     "district": "อำเภอถลาง",
-    "lat": 8.0310,
-    "lng": 98.2980,
+    "lat": 8.031,
+    "lng": 98.298,
     "phone": "081-416-6101",
     "hours": "08:00–20:00 น. ทุกวัน",
     "website": "https://layanvetclinic.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -426,8 +495,10 @@
       "verified": false
     },
     "notes": "คลินิกสัตว์ใกล้หาดลายัน ถลาง มีสัตวแพทย์ 2 คนและผู้ช่วย 2 คน บริการตรวจสุขภาพ วัคซีน ผ่าตัด และฉุกเฉิน เปิด 7 วัน บริการฝากเลี้ยงสุนัขและแมวระยะสั้น ที่จอดรถสะดวก ใกล้ Thalang Massage & Spa",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.6,
     "review_count": 0,
     "added_by": null,
@@ -440,12 +511,15 @@
     "category": "petshop",
     "address": "69 ถนนเจ้าฟ้า ตำบลวิชิต อำเภอเมืองภูเก็ต จังหวัดภูเก็ต 83000",
     "district": "อำเภอเมืองภูเก็ต",
-    "lat": 7.8600,
-    "lng": 98.3580,
+    "lat": 7.86,
+    "lng": 98.358,
     "phone": "076-215-401",
     "hours": "08:00–20:00 น. ทุกวัน",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -455,8 +529,10 @@
       "verified": false
     },
     "notes": "โรงพยาบาลสัตว์ครบวงจรสำหรับสุนัข แมว นก สัตว์เลื้อยคลาน และสัตว์เลี้ยงขนาดเล็ก บริการวัคซีน ตรวจสุขภาพ ผ่าตัด และพักฟื้น ตั้งอยู่บนถนนเจ้าฟ้า สะดวกในการเดินทาง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -474,7 +550,10 @@
     "phone": null,
     "hours": "ตลอด 24 ชม.",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -484,8 +563,10 @@
       "verified": false
     },
     "notes": "หาดราไวย์เป็นหนึ่งในหาดที่ Pet Friendly ที่สุดในภูเก็ต มีพื้นที่กว้างขวาง ร่มเงา และทางเดินริมทะเล เหมาะสำหรับพาน้องหมามาเดินเล่นช่วงเช้าและเย็น มีร้านอาหาร Pet Friendly หลายร้านรอบหาด บรรยากาศสงบไม่แออัดเหมือนหาดป่าตอง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -498,12 +579,14 @@
     "category": "park",
     "address": "89 ตำบลสาคู อำเภอถลาง จังหวัดภูเก็ต 83140",
     "district": "อำเภอถลาง",
-    "lat": 8.1600,
-    "lng": 98.2990,
+    "lat": 8.16,
+    "lng": 98.299,
     "phone": null,
     "hours": "06:00–18:00 น. ทุกวัน",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -513,8 +596,10 @@
       "verified": false
     },
     "notes": "หาดธรรมชาติยาว 11 กม. ในอุทยานแห่งชาติสิรินาถ ทางเหนือสุดของภูเก็ต บรรยากาศสงบ ไม่มีแผงขายของหรือเก้าอี้ผ้าใบ เหมาะสำหรับพาน้องหมาเดินเล่นช่วงเช้าหรือเย็น ใกล้มูลนิธิ Soi Dog Foundation ที่ช่วยเหลือสุนัขและแมวจรจัด",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -527,12 +612,14 @@
     "category": "park",
     "address": "ตำบลเทพกระษัตรี อำเภอถลาง จังหวัดภูเก็ต",
     "district": "อำเภอถลาง",
-    "lat": 8.0520,
-    "lng": 98.3050,
+    "lat": 8.052,
+    "lng": 98.305,
     "phone": null,
     "hours": "ตามนัดหมาย (By Appointment)",
     "website": "https://www.caninepointacademy.com",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -542,8 +629,10 @@
       "verified": false
     },
     "notes": "Dog Beach Club แห่งเดียวในภูเก็ต พื้นที่ปลอดภัยสมบูรณ์มีทะเลสาบขนาดใหญ่ให้น้องหมาวิ่งเล่นอย่างอิสระ ต้องนัดหมายล่วงหน้า ห้ามสูบบุหรี่ในบริเวณ มีบริการฝึก ฝากเลี้ยง และ Day Care สำหรับสุนัข เหมาะสำหรับผู้ที่ต้องการให้น้องหมาออกกำลังกายอย่างปลอดภัย",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.7,
     "review_count": 0,
     "added_by": null,
@@ -556,12 +645,15 @@
     "category": "petshop",
     "address": "อำเภอถลาง จังหวัดภูเก็ต",
     "district": "อำเภอถลาง",
-    "lat": 8.0100,
-    "lng": 98.3000,
+    "lat": 8.01,
+    "lng": 98.3,
     "phone": null,
     "hours": "09:00–18:00 น. ทุกวัน",
     "website": "https://www.aurapetswellness.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -571,8 +663,10 @@
       "verified": false
     },
     "notes": "โรงพยาบาลสัตว์นานาชาติและสปา ให้บริการตรวจรักษา อาบน้ำ กรูมมิ่ง สปา และรักษาสำหรับสุนัข แมว กระต่าย และนก มีรถบริการเคลื่อนที่ (Mobile Truck) สำหรับบริการถึงบ้าน มีร้านขายอาหารสัตว์และอุปกรณ์",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -585,12 +679,15 @@
     "category": "cafe",
     "address": "Boat Lagoon Marina, 23/3 Moo 2 Thepkrasatri Road, Koh Kaew, Phuket 83000",
     "district": "อำเภอเมืองภูเก็ต",
-    "lat": 7.9420,
-    "lng": 98.3870,
+    "lat": 7.942,
+    "lng": 98.387,
     "phone": "076-239-520",
     "hours": "07:00–22:00 น. ทุกวัน",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -600,8 +697,10 @@
       "verified": false
     },
     "notes": "สาขา Boat Lagoon ของ The Coffee Club ที่ได้รับความนิยมสูงสุดในหมู่คนรักสัตว์เลี้ยง วิวสวยงามริมมารีน่า สามารถพาสัตว์เลี้ยงนั่งได้ในโซน Outdoor บรรยากาศผ่อนคลาย เมนูกาแฟ อาหารเช้า เที่ยง เย็นครบ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -614,12 +713,15 @@
     "category": "restaurant",
     "address": "Boat Avenue, Cherngtalay, Thalang, Phuket 83110",
     "district": "อำเภอถลาง",
-    "lat": 7.9940,
-    "lng": 98.2960,
+    "lat": 7.994,
+    "lng": 98.296,
     "phone": null,
     "hours": "11:00–22:00 น. ทุกวัน",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -629,8 +731,10 @@
       "verified": false
     },
     "notes": "ร้านอาหารสไตล์ Urban Casual บน Boat Avenue เชิงทาเลย์ เสิร์ฟ Fish & Chips และ Slider สไตล์เมือง รับสัตว์เลี้ยงนั่ง Outdoor ได้ เหมาะสำหรับพาน้องหมามาทานข้าวแล้วเดินเล่นรอบ Boat Avenue ช้อปปิ้ง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.1,
     "review_count": 0,
     "added_by": null,
@@ -643,12 +747,14 @@
     "category": "park",
     "address": "หาดในหาน ตำบลราไวย์ อำเภอเมืองภูเก็ต จังหวัดภูเก็ต",
     "district": "อำเภอเมืองภูเก็ต",
-    "lat": 7.7630,
-    "lng": 98.3030,
+    "lat": 7.763,
+    "lng": 98.303,
     "phone": null,
     "hours": "ตลอด 24 ชม.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -658,8 +764,10 @@
       "verified": false
     },
     "notes": "หาดสวยงามและเงียบสงบทางใต้ของภูเก็ต มีพื้นที่กว้างสำหรับพาน้องหมาวิ่งเล่น บรรยากาศดีช่วงเช้าและเย็น น้ำทะเลสวยใส ล้อมรอบด้วยเนินเขาสีเขียว เหมาะสำหรับชาวต่างชาติที่พักในย่านราไวย์/ในหาน",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -672,12 +780,14 @@
     "category": "hotel",
     "address": "725 Moo 2 Ao Nang, Nopparat Road, Mueang Krabi, Krabi 81000",
     "district": "อำเภอเมืองกระบี่",
-    "lat": 8.0320,
-    "lng": 98.8320,
+    "lat": 8.032,
+    "lng": 98.832,
     "phone": "075-810-200",
     "hours": "24 ชม.",
     "website": "https://all.accor.com/hotel/7020",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -687,8 +797,10 @@
       "verified": false
     },
     "notes": "โรงแรมในเครือ ibis รับสุนัข 1 ตัว น้ำหนักไม่เกิน 10 กก. ไม่มีค่าธรรมเนียมเพิ่มเติม ไม่รับแมว ห้องพักสะอาด ทำเลดีใกล้หาดอ่าวนาง บริการอาหารเช้า ราคาเริ่มต้น 900 บาท/คืน ยอดนิยมในหมู่นักท่องเที่ยวพร้อมสุนัข",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.1,
     "review_count": 0,
     "added_by": null,
@@ -701,12 +813,15 @@
     "category": "hotel",
     "address": "100/1 Khlong Hang Road, Ao Nang, Mueang Krabi, Krabi 81180",
     "district": "อำเภอเมืองกระบี่",
-    "lat": 8.0480,
-    "lng": 98.8210,
+    "lat": 8.048,
+    "lng": 98.821,
     "phone": "075-695-200",
     "hours": "24 ชม.",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -716,8 +831,10 @@
       "verified": false
     },
     "notes": "รีสอร์ทบูทีค 3 ดาว ใกล้หาดนพรัตน์ธารา รับสุนัขและแมวทุกขนาด ไม่มีค่าธรรมเนียมเพิ่มเติม มีสระว่ายน้ำ ห้องพักกว้างขวาง ราคาเริ่มต้น 1,200 บาท/คืน เหมาะสำหรับครอบครัวที่พามาพร้อมสัตว์เลี้ยง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -730,12 +847,15 @@
     "category": "hotel",
     "address": "258 Tambon Nong, Nong Thale, Mueang Krabi, Krabi 81180",
     "district": "อำเภอเมืองกระบี่",
-    "lat": 8.1050,
-    "lng": 98.8480,
+    "lat": 8.105,
+    "lng": 98.848,
     "phone": "075-628-000",
     "hours": "24 ชม.",
     "website": "https://www.varanahotel.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -745,8 +865,10 @@
       "verified": false
     },
     "notes": "โรงแรม 5 ดาวริมหาดกลองมวง รับสัตว์เลี้ยงเฉพาะห้องประเภท Luxe, Luxe Plus Pool View และ Horizon Garden ชั้น 1 เท่านั้น ค่าธรรมเนียม 1,500–2,000 บาท/ตัว/คืน สนใจสอบถามก่อนเช็คอิน บรรยากาศหรูหรา วิวทะเลสวยงาม",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -759,12 +881,15 @@
     "category": "hotel",
     "address": "144/1 Baan Nai Sa, Tambon Khao Thong, Mueang Krabi, Krabi 81000",
     "district": "อำเภอเมืองกระบี่",
-    "lat": 8.0650,
-    "lng": 98.9100,
+    "lat": 8.065,
+    "lng": 98.91,
     "phone": null,
     "hours": "24 ชม.",
     "website": "https://www.blumonkeypooltara.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -774,8 +899,10 @@
       "verified": false
     },
     "notes": "รีสอร์ทกลางป่าเขาทองกระบี่ บรรยากาศธรรมชาติ 100% มีสระน้ำธรรมชาติ (Freshwater Pool) กิจกรรมพายเรือคายัค รับสัตว์เลี้ยงทุกขนาด ห่างจากอ่าวนาง 20–25 นาที เหมาะสำหรับคนรักธรรมชาติที่ต้องการพักพร้อมน้องหมาในบรรยากาศป่าเขา",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -788,12 +915,15 @@
     "category": "hotel",
     "address": "345 Aonammao Pattana 10 Road, Moo 2, Ao Nang, Mueang Krabi, Krabi 81000",
     "district": "อำเภอเมืองกระบี่",
-    "lat": 8.0220,
-    "lng": 98.8400,
+    "lat": 8.022,
+    "lng": 98.84,
     "phone": null,
     "hours": "24 ชม.",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -803,9 +933,11 @@
       "verified": false
     },
     "notes": "รีสอร์ทน่ารักบริเวณหาดอ่าวนำเมา รับสัตว์เลี้ยงทุกขนาด ไม่มีค่าธรรมเนียมเพิ่มเติม มีสวน ห้องพักแบบ Non-smoking WiFi ฟรี และ Shared Lounge หาดอ่าวนำเมาอยู่ห่างไม่กี่ก้าว บรรยากาศเงียบสงบ",
-    "photos": [],
-    "cover_photo": null,
-    "rating": 4.0,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+    "rating": 4,
     "review_count": 0,
     "added_by": null,
     "added_at": "2026-05-10T00:00:00Z",
@@ -817,12 +949,15 @@
     "category": "hotel",
     "address": "Krabi Noi, Mueang Krabi, Krabi (ห่างจากวัดถ้ำเสือ 13 กม.)",
     "district": "อำเภอเมืองกระบี่",
-    "lat": 8.1500,
-    "lng": 98.9800,
+    "lat": 8.15,
+    "lng": 98.98,
     "phone": "081-089-6135",
     "hours": "24 ชม.",
     "website": "https://phanombenchamountainresort.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -832,8 +967,10 @@
       "verified": false
     },
     "notes": "รีสอร์ทธรรมชาติกลางป่าเขาพนมเบ็ญจา รับสัตว์เลี้ยง 1 ตัว น้ำหนักไม่เกิน 15 กก. ไม่มีค่าธรรมเนียมเพิ่มเติม ไม่รับสัตว์เลี้ยงชนิดพิเศษ (Exotic) ห่างจากสนามบินกระบี่ประมาณ 15–20 นาที บรรยากาศธรรมชาติแท้ๆ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -846,12 +983,15 @@
     "category": "cafe",
     "address": "143/7-8 Tambon Ao Nang, Mueang Krabi District, Krabi 81180",
     "district": "อำเภอเมืองกระบี่",
-    "lat": 8.0310,
+    "lat": 8.031,
     "lng": 98.8355,
     "phone": "075-656-980",
     "hours": "08:00–22:00 น. ทุกวัน",
     "website": "https://cafe898.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -861,8 +1001,10 @@
       "verified": false
     },
     "notes": "คาเฟ่ยอดนิยมกลางอ่าวนาง สไตล์ Urban Loft Industrial รับสัตว์เลี้ยงในโซน Outdoor เท่านั้น เสิร์ฟกาแฟ Specialty, อาหารเช้า, เมนูมังสวิรัติ และ Vegan Option บรรยากาศดี เดินถึงหาดได้ ยอดนิยมในหมู่ Expat และนักท่องเที่ยว",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -876,11 +1018,13 @@
     "address": "249/2 Route 4203, Tambon Ao Nang, Mueang Krabi District, Krabi 81000",
     "district": "อำเภอเมืองกระบี่",
     "lat": 8.0285,
-    "lng": 98.8390,
+    "lng": 98.839,
     "phone": null,
     "hours": "10:00–20:00 น. ทุกวัน",
     "website": null,
-    "pet_types": ["cat"],
+    "pet_types": [
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -890,8 +1034,10 @@
       "verified": false
     },
     "notes": "คาเฟ่แมวในอ่าวนาง กระบี่ สำหรับคนรักแมวโดยเฉพาะ บรรยากาศน่ารัก สามารถนั่งจิบกาแฟพร้อมเล่นกับน้องแมวได้ ได้รับรีวิวดีบน TripAdvisor เหมาะสำหรับแวะพักระหว่างท่องเที่ยวอ่าวนาง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -904,12 +1050,15 @@
     "category": "petshop",
     "address": "อ่าวนาง อำเภอเมืองกระบี่ จังหวัดกระบี่",
     "district": "อำเภอเมืองกระบี่",
-    "lat": 8.0330,
-    "lng": 98.8340,
+    "lat": 8.033,
+    "lng": 98.834,
     "phone": null,
     "hours": "09:00–19:00 น. ทุกวัน",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -919,9 +1068,11 @@
       "verified": false
     },
     "notes": "ร้านอาหารสัตว์และอุปกรณ์สัตว์เลี้ยงในอ่าวนาง กระบี่ จำหน่ายอาหารสุนัข แมว และสัตว์เลี้ยงชนิดอื่นๆ รวมถึงของเล่น สายจูง และอุปกรณ์เดินทาง เหมาะสำหรับนักท่องเที่ยวที่พาสัตว์เลี้ยงมากระบี่",
-    "photos": [],
-    "cover_photo": null,
-    "rating": 4.0,
+    "photos": [
+      "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=1200&q=80",
+    "rating": 4,
     "review_count": 0,
     "added_by": null,
     "added_at": "2026-05-10T00:00:00Z",
@@ -933,12 +1084,15 @@
     "category": "petshop",
     "address": "อำเภอเมืองกระบี่ จังหวัดกระบี่",
     "district": "อำเภอเมืองกระบี่",
-    "lat": 8.0700,
-    "lng": 98.9050,
+    "lat": 8.07,
+    "lng": 98.905,
     "phone": null,
     "hours": "09:00–17:00 น. จันทร์–ศุกร์",
     "website": "https://krabianimalwelfare.org",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -948,8 +1102,10 @@
       "verified": false
     },
     "notes": "องค์กรไม่แสวงหาผลกำไรที่ช่วยเหลือสุนัขและแมวจรจัดในกระบี่ ให้บริการตรวจรักษา วัคซีน และทำหมัน สำหรับสัตว์เลี้ยงของนักท่องเที่ยวหรือผู้อยู่อาศัย ติดต่อล่วงหน้าก่อนเข้ารับบริการ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -967,7 +1123,9 @@
     "phone": null,
     "hours": "ตลอด 24 ชม.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -977,8 +1135,10 @@
       "verified": false
     },
     "notes": "หาดหลักของอ่าวนาง กระบี่ สามารถพาน้องหมาเดินเล่นได้โดยเฉพาะช่วงเช้าและเย็น วิวภูเขาหินปูนสวยงาม มีร้านอาหาร คาเฟ่รอบหาดหลายร้านที่รับสัตว์เลี้ยงในโซน Outdoor",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -996,7 +1156,9 @@
     "phone": null,
     "hours": "ตลอด 24 ชม.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -1006,8 +1168,10 @@
       "verified": false
     },
     "notes": "หาดนพรัตน์ธาราเป็นหาดที่เงียบสงบกว่าหาดอ่าวนาง มีต้นไม้ให้ร่มเงา เหมาะมากสำหรับพาน้องหมาเดินเล่น ช่วงน้ำลงสามารถเดินออกไปยังเกาะได้ ใกล้ศูนย์บริการนักท่องเที่ยวอุทยานแห่งชาติหาดนพรัตน์ธารา–หมู่เกาะพีพี",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -1020,12 +1184,15 @@
     "category": "hotel",
     "address": "อำเภอคลองท่อม จังหวัดกระบี่",
     "district": "อำเภอคลองท่อม",
-    "lat": 7.9650,
-    "lng": 99.0800,
+    "lat": 7.965,
+    "lng": 99.08,
     "phone": null,
     "hours": "24 ชม.",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -1035,8 +1202,10 @@
       "verified": false
     },
     "notes": "รีสอร์ทบ่อน้ำพุร้อนธรรมชาติ รับสัตว์เลี้ยงในห้อง Bamboo ที่กำหนด บรรยากาศธรรมชาติสงบ มีสระน้ำพุร้อน Spa และกิจกรรม Wellness ห่างจากตัวเมืองกระบี่ เหมาะสำหรับการพักผ่อนแบบ Eco-Wellness พร้อมสัตว์เลี้ยง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -1054,7 +1223,10 @@
     "phone": null,
     "hours": "08:00–18:00 น. ทุกวัน",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -1064,8 +1236,10 @@
       "verified": false
     },
     "notes": "คาเฟ่ภายใน Blu Monkey Pooltara Krabi Resort กลางป่าธรรมชาติ รับสัตว์เลี้ยงได้ในโซน Outdoor บรรยากาศธรรมชาติร่มรื่น เหมาะสำหรับผู้ที่พักในรีสอร์ทหรือแวะมาจิบกาแฟระหว่างเที่ยว เมนูอาหารและเครื่องดื่มง่ายๆ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -1083,7 +1257,10 @@
     "phone": null,
     "hours": "12:00–22:00 น. ทุกวัน",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -1093,8 +1270,10 @@
       "verified": false
     },
     "notes": "ร้านอาหารอิตาเลียนบน Boat Avenue เชิงทาเลย์ เสิร์ฟไวน์อิตาเลียนและอาหารอิตาเลียน รับสัตว์เลี้ยงนั่ง Outdoor ได้ หลังทานอาหารสามารถพาน้องหมาเดินเล่นรอบ Boat Avenue ช้อปปิ้งมอลล์ได้",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -1108,11 +1287,13 @@
     "address": "หาดลายัน ตำบลเชิงทะเล อำเภอถลาง จังหวัดภูเก็ต",
     "district": "อำเภอถลาง",
     "lat": 8.0445,
-    "lng": 98.2760,
+    "lng": 98.276,
     "phone": null,
     "hours": "ตลอด 24 ชม.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -1122,8 +1303,10 @@
       "verified": false
     },
     "notes": "หาดลายันเป็นหาดส่วนตัวกึ่งๆ ทางเหนือของบางเทา บรรยากาศเงียบสงบ ไม่แออัด เหมาะมากสำหรับพาน้องหมาเดินเล่นช่วงเช้าและเย็น บางส่วนของหาดอยู่ในบริเวณ Cassia Phuket และรีสอร์ทโดยรอบ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -1136,12 +1319,15 @@
     "category": "petshop",
     "address": "Limelight Avenue Mall, ถนนพังงา ตำบลตลาดใหญ่ อำเภอเมืองภูเก็ต จังหวัดภูเก็ต 83000",
     "district": "อำเภอเมืองภูเก็ต",
-    "lat": 7.8870,
+    "lat": 7.887,
     "lng": 98.3925,
     "phone": null,
     "hours": "10:00–21:00 น. ทุกวัน",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -1151,8 +1337,10 @@
       "verified": false
     },
     "notes": "ร้านสัตว์เลี้ยงสมัยใหม่ใน Limelight Avenue Mall ใกล้เมืองเก่าภูเก็ต จำหน่ายอาหารสัตว์พรีเมียม ของเล่น เสื้อผ้า และอุปกรณ์สำหรับสุนัขและแมว ทำเลสะดวกในย่านช้อปปิ้งเมืองเก่าภูเก็ต",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -1170,7 +1358,9 @@
     "phone": null,
     "hours": "06:00–18:00 น. ทุกวัน",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -1180,9 +1370,11 @@
       "verified": false
     },
     "notes": "บริเวณรอบวัดถ้ำเสือมีพื้นที่สำหรับเดินเล่นกับน้องหมา มีป่าธรรมชาติ เส้นทางเดินชมธรรมชาติ และบรรยากาศสงบร่มรื่น หมายเหตุ: ห้ามนำสัตว์เลี้ยงเข้าภายในวัด เหมาะสำหรับแวะเดินเล่นก่อนหรือหลังเที่ยวชมวัด",
-    "photos": [],
-    "cover_photo": null,
-    "rating": 4.0,
+    "photos": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "rating": 4,
     "review_count": 0,
     "added_by": null,
     "added_at": "2026-05-10T00:00:00Z",

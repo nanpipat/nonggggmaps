@@ -11,7 +11,10 @@
     "phone": "099-191-9426",
     "hours": "เปิด 24 ชั่วโมง",
     "website": "https://www.ketawahotel.com/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -21,8 +24,10 @@
       "verified": false
     },
     "notes": "โรงแรมบูติกใจกลางเมืองเชียงใหม่ที่ตอนรับสัตว์เลี้ยงอย่างเต็มที่ มีคาเฟ่ในตัวเปิดตั้งแต่ 7 โมงเช้า มีโซนเล่นสำหรับสัตว์เลี้ยง มีสุนัขประจำร้าน 7 ตัว ไม่มีค่าเข้า สั่งเครื่องดื่มได้ทั้งวัน มีบริการ pet day care และ grooming",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -36,11 +41,14 @@
     "address": "777 หมู่ 2 ถนนห้วยแก้ว ซอยศรีสุทธ์ ตำบลช้างเผือก อำเภอเมือง เชียงใหม่ 50300",
     "district": "นิมมานเหมินท์",
     "lat": 18.8031,
-    "lng": 98.9670,
+    "lng": 98.967,
     "phone": "052-012-777",
     "hours": "เปิด 24 ชั่วโมง",
     "website": "https://www.novotelchiangmai.com/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -50,8 +58,10 @@
       "verified": false
     },
     "notes": "โรงแรมระดับ 4 ดาวย่านนิมมาน รับสัตว์เลี้ยงสูงสุด 15 กก. สูงสุด 2 ตัว/ห้อง ค่าธรรมเนียมสัตว์เลี้ยง 1,000 บาท/คืน/ตัว พักได้เฉพาะห้อง Deluxe King with Terrace ต้องใช้สายจูงในพื้นที่สาธารณะ ไม่อนุญาตให้พาเข้าร้านอาหาร สระว่ายน้ำ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -69,7 +79,10 @@
     "phone": "053-225-500",
     "hours": "เปิด 24 ชั่วโมง",
     "website": "https://www.mercurechiangmai.com/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -79,8 +92,10 @@
       "verified": false
     },
     "notes": "โรงแรม Accor ใจกลางเมือง รับสัตว์เลี้ยงสูงสุด 20 กก. ไม่เกิน 2 ตัว/ห้อง ค่าธรรมเนียม 400 บาท/ตัว/คืน ต้องแสดงใบฉีดวัคซีน ต้องใช้สายจูงในพื้นที่สาธารณะ เจ้าของต้องอยู่ระหว่างทำความสะอาด",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -98,7 +113,10 @@
     "phone": null,
     "hours": "เปิด 24 ชั่วโมง",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -108,8 +126,10 @@
       "verified": false
     },
     "notes": "เกสต์เฮ้าส์ใกล้ประตูช้างเผือก รับสุนัขไม่เกิน 15 กก. สูงสุด 2 ตัว ไม่เสียค่าธรรมเนียมเพิ่ม รับแมวด้วย เหมาะสำหรับนักท่องเที่ยวที่ต้องการพักใกล้เมืองเก่าพร้อมสัตว์เลี้ยง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
     "rating": 3.9,
     "review_count": 0,
     "added_by": null,
@@ -127,7 +147,10 @@
     "phone": "053-281-950",
     "hours": "เปิด 24 ชั่วโมง",
     "website": "https://www.kodchasri-cm.com/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -137,8 +160,10 @@
       "verified": false
     },
     "notes": "โรงแรม 3 ดาวในเมืองเก่าเชียงใหม่ รับสัตว์เลี้ยงไม่เกิน 5 กก. เฉพาะห้องที่กำหนด ไม่เสียค่าธรรมเนียมเพิ่ม รับทั้งสุนัขและแมว มีสระว่ายน้ำและฟิตเนสในโรงแรม คะแนนรีวิว 9.6/10",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -156,7 +181,10 @@
     "phone": null,
     "hours": "จันทร์-อาทิตย์ 10:00-21:00 น.",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -166,8 +194,10 @@
       "verified": false
     },
     "notes": "ร้านอาหารและรีสอร์ทริมน้ำบนถนนหางดง-สะเมิง สัตว์เลี้ยงเข้าได้ มีโต๊ะกลางแจ้งริมแม่น้ำ เมนูอาหารไทยและนานาชาติ บรรยากาศธรรมชาติสวยงาม เหมาะพาสัตว์เลี้ยงมาพักผ่อน มีที่จอดรถกว้าง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.1,
     "review_count": 0,
     "added_by": null,
@@ -180,12 +210,14 @@
     "category": "cafe",
     "address": "239 หมู่ 9 ตำบลหนองหาร อำเภอสันทราย เชียงใหม่",
     "district": "สันทราย",
-    "lat": 18.8510,
+    "lat": 18.851,
     "lng": 99.0305,
     "phone": "082-194-5454",
     "hours": "จันทร์-อาทิตย์ 11:00-19:00 น.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -195,8 +227,10 @@
       "verified": false
     },
     "notes": "คาเฟ่สุนัขที่มีน้องหมากว่า 40 ตัว หลากหลายสายพันธุ์ เช่น อลาสกัน มาลามิวต์ ซาโมเยด ชิบาอินุ ค่าเข้า 350 บาท รวมเครื่องดื่ม 1 แก้ว และเค้ก 1 ชิ้น บรรยากาศน่ารัก พาน้องหมาของตัวเองเข้าได้",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -214,7 +248,10 @@
     "phone": null,
     "hours": "จันทร์-อาทิตย์ 09:00-18:00 น.",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -224,8 +261,10 @@
       "verified": false
     },
     "notes": "คาเฟ่บรรยากาศสวนสวยย่านวัดเกต เหมาะสำหรับถ่ายรูปพร้อมสัตว์เลี้ยง สัตว์เลี้ยงเข้าได้ทุกขนาด มีโต๊ะกลางแจ้งท่ามกลางต้นไม้ร่มรื่น เมนูเครื่องดื่มและของทานเล่น",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -243,7 +282,10 @@
     "phone": "085-030-7904",
     "hours": "จันทร์-อาทิตย์ 09:00-16:00 น.",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -253,8 +295,10 @@
       "verified": false
     },
     "notes": "คาเฟ่แคมปิ้งสไตล์กลางแจ้งริมแม่น้ำ มีสนามหญ้ากว้างให้สัตว์เลี้ยงวิ่งเล่นอิสระ นั่งในเต็นท์ใต้ร่มไม้หรือเก้าอี้พับริมน้ำ เสิร์ฟกาแฟดริปหอมกรุ่น บรรยากาศผ่อนคลาย เหมาะพาน้องหมามาพักผ่อน",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -272,7 +316,10 @@
     "phone": null,
     "hours": "จันทร์-อาทิตย์ 10:00-19:00 น.",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -282,8 +329,10 @@
       "verified": false
     },
     "notes": "คาเฟ่สไตล์มินิมอล-ลอฟต์ บรรยากาศญี่ปุ่น อยู่ห่างจากตัวเมืองเชียงใหม่ 20-30 นาที มีทั้งโซนในและนอกอาคาร สัตว์เลี้ยงเข้าได้ ที่จอดรถฟรี เมนูไฮไลต์คือชาเขียวมัทฉะนำเข้าจากญี่ปุ่น",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -301,7 +350,10 @@
     "phone": "053-044-565",
     "hours": "เปิด 24 ชั่วโมง",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -311,8 +363,10 @@
       "verified": false
     },
     "notes": "โรงแรมสัตว์เลี้ยงโดยเฉพาะในแม่ริม มีคาเฟ่ในตัว เจ้าของและสัตว์เลี้ยงนั่งดื่มกาแฟร่วมกันได้ บรรยากาศธรรมชาติแวดล้อม มีพื้นที่สำหรับสัตว์เลี้ยงวิ่งเล่น เหมาะสำหรับพักค้างคืน",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -330,7 +384,9 @@
     "phone": null,
     "hours": "จันทร์-อาทิตย์ 07:00-18:00 น.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -340,8 +396,10 @@
       "verified": false
     },
     "notes": "อ่างเก็บน้ำห้วยตึงเฒ่า ทะเลสาบธรรมชาติขนาดใหญ่ใกล้เมือง สัตว์เลี้ยงเข้าได้ต้องใช้สายจูง มีซุ้มไม้ไผ่ริมน้ำให้เช่านั่งพัก มีเรือพาย ตกปลา พักผ่อนชมวิวภูเขาดอยปุย ค่าเข้า 20-50 บาท",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -359,7 +417,9 @@
     "phone": null,
     "hours": "จันทร์-อาทิตย์ 05:00-20:00 น.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -369,8 +429,10 @@
       "verified": false
     },
     "notes": "สวน อบจ. เชียงใหม่ มีสวนสุนัข Dog Park ที่สร้างร่วมกับ Mars Pet Care มีอุปกรณ์ฝึกทักษะ (agility) สำหรับสุนัข สนามหญ้ากว้างขวาง พื้นที่ปลอดภัย สวนสาธารณะขนาด 300 ไร่ ริมอ่างเก็บน้ำหนองเขียว เข้าฟรี",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -388,7 +450,10 @@
     "phone": "064-545-4789",
     "hours": "จันทร์-เสาร์ 08:30-19:30 น., อาทิตย์ 08:30-17:30 น.",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -398,8 +463,10 @@
       "verified": false
     },
     "notes": "ร้านจำหน่ายสินค้าสัตว์เลี้ยงชั้นนำของเชียงใหม่ มีหลายสาขา สาขาใหญ่อยู่แม่เหีย มีสินค้าครบครัน ทั้งอาหาร ของเล่น อุปกรณ์ ยา วัคซีน สำหรับสุนัขและแมว บริการ grooming ในบางสาขา",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -417,7 +484,9 @@
     "phone": null,
     "hours": "จันทร์-อาทิตย์ 11:00-21:00 น.",
     "website": null,
-    "pet_types": ["cat"],
+    "pet_types": [
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -427,8 +496,10 @@
       "verified": false
     },
     "notes": "คาเฟ่แมวชื่อดังย่านนิมมาน เป็นพื้นที่สำหรับแมวโดยเฉพาะ ลูกค้าสามารถนั่งเล่นกับแมวได้ ไม่รับสุนัขของลูกค้าเข้ามา บรรยากาศน่ารัก เมนูเครื่องดื่มและของหวาน",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -446,7 +517,9 @@
     "phone": null,
     "hours": "จันทร์-อาทิตย์ 06:30-20:00 น.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -456,9 +529,11 @@
       "verified": false
     },
     "notes": "สวนสุนัขพันธุ์เล็กโดยเฉพาะ มีพื้นที่รั้วล้อม ปลอดภัย ค่าบริการ 60 บาท/ครั้ง เหมาะสำหรับสุนัขขนาดเล็ก มีน้ำดื่มฟรี",
-    "photos": [],
-    "cover_photo": null,
-    "rating": 4.0,
+    "photos": [
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    "rating": 4,
     "review_count": 0,
     "added_by": null,
     "added_at": "2026-05-10T00:00:00Z"
@@ -475,7 +550,10 @@
     "phone": null,
     "hours": "จันทร์-อาทิตย์ 09:00-20:00 น.",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -485,8 +563,10 @@
       "verified": false
     },
     "notes": "ร้านขายสินค้าสัตว์เลี้ยงและคลินิกสัตวแพทย์ในย่านนิมมาน มีสัตวแพทย์ประจำ บริการฉีดวัคซีน ตรวจรักษา มีสินค้าหลากหลายสำหรับสุนัขและแมว บุคลากรเป็นมิตร",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -504,7 +584,10 @@
     "phone": "053-044-565",
     "hours": "จันทร์-อาทิตย์ 08:00-17:00 น.",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -514,8 +597,10 @@
       "verified": false
     },
     "notes": "คาเฟ่ภายใน Pawtel โรงแรมสัตว์เลี้ยง บรรยากาศร่มรื่น สัตว์เลี้ยงเข้าได้ เสิร์ฟกาแฟ เบเกอรี่ อาหารเช้า เหมาะพามาพักผ่อนช่วงเช้าพร้อมสัตว์เลี้ยง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -529,11 +614,13 @@
     "address": "ตำบลสุเทพ อำเภอเมือง เชียงใหม่",
     "district": "สุเทพ",
     "lat": 18.7965,
-    "lng": 98.9590,
+    "lng": 98.959,
     "phone": null,
     "hours": "จันทร์-อาทิตย์ 10:00-19:00 น.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -543,8 +630,10 @@
       "verified": false
     },
     "notes": "คาเฟ่สไตล์ธรรมชาติ เด่นด้วยน้องซาโมเยดน่ารัก บรรยากาศผ่อนคลาย มีโต๊ะกลางแจ้งและโซนถ่ายรูปสวยงาม กาแฟอร่อย เหมาะพาสัตว์เลี้ยงมาเที่ยว",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -557,12 +646,15 @@
     "category": "hotel",
     "address": "ตำบลหนองควาย อำเภอหางดง เชียงใหม่",
     "district": "หางดง",
-    "lat": 18.7280,
+    "lat": 18.728,
     "lng": 98.9295,
     "phone": null,
     "hours": "คาเฟ่ 09:00-18:00 น.",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -572,8 +664,10 @@
       "verified": false
     },
     "notes": "คาเฟ่รีสอร์ทแห่งแรกในเชียงใหม่ที่มีสิงโต ไม่เสียค่าเข้า เครื่องดื่มเริ่มต้น 80 บาท มีน้องหมา น้องแมว น้องลิงด้วย มีที่พักสัตว์เลี้ยงเข้าได้ ราคาหลักร้อย ห่างจากแยกหนองควายแค่ 8 นาที",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.1,
     "review_count": 0,
     "added_by": null,
@@ -591,7 +685,10 @@
     "phone": null,
     "hours": "จันทร์-อาทิตย์ 11:00-21:00 น.",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -601,8 +698,10 @@
       "verified": false
     },
     "notes": "ร้านอาหารญี่ปุ่นชื่อดังย่านนิมมาน เด่นด้วยเกี๊ยวซ่าและราเมน มีที่นั่งกลางแจ้ง dog friendly สัตว์เลี้ยงเข้าได้โซนนอก บรรยากาศผ่อนคลาย",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -620,7 +719,9 @@
     "phone": null,
     "hours": "จันทร์-อาทิตย์ 08:00-17:00 น.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -630,8 +731,10 @@
       "verified": false
     },
     "notes": "คาเฟ่ pet friendly ในหมู่บ้านแม่กำปองท่ามกลางธรรมชาติสวยงาม บรรยากาศเย็นสบาย สัตว์เลี้ยงเข้าได้ เหมาะสำหรับผู้ที่ชื่นชอบการท่องเที่ยวแนวธรรมชาติพร้อมน้องหมา",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -649,7 +752,10 @@
     "phone": "064-545-4789",
     "hours": "จันทร์-เสาร์ 08:30-19:30 น., อาทิตย์ 08:30-17:30 น.",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -659,8 +765,10 @@
       "verified": false
     },
     "notes": "สาขา Petmart สายมหิดล มีสินค้าสัตว์เลี้ยงครบครัน อาหาร ของเล่น อุปกรณ์ยา เหมาะสำหรับผู้ที่อาศัยแถวถนนมหิดลและพื้นที่ใกล้เคียง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.1,
     "review_count": 0,
     "added_by": null,
@@ -678,7 +786,9 @@
     "phone": null,
     "hours": "เปิด 24 ชั่วโมง",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -688,8 +798,10 @@
       "verified": false
     },
     "notes": "ที่พักรับสัตว์เลี้ยงทุกขนาดโดยไม่เสียค่าธรรมเนียมเพิ่ม เหมาะสำหรับนักท่องเที่ยวที่ต้องการพักราคาประหยัดพร้อมสัตว์เลี้ยง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
     "rating": 3.8,
     "review_count": 0,
     "added_by": null,
@@ -703,11 +815,13 @@
     "address": "221 ถนนแควไว้ ตำบลรอบเวียง อำเภอเมือง เชียงราย 57000",
     "district": "รอบเวียง",
     "lat": 19.9228,
-    "lng": 99.8540,
+    "lng": 99.854,
     "phone": null,
     "hours": "เปิด 24 ชั่วโมง",
     "website": "https://www.marriott.com/en-us/hotels/ceimd-le-meridien-chiang-rai-resort-thailand/",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -717,8 +831,10 @@
       "verified": false
     },
     "notes": "รีสอร์ท 5 ดาวสุดหรูริมแม่น้ำกก ล้อมรอบด้วยสวนสวยและต้นฝนทองอายุ 120 ปี รับสุนัขไม่เกิน 10 กก. สูงสุด 2 ตัว ค่าธรรมเนียม 1,500 บาท/คืน/ตัว มีชามอาหารน้ำ พื้นที่ปล่อยสัตว์เลี้ยง ต้องใช้สายจูงในพื้นที่สาธารณะ ห้ามทิ้งสัตว์เลี้ยงไว้ในห้องคนเดียว",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.6,
     "review_count": 0,
     "added_by": null,
@@ -736,7 +852,9 @@
     "phone": null,
     "hours": "เปิด 24 ชั่วโมง",
     "website": "https://www.sooknirund.com/",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -746,8 +864,10 @@
       "verified": false
     },
     "notes": "โรงแรมบูติก 4 ดาวใจกลางเชียงราย ห่างจากนาฬิกาแลนด์มาร์ค 5 นาทีเดินเท้า รับสัตว์เลี้ยงไม่เกิน 10 กก. เฉพาะห้องที่กำหนด ค่าธรรมเนียม 1,000 บาท/คืน มีสปา ร้านอาหาร ฟิตเนส คะแนนรีวิว 9.6/10",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.6,
     "review_count": 0,
     "added_by": null,
@@ -765,7 +885,9 @@
     "phone": null,
     "hours": "เปิด 24 ชั่วโมง",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -775,8 +897,10 @@
       "verified": false
     },
     "notes": "โรงแรมกลางเมืองเชียงราย รับสัตว์เลี้ยงทุกขนาดโดยไม่เสียค่าธรรมเนียมเพิ่ม ราคาประหยัด เหมาะสำหรับนักท่องเที่ยวที่ต้องการที่พักสะดวกใจกลางเมืองพร้อมสัตว์เลี้ยง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
     "rating": 3.9,
     "review_count": 0,
     "added_by": null,
@@ -794,7 +918,10 @@
     "phone": "081-530-3045",
     "hours": "เปิด 24 ชั่วโมง",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -804,8 +931,10 @@
       "verified": false
     },
     "notes": "ที่พักบนภูเขาส่วนตัว บ้านพัก 8 หลัง วิวหลักล้าน ล้อมรอบด้วยธรรมชาติ ใกล้สิงห์ปาร์ค รับสัตว์เลี้ยงทุกขนาดฟรี แมวสอบถามเพิ่มเติม มีอาหารเช้าแบบล้านนา สั่งดินเนอร์หมูกะทะได้ บรรยากาศโรแมนติก",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -823,7 +952,10 @@
     "phone": null,
     "hours": "เปิด 24 ชั่วโมง",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -833,8 +965,10 @@
       "verified": false
     },
     "notes": "รีสอร์ทสไตล์มินิมอลขาวสะอาด มีเพียง 5 หลัง วิวภูเขาสวยงาม มีสระว่ายน้ำกลางแจ้ง อาหารเช้าบริการ มีพื้นที่กว้างให้สัตว์เลี้ยงวิ่งเล่น แต่ละห้องมีจากุซซี่ ลำโพง Bluetooth ทีวี Netflix",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.6,
     "review_count": 0,
     "added_by": null,
@@ -852,7 +986,9 @@
     "phone": null,
     "hours": "เปิด 24 ชั่วโมง",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -862,8 +998,10 @@
       "verified": false
     },
     "notes": "โฮมสเตย์กลางธรรมชาติ บ้านสไตล์โบราณคลาสสิก ล้อมรอบด้วยทุ่งนาเขียวขจีและภูเขา ห่างจากวัดร่องขุ่น 4 กม. มีระเบียงชมวิวทุ่งนาและภูเขา มีเครื่องชงกาแฟ ไดร์เป่าผม WiFi สัตว์เลี้ยงยินดีต้อนรับ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -881,7 +1019,10 @@
     "phone": "098-833-xxxx",
     "hours": "จันทร์-อาทิตย์ 09:00-19:00 น. (ปิดวันอังคาร)",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -891,8 +1032,10 @@
       "verified": false
     },
     "notes": "คาเฟ่สไตล์มินิมอลสีขาว-ไม้ บรรยากาศชิลล์ มีสนามหญ้าเล็กๆ ให้สัตว์เลี้ยงวิ่งเล่น แนะนำโซนนอก เมนูพิซซ่า พาสต้า เส้นต่างๆ เครื่องดื่มหลากหลาย ช่วงบ่ายร้อน แนะนำมาช่วงเช้า",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -910,7 +1053,9 @@
     "phone": null,
     "hours": "จันทร์-อาทิตย์ 09:00-18:00 น.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -920,8 +1065,10 @@
       "verified": false
     },
     "notes": "ร้านกาแฟน้อยรายในตัวเมืองเชียงราย มีโต๊ะด้านหน้าและสวนด้านหลังสำหรับสัตว์เลี้ยง บรรยากาศโฮมมี่ อบอุ่น มีงานศิลปะจัดแสดง เครื่องดื่มและขนมหวาน",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -939,7 +1086,9 @@
     "phone": "052-020-920",
     "hours": "จันทร์-อาทิตย์ 08:00-18:00 น.",
     "website": "https://www.singhapark.com/",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -949,8 +1098,10 @@
       "verified": false
     },
     "notes": "สวนสิงห์ปาร์คเชียงรายขนาดใหญ่ 8,000 ไร่ สัตว์เลี้ยงเข้าได้ต้องใช้สายจูง เดินชมทุ่งดอกไม้ ไร่ชา กาแฟ มีรถรางพาชมสวน เหมาะพาหมามาสูดอากาศบริสุทธิ์และถ่ายรูปสวยงาม",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -968,7 +1119,10 @@
     "phone": null,
     "hours": "เปิด 24 ชั่วโมง",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -978,9 +1132,11 @@
       "verified": false
     },
     "notes": "ที่พักสไตล์บูติกรวมคาเฟ่ในตัว รับสุนัขทุกขนาดฟรี แมวสอบถามเพิ่มเติม บรรยากาศน่ารัก เหมาะสำหรับนักท่องเที่ยวที่ต้องการที่พักสะดวกพร้อมสัตว์เลี้ยง",
-    "photos": [],
-    "cover_photo": null,
-    "rating": 4.0,
+    "photos": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
+    "rating": 4,
     "review_count": 0,
     "added_by": null,
     "added_at": "2026-05-10T00:00:00Z"
@@ -997,7 +1153,9 @@
     "phone": null,
     "hours": "เปิด 24 ชั่วโมง",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -1007,8 +1165,10 @@
       "verified": false
     },
     "notes": "ที่พักบนดอยแม่สลอง วิวสวยงาม บรรยากาศเย็นสบาย รับสุนัขทุกขนาดฟรี เหมาะสำหรับผู้ที่ต้องการพาสัตว์เลี้ยงขึ้นดอยสูด อากาศบริสุทธิ์ชมทะเลหมอกยามเช้า",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
     "rating": 3.9,
     "review_count": 0,
     "added_by": null,
@@ -1026,7 +1186,9 @@
     "phone": null,
     "hours": "จันทร์-อาทิตย์ 09:00-18:00 น.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -1036,8 +1198,10 @@
       "verified": false
     },
     "notes": "คาเฟ่เล็กๆ สไตล์โฮมมี่สบายๆ บนเส้นทางเชียงใหม่-เชียงราย ตกแต่งน่ารัก สัตว์เลี้ยงนั่งโซนด้านนอก เมนูอาหารจานเดียว พิซซ่า กาแฟ เส้น ราคาถูก WiFi ดี",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.1,
     "review_count": 0,
     "added_by": null,

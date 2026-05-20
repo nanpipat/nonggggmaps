@@ -10,7 +10,9 @@
     "phone": "02-057-0194",
     "hours": "ทุกวัน 09:30–21:00",
     "website": "https://www.facebook.com/dogcountrycafe/",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -20,8 +22,10 @@
       "verified": false
     },
     "notes": "คาเฟ่หมาขนาดใหญ่ที่สุดแห่งหนึ่งในเอเชีย มีสุนัขกว่า 200 ตัว มากกว่า 30 สายพันธุ์ แบ่งโซนเล่นตามขนาดสุนัข มีโซนในร่มแอร์และสนามหญ้ากว้าง บรรยากาศเป็นมิตร เหมาะสำหรับครอบครัวคนรักหมา",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -38,7 +42,9 @@
     "phone": "088-635-0191",
     "hours": "ทุกวัน 10:00–22:00",
     "website": "https://www.facebook.com/dogcitycafe/",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -48,9 +54,11 @@
       "verified": false
     },
     "notes": "สาขาใหม่ของ Dog Country Cafe ย่านพระราม 3 มีสุนัข 50 ตัวให้ได้เล่นด้วย ค่าเข้า 250 บาท/ชั่วโมง แบ่งโซนหมาเล็กและหมาใหญ่เพื่อความปลอดภัย เมนูอาหารและเครื่องดื่มสำหรับมนุษย์และน้องหมา",
-    "photos": [],
-    "cover_photo": null,
-    "rating": 4.0,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
+    "rating": 4,
     "review_count": 0,
     "added_by": null,
     "added_at": "2026-05-10T00:00:00Z"
@@ -66,7 +74,9 @@
     "phone": "089-498-8032",
     "hours": "ทุกวัน 10:00–21:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -76,8 +86,10 @@
       "verified": false
     },
     "notes": "คาเฟ่ธีมป่าเขตร้อน บรรยากาศร่มรื่น มีสนามหญ้าให้น้องหมาวิ่งเล่นได้อย่างอิสระโดยไม่ต้องใส่สายจูง มีโซนในร่มแอร์และโซนกลางแจ้ง เมนูสำหรับทั้งคนและน้องหมา",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -94,7 +106,9 @@
     "phone": "02-108-3604",
     "hours": "อังคาร–ศุกร์ 11:00–22:00, เสาร์–อาทิตย์ 11:00–23:00 (ปิดจันทร์)",
     "website": "https://www.facebook.com/PurrCatCafeClub/",
-    "pet_types": ["cat"],
+    "pet_types": [
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -104,8 +118,10 @@
       "verified": false
     },
     "notes": "คาเฟ่แมวในย่านทองหล่อ มีแมวน่ารักหลายตัวให้ได้นั่งเล่นด้วย บรรยากาศอบอุ่น เครื่องดื่มและขนมหลากหลาย ไม่มีค่าแรกเข้า ใกล้ BTS ทองหล่อ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -122,7 +138,10 @@
     "phone": "094-999-0309",
     "hours": "ทุกวัน 08:00–22:00",
     "website": "https://www.instagram.com/frans.thailand/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -132,8 +151,10 @@
       "verified": false
     },
     "notes": "คาเฟ่บ้านไม้สุดสวยงาม ย่านสุขุมวิท 49 โซน Outdoor รับน้องสัตว์เลี้ยง บรรยากาศโปร่งสบาย แสงธรรมชาติสวยงาม เมนูบรันช์และอาหารเช้าสุดฮิต",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -150,7 +171,10 @@
     "phone": "063-078-7471",
     "hours": "ทุกวัน 07:00–17:00",
     "website": "https://www.casalapin.com/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -160,8 +184,10 @@
       "verified": false
     },
     "notes": "ร้านกาแฟ Specialty ชื่อดัง สาขาสุขุมวิท 20 มีที่นั่ง Outdoor กว้างขวาง รับน้องสัตว์เลี้ยง บรรยากาศร่มรื่น กาแฟและอาหารเช้าคุณภาพดี",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -174,11 +200,13 @@
     "address": "59/1 ซอยสุขุมวิท 39, ถนนสุขุมวิท, คลองตันเหนือ, วัฒนา, กรุงเทพฯ 10110",
     "district": "เขตวัฒนา",
     "lat": 13.7308,
-    "lng": 100.5710,
+    "lng": 100.571,
     "phone": "02-079-7134",
     "hours": "ทุกวัน 06:00–22:00",
     "website": "https://137pillarshotels.com/en/bangkok/dining/bangkok-trading-post",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -188,8 +216,10 @@
       "verified": false
     },
     "notes": "ร้านอาหารและบิสโทรในโรงแรม 137 Pillars Suites Bangkok มีสวนสวยด้านนอกที่รับน้องหมา เมนูอาหารตะวันตกครีเอทีฟ เบเกอรี่โฮมเมด กาแฟ Specialty และค็อกเทลตลอดวัน",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.6,
     "review_count": 0,
     "added_by": null,
@@ -202,11 +232,14 @@
     "address": "101, 103 ซอยเจริญกรุง 44, แขวงบางรัก, เขตบางรัก, กรุงเทพฯ 10500",
     "district": "เขตบางรัก",
     "lat": 13.7258,
-    "lng": 100.5190,
+    "lng": 100.519,
     "phone": "065-816-1655",
     "hours": "ทุกวัน 08:00–22:00",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -216,8 +249,10 @@
       "verified": false
     },
     "notes": "ร้านกาแฟและอาหารสิงคโปร์สไตล์ บนถนนเจริญกรุง ใกล้ One Bangkok โซน Outdoor รับน้องสัตว์เลี้ยงได้ น้องหมาต้องมีน้ำหนักไม่เกิน 25 กก. ใส่ปลอกคอพร้อมป้ายชื่อ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -234,7 +269,10 @@
     "phone": null,
     "hours": "ทุกวัน 10:00–22:00 (Tops Market เปิด 24 ชม.)",
     "website": "https://www.instagram.com/marche_thonglor/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -244,8 +282,10 @@
       "verified": false
     },
     "notes": "คอมมูนิตี้มอลล์ Outdoor สไตล์ฝรั่งเศส ย่านทองหล่อ มีฟู้ดทรัค ร้านอาหาร ร้านกาแฟ และ Tops Market เปิด 24 ชม. รับน้องสัตว์เลี้ยงในโซน Outdoor ทางเดินร่มรื่น ใกล้ BTS ทองหล่อ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -262,7 +302,10 @@
     "phone": "062-223-9900",
     "hours": "ทุกวัน 10:00–22:00",
     "website": "https://www.instagram.com/parcbangna/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -272,8 +315,10 @@
       "verified": false
     },
     "notes": "คอมมูนิตี้มอลล์สไตล์ญี่ปุ่น ย่านบางนา ออกแบบล้อมรอบสวนและบ่อน้ำสวยงาม มีโซน Pet Park สำหรับน้องสัตว์เลี้ยง ร้านอาหารและคาเฟ่หลากหลาย ตรงข้าม MRT ศรีเอี่ยม สายสีเหลือง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1481437156560-3205f6a55735?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1481437156560-3205f6a55735?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -286,11 +331,14 @@
     "address": "ซอยสุขุมวิท 105 (ซอยลาซาล), บางนาใต้, บางนา, กรุงเทพฯ 10260",
     "district": "เขตบางนา",
     "lat": 13.6613,
-    "lng": 100.6160,
+    "lng": 100.616,
     "phone": "096-885-8303",
     "hours": "ทุกวัน 10:00–22:00",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -300,8 +348,10 @@
       "verified": false
     },
     "notes": "ตลาดชุมชนบรรยากาศสบายๆ ย่านลาซาล รวมร้านอาหารและคาเฟ่ชื่อดัง มีโซนสำหรับน้องสัตว์เลี้ยงโดยเฉพาะ ที่จอดรถสะดวก บรรยากาศร่มรื่น",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1481437156560-3205f6a55735?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1481437156560-3205f6a55735?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -318,7 +368,10 @@
     "phone": "062-178-9912",
     "hours": "จันทร์–ศุกร์ 08:00–22:00, เสาร์–อาทิตย์ 10:00–22:00",
     "website": "https://www.facebook.com/peopleparkmall/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": true,
@@ -328,8 +381,10 @@
       "verified": false
     },
     "notes": "คอมมูนิตี้มอลล์ย่านอ่อนนุช มีโซน Pet Friendly โดยเฉพาะ รับสัตว์เลี้ยงทุกขนาด จัดงาน Pet Event ทุกสุดสัปดาห์ ห่าง BTS อ่อนนุช ประมาณ 1 กม.",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.1,
     "review_count": 0,
     "added_by": null,
@@ -346,7 +401,10 @@
     "phone": "02-030-5999",
     "hours": "ทุกวัน 10:00–22:00",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": true,
@@ -356,8 +414,10 @@
       "verified": false
     },
     "notes": "ห้างกึ่ง Open Air บนถนนพระราม 9 มีร้านค้าและร้านอาหารหลากหลาย รับสัตว์เลี้ยงน้ำหนักไม่เกิน 5 กก. ต้องอยู่ในกระเป๋าหรือรถเข็นตลอดเวลา",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -374,7 +434,10 @@
     "phone": "02-495-7000",
     "hours": "จันทร์–ศุกร์ 10:00–21:00, เสาร์–อาทิตย์ 10:00–22:00",
     "website": "https://thepetsafari.com/th/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -384,8 +447,10 @@
       "verified": false
     },
     "notes": "เพ็ทช็อปชั้นนำในห้าง ICONSIAM เน้นสินค้าสัตว์เลี้ยงคุณภาพสูงจากญี่ปุ่น มีบริการ Grooming และ Pet Clinic ในร้าน รับน้องสัตว์เลี้ยงเข้าร้านได้",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -402,7 +467,10 @@
     "phone": "02-649-8888",
     "hours": "24 ชม.",
     "website": "https://www.marriott.com/en-us/hotels/bkklc-sheraton-grande-sukhumvit-a-luxury-collection-hotel-bangkok/overview/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -412,8 +480,10 @@
       "verified": false
     },
     "notes": "โรงแรม 5 ดาว Luxury Collection ย่านสุขุมวิท รับน้องสัตว์เลี้ยง 1 ตัวต่อห้อง น้ำหนักไม่เกิน 7 กก. ค่าธรรมเนียม 3,531 บาท ต่อการเข้าพัก ใกล้ BTS อโศก",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.6,
     "review_count": 0,
     "added_by": null,
@@ -430,7 +500,10 @@
     "phone": "02-055-3888",
     "hours": "24 ชม.",
     "website": "https://www.discoverasr.com/en/oakwood/thailand/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -440,8 +513,10 @@
       "verified": false
     },
     "notes": "อพาร์ตเมนต์โรงแรม 4 ดาว ย่านสุขุมวิท 24 รับน้องสัตว์เลี้ยง (สูงไม่เกิน 45 ซม.) ค่าธรรมเนียม 1,500–5,000 บาท ต่อตัว ต่อคืน เหมาะสำหรับพักระยะยาวกับสัตว์เลี้ยง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -458,7 +533,10 @@
     "phone": "02-302-6000",
     "hours": "24 ชม.",
     "website": "https://www.discoverasr.com/en/oakwood/thailand/oakwood-studios-sukhumvit-bangkok",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -468,8 +546,10 @@
       "verified": false
     },
     "notes": "อพาร์ตเมนต์โรงแรม ย่านทองหล่อ รับน้องสัตว์เลี้ยงทุกขนาด ค่าธรรมเนียม 500 บาท/ตัว/คืน มีชั้นพิเศษสำหรับ Pet Friendly โดยเฉพาะ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -486,7 +566,10 @@
     "phone": "02-343-6789",
     "hours": "24 ชม.",
     "website": "https://www.marriott.com/en-us/hotels/bkkea-sathorn-vista-bangkok-marriott-executive-apartments/overview/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -496,8 +579,10 @@
       "verified": false
     },
     "notes": "อพาร์ตเมนต์ระดับบริหาร Marriott ย่านสาทร รับน้องสัตว์เลี้ยงไม่เกิน 13 กก. ค่าธรรมเนียม 1,000 บาท/ตัว/คืน มีชุด Fluffy Friends Package พร้อมที่นอน ชาม อาหาร และ Piddle Pad ให้",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -514,7 +599,9 @@
     "phone": "02-650-8800",
     "hours": "24 ชม.",
     "website": "https://www.marriott.com/en-us/hotels/bkkla-the-athenee-hotel-a-luxury-collection-hotel-bangkok/overview/",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -524,8 +611,10 @@
       "verified": false
     },
     "notes": "โรงแรม 5 ดาว Luxury Collection ย่านถนนวิทยุ รับน้องหมาไม่เกิน 7 กก. (1 ตัว/ห้อง) ค่าธรรมเนียม 3,000 บาท/การเข้าพัก มีอาหารออร์แกนิกสำหรับสัตว์เลี้ยง เตียงนอน ชาม พาน้องออกไป Terrace ได้",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.7,
     "review_count": 0,
     "added_by": null,
@@ -542,7 +631,10 @@
     "phone": "02-659-2888",
     "hours": "24 ชม.",
     "website": "https://all.accor.com/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -552,8 +644,10 @@
       "verified": false
     },
     "notes": "โรงแรม ibis ใจกลางเมือง ย่านสยาม รับน้องสัตว์เลี้ยงไม่เกิน 10 กก. 1 ตัว/ห้อง ราคาจับต้องได้ ใกล้ BTS สนามกีฬาแห่งชาติ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.1,
     "review_count": 0,
     "added_by": null,
@@ -570,7 +664,10 @@
     "phone": "02-302-9999",
     "hours": "24 ชม.",
     "website": "https://all.accor.com/hotel/A237/index.en.shtml",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -580,8 +677,10 @@
       "verified": false
     },
     "notes": "โรงแรม ibis Styles สไตล์ทันสมัย ย่าน Nana รับน้องสัตว์เลี้ยงไม่เกิน 10 กก. ตัวแรกฟรี ตัวที่สองเพิ่ม 500 บาท ห่าง BTS นานา เพียง 5 นาที",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -598,7 +697,10 @@
     "phone": "02-301-7999",
     "hours": "24 ชม.",
     "website": "https://all.accor.com/hotel/9790/index.en.shtml",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -608,9 +710,11 @@
       "verified": false
     },
     "notes": "โรงแรม ibis Styles ย่านพระโขนง รับน้องสัตว์เลี้ยงไม่เกิน 13 กก. ค่าธรรมเนียม 499 บาท/ตัว/คืน มัดจำ 1,000 บาทเมื่อเช็คอิน ใกล้สวนสาธารณะหลายแห่ง",
-    "photos": [],
-    "cover_photo": null,
-    "rating": 4.0,
+    "photos": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
+    "rating": 4,
     "review_count": 0,
     "added_by": null,
     "added_at": "2026-05-10T00:00:00Z"
@@ -626,7 +730,10 @@
     "phone": "02-659-2888",
     "hours": "24 ชม.",
     "website": "https://all.accor.com/hotel/7026/index.en.shtml",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -636,8 +743,10 @@
       "verified": false
     },
     "notes": "โรงแรม ibis ริมแม่น้ำเจ้าพระยา ย่านเจริญนคร รับน้องสัตว์เลี้ยงไม่เกิน 10 กก. ตัวแรกฟรี ตัวที่สองเพิ่ม 500 บาท ทิวทัศน์แม่น้ำสวยงาม",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.1,
     "review_count": 0,
     "added_by": null,
@@ -654,7 +763,10 @@
     "phone": "02-032-0888",
     "hours": "24 ชม.",
     "website": "https://www.fourseasons.com/bangkok/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -664,8 +776,10 @@
       "verified": false
     },
     "notes": "โรงแรม 5 ดาวระดับ Ultra Luxury ริมแม่น้ำเจ้าพระยา รับน้องสัตว์เลี้ยงไม่เกิน 27 กก. มีพื้นที่ Terrace Outdoor ของร้านอาหาร ทัศนียภาพแม่น้ำสวยงาม สิ่งอำนวยความสะดวกระดับโลก",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.8,
     "review_count": 0,
     "added_by": null,
@@ -682,7 +796,9 @@
     "phone": null,
     "hours": "ทุกวัน 05:00–20:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -692,8 +808,10 @@
       "verified": false
     },
     "notes": "สวนสาธารณะขนาดใหญ่ย่านบางเขน มีโซน Dog Park โดยเฉพาะ น้องหมาต้องมีวัคซีนครบถ้วนและไมโครชิพ ใกล้ MRT ไมยลาป หรือ วัชรพล เข้าฟรี",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -710,7 +828,10 @@
     "phone": null,
     "hours": "จันทร์–ศุกร์ 07:00–22:00, เสาร์–อาทิตย์ 09:00–23:00",
     "website": "https://www.onebangkok.com/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -720,8 +841,10 @@
       "verified": false
     },
     "notes": "โปรเจกต์มิกซ์ยูสระดับ World Class ริมถนนวิทยุ โซน The Parade รับน้องสัตว์เลี้ยง ต้องมีน้ำหนักไม่เกิน 25 กก. สูงสุด 2 ตัว/คน ใส่ปลอกคอพร้อมป้าย มีร้านกาแฟและร้านอาหาร Outdoor รับน้อง เช่น Sarnies, Bar Do, Smith & Co",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -733,12 +856,15 @@
     "category": "mall",
     "address": "299 ถนนเจริญนคร, คลองตรง, คลองสาน, กรุงเทพฯ 10600",
     "district": "เขตคลองสาน",
-    "lat": 13.7270,
+    "lat": 13.727,
     "lng": 100.5094,
     "phone": "02-495-7000",
     "hours": "ทุกวัน 10:00–22:00",
     "website": "https://www.iconsiam.com/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": true,
@@ -748,8 +874,10 @@
       "verified": false
     },
     "notes": "ห้างสรรพสินค้า World Class ริมแม่น้ำเจ้าพระยา รับน้องสัตว์เลี้ยงขนาดเล็กในกระเป๋าหรือรถเข็น มี The Pet Safari ชั้น B1 บริการครบครัน มีทั้ง Grooming และคลินิกสัตว์",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.6,
     "review_count": 0,
     "added_by": null,
@@ -766,7 +894,10 @@
     "phone": null,
     "hours": "เสาร์–อาทิตย์ 09:00–18:00",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -776,9 +907,11 @@
       "verified": false
     },
     "notes": "ตลาดนัดจตุจักร โซนสัตว์เลี้ยง (Section 8, 9, 11, 13, 15) มีสัตว์เลี้ยง อุปกรณ์ อาหาร ของตกแต่งสัตว์เลี้ยงหลากหลาย แหล่งรวมคนรักสัตว์ที่ใหญ่ที่สุดในกรุงเทพ ใกล้ BTS หมอชิต และ MRT จตุจักร",
-    "photos": [],
-    "cover_photo": null,
-    "rating": 4.0,
+    "photos": [
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80",
+    "rating": 4,
     "review_count": 0,
     "added_by": null,
     "added_at": "2026-05-10T00:00:00Z"
@@ -794,7 +927,10 @@
     "phone": "02-513-4999",
     "hours": "ทุกวัน 10:00–21:00",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -804,8 +940,10 @@
       "verified": false
     },
     "notes": "ศูนย์การค้าใจกลางตลาดจตุจักร ความยาว 350 ม. เปิดทุกวัน มีร้านสัตว์เลี้ยงและ Exotic Pets หลากหลาย รับน้องสัตว์เลี้ยงเข้าในร่มแอร์ แหล่งช็อปปิ้งสัตว์เลี้ยงที่ใหญ่ที่สุดแห่งหนึ่งในไทย",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.1,
     "review_count": 0,
     "added_by": null,
@@ -817,12 +955,14 @@
     "category": "restaurant",
     "address": "ย่านสุขุมวิท ทองหล่อ, วัฒนา, กรุงเทพฯ",
     "district": "เขตวัฒนา",
-    "lat": 13.7320,
-    "lng": 100.5780,
+    "lat": 13.732,
+    "lng": 100.578,
     "phone": "061-412-9257",
     "hours": "ทุกวัน 10:00–00:00",
     "website": "https://dogsdreambkk.com/",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -832,8 +972,10 @@
       "verified": false
     },
     "notes": "ร้านอาหารและบาร์ Pet Friendly 100% รับน้องหมาเข้าในร่มแอร์ได้ สามารถถอดสายจูงภายในร้าน มีเมนูอาหารสำหรับน้องหมาโดยเฉพาะ น้องหมาต้องฉีดวัคซีนครบถ้วน เปิดดึกถึงเที่ยงคืน",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -850,7 +992,10 @@
     "phone": "02-323-4700",
     "hours": "ทุกวัน 06:00–18:00",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -860,8 +1005,10 @@
       "verified": false
     },
     "notes": "ศูนย์นันทนาการบางปูริมชายทะเล สมุทรปราการ พาน้องหมาเดินเล่นริมทะเล ชมพระอาทิตย์ตก บรรยากาศเปิดโล่งสดชื่น มีนกนางนวลจำนวนมากในช่วงฤดูหนาว เป็นสถานที่พักผ่อนยอดนิยมของครอบครัวคนรักสัตว์",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -878,7 +1025,9 @@
     "phone": "095-250-7908",
     "hours": "ทุกวัน 09:00–19:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -888,8 +1037,10 @@
       "verified": false
     },
     "notes": "สนามน้องหมา outdoor มีโซนในร้าน บ่อโคลน สระน้ำ บ้านของเล่น คาเฟ่ ร้านขายของ บริการ Daycare, Hotel และ Spa สำหรับน้องหมา",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -906,7 +1057,10 @@
     "phone": null,
     "hours": "ทุกวัน 09:00–19:00",
     "website": "https://www.tonsongrooming.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -916,8 +1070,10 @@
       "verified": false
     },
     "notes": "ร้าน Grooming และโรงแรมสัตว์เลี้ยงระดับพรีเมียมใจกลางกรุงเทพ บริการครบครัน ทั้ง Dog Grooming, Day Care, Pet Hotel และ Pet Supply บรรยากาศสะอาด ทีมงานมืออาชีพ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.6,
     "review_count": 0,
     "added_by": null,
@@ -929,12 +1085,14 @@
     "category": "cafe",
     "address": "358 ถนนรวมน้ำใจ 2, วังทองหลาง, วังทองหลาง, กรุงเทพฯ 10310",
     "district": "เขตวังทองหลาง",
-    "lat": 13.7720,
+    "lat": 13.772,
     "lng": 100.5952,
     "phone": "061-868-1870",
     "hours": "ทุกวัน 09:30–22:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -944,8 +1102,10 @@
       "verified": false
     },
     "notes": "คาเฟ่สุนัขพันธุ์ใหญ่ Saint Bernard, Alaskan Malamute, Great Dane ค่าเข้า ฿215 มีทั้งโซนในและนอกร้าน",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -962,7 +1122,10 @@
     "phone": null,
     "hours": "พุธ–จันทร์ 10:30–22:30 (หยุดอังคาร)",
     "website": "https://sirihouse.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -972,8 +1135,10 @@
       "verified": false
     },
     "notes": "สวนสวยกลาง CBD มีบาร์และร้านอาหารหลายร้าน บรรยากาศดี น้องหมาและแมวเดินสวนได้",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -990,7 +1155,9 @@
     "phone": null,
     "hours": "อังคาร–อาทิตย์ 11:00–20:00 (ปิดจันทร์)",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -1000,8 +1167,10 @@
       "verified": false
     },
     "notes": "คาเฟ่หมา Hidden Gem ย่านบางแค บรรยากาศอบอุ่น พนักงานเป็นมิตร น้องหมาในร้านมีความสุขและได้รับการดูแลเป็นอย่างดี เหมาะสำหรับคนรักสัตว์ที่ต้องการหนีจากใจกลางเมือง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -1018,7 +1187,9 @@
     "phone": null,
     "hours": "ทุกวัน 11:00–21:00",
     "website": null,
-    "pet_types": ["cat"],
+    "pet_types": [
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -1028,8 +1199,10 @@
       "verified": false
     },
     "notes": "สาขาใหม่ของ Caturday Cat Cafe ย่านพระราม 9 มีแมวน่ารักหลายสายพันธุ์ ค่าเข้า 200 บาท (รวมเครื่องดื่ม 1 แก้ว) ระยะเวลา 90 นาที สามารถซื้อขนมให้แมว 40 บาท",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -1046,7 +1219,9 @@
     "phone": null,
     "hours": "เสาร์–อาทิตย์ 09:00–18:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -1056,8 +1231,10 @@
       "verified": false
     },
     "notes": "สวนสนุกสำหรับน้องหมาย่านมีนบุรี มีพื้นที่กว้างขวาง อุปกรณ์เล่นสำหรับสุนัข แบ่งโซนตามขนาด มีบริการสปา อาบน้ำ และขายอาหารสำหรับสัตว์เลี้ยง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -1074,7 +1251,10 @@
     "phone": "02-079-9999",
     "hours": "24 ชม.",
     "website": "https://thonglorpet.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -1084,8 +1264,10 @@
       "verified": true
     },
     "notes": "โรงพยาบาลสัตว์ 24 ชม. ครบครัน กรูมมิ่ง โรงแรม ร้านขายของ มีแผนกเฉพาะทาง (ระบบประสาท มะเร็ง ต่อมไร้ท่อ) หลายสาขาในกรุงเทพ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.6,
     "review_count": 0,
     "added_by": null,
@@ -1102,7 +1284,9 @@
     "phone": null,
     "hours": "ทุกวัน 05:00–20:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -1112,8 +1296,10 @@
       "verified": false
     },
     "notes": "สวนสาธารณะบางแคพิรมย์ มีโซนสำหรับน้องสัตว์เลี้ยงโดยเฉพาะ พื้นที่เปิดโล่งสดชื่น เหมาะสำหรับคนย่านบางแคที่ต้องการพาน้องหมาออกกำลังกาย ฟรี",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.1,
     "review_count": 0,
     "added_by": null,
@@ -1130,7 +1316,10 @@
     "phone": null,
     "hours": "ทุกวัน 09:00–21:00",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -1140,8 +1329,10 @@
       "verified": false
     },
     "notes": "คาเฟ่ Pet Friendly เปิดใหม่ ย่านลาดกระบังใกล้สนามบินสุวรรณภูมิ มีทั้งโซน Indoor แอร์ Outdoor และโซน Poop Free สำหรับน้องสัตว์เลี้ยง เหมาะสำหรับแวะพักก่อนหรือหลังเดินทาง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -1158,7 +1349,10 @@
     "phone": null,
     "hours": "ตามการจองส่วนตัว",
     "website": "https://bangkoksecretgarden.com/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -1168,8 +1362,10 @@
       "verified": false
     },
     "notes": "สถานที่จัดงาน Private ในสวนร่มรื่นเงียบสงบ ย่านสุขุมวิท 26 รับน้องสัตว์เลี้ยงทุกชนิด เจ้าของมีสุนัขและแมวเป็นของตนเอง รับเฉพาะ Private Booking ต่อกลุ่ม",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.7,
     "review_count": 0,
     "added_by": null,

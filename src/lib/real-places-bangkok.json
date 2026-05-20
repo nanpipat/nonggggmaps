@@ -10,7 +10,9 @@
     "phone": "088-942-4964",
     "hours": "ทุกวัน 11:00–20:00",
     "website": "https://dogintownbkk.com",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -20,8 +22,10 @@
       "verified": false
     },
     "notes": "คาเฟ่สุนัขพันธุ์ Shiba Inu & Samoyed อาศัยอยู่ในร้าน ค่าเข้า ฿300 รวม 1 เครื่องดื่ม ไม่ต้องพาน้องมาเอง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -38,7 +42,9 @@
     "phone": null,
     "hours": "อาทิตย์–พฤหัสบดี 11:00–20:00, ศุกร์–เสาร์ 11:00–21:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -48,8 +54,10 @@
       "verified": false
     },
     "notes": "คาเฟ่สุนัขพันธุ์ Husky, Samoyed, Corgi, Golden, Poodle ค่าเข้า ฿350 รวม 1 เครื่องดื่ม สาขา BTS อารีย์",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -66,7 +74,9 @@
     "phone": "062-865-6156",
     "hours": "อังคาร–ศุกร์ 12:30–18:00, เสาร์–อาทิตย์ 10:00–18:00 (หยุดจันทร์)",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -76,8 +86,10 @@
       "verified": false
     },
     "notes": "Corgi กว่า 30 ตัวในสวนร่มรื่น ค่าเข้า ฿250–300 รวม 1 เครื่องดื่ม ไม่ต้องพาน้องมา",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.6,
     "review_count": 0,
     "added_by": null,
@@ -94,7 +106,9 @@
     "phone": "090-101-9669",
     "hours": "ทุกวัน 11:30–18:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -104,8 +118,10 @@
       "verified": false
     },
     "notes": "Siberian Husky กว่า 30 ตัว ค่าเข้า ฿350 (ใช้คืนได้) เปิดเป็นรอบ 12:30–14:30 และ 15:30–17:30 รับน้องหมาผู้มาเยือนด้วย",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -122,7 +138,9 @@
     "phone": null,
     "hours": "จันทร์–ศุกร์ 12:00–20:00, เสาร์–อาทิตย์ 11:00–20:00",
     "website": null,
-    "pet_types": ["cat"],
+    "pet_types": [
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -132,8 +150,10 @@
       "verified": false
     },
     "notes": "คาเฟ่แมวหลากหลายสายพันธุ์ นั่งพื้นและเก้าอี้ ใกล้ BTS ราชเทวี ไม่ต้องพาน้องแมวมาเอง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -150,18 +170,23 @@
     "phone": "089-152-2677",
     "hours": "ทุกวัน 10:00–00:00",
     "website": "https://thecommonsbkk.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
-      "ac": false,
+      "ac": true,
       "pet_zone": true,
       "size_limit": "any",
       "verified": true
     },
     "notes": "Community mall open-air สไตล์ pet-friendly มี Puppy Parking ชั้น G ร้านอาหารหลายร้านรับน้อง ทั้งหมาและแมว ใส่สายจูงได้เลย",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.6,
     "review_count": 0,
     "added_by": null,
@@ -173,12 +198,15 @@
     "category": "cafe",
     "address": "The Residence at 61, Sukhumvit Soi 61, Watthana",
     "district": "วัฒนา",
-    "lat": 13.7320,
+    "lat": 13.732,
     "lng": 100.5747,
     "phone": "091-715-5247",
     "hours": "จันทร์–ศุกร์ 08:00–20:00, เสาร์–อาทิตย์ 09:00–20:00",
     "website": "https://plantifulbkk.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -188,8 +216,10 @@
       "verified": false
     },
     "notes": "Plant-based cafe สุดน่ารัก พาน้องมาได้ทั้งในร้านและระเบียง น้องหมาและแมวยินดีต้อนรับ มีน้ำให้น้อง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -206,7 +236,10 @@
     "phone": null,
     "hours": "จันทร์–พฤหัสบดี 07:00–22:00, ศุกร์–เสาร์ 07:00–23:00, อาทิตย์ 07:00–22:00",
     "website": "https://darkoffee.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": true,
@@ -216,8 +249,10 @@
       "verified": false
     },
     "notes": "น้องขนาดเล็กในกระเป๋าเข้าในร้านได้ น้องหมาขนาดใหญ่นั่งโซนนอกร้านได้",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -234,7 +269,9 @@
     "phone": "02-637-8558",
     "hours": "ทุกวัน 08:00–18:00",
     "website": "https://lukacafedelivery.com",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -244,8 +281,10 @@
       "verified": false
     },
     "notes": "Cafe บรรยากาศดีในซอยสีลม โซนนอกร้านรับน้องหมา มีน้ำให้ฟรี",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -262,7 +301,10 @@
     "phone": "02-056-9999",
     "hours": "ทุกวัน 07:00–00:00",
     "website": "https://kimptonmaalaibangkok.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -272,8 +314,10 @@
       "verified": true
     },
     "notes": "บาร์และคาเฟ่ในโรงแรม Kimpton ที่ pet-friendly ที่สุดในกรุงเทพ มีเมนูสำหรับน้อง (dog ice cream) พาน้องได้ทุกขนาด ทั้งในและนอกร้าน",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.7,
     "review_count": 0,
     "added_by": null,
@@ -285,12 +329,15 @@
     "category": "restaurant",
     "address": "420 Sukhumvit 71 Rd, Watthana",
     "district": "วัฒนา",
-    "lat": 13.7240,
+    "lat": 13.724,
     "lng": 100.5905,
     "phone": null,
     "hours": "ทุกวัน 07:30–22:00",
     "website": "https://pamahengtheeatery.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -300,8 +347,10 @@
       "verified": false
     },
     "notes": "มีโซนในร้านมีแอร์แยกสำหรับน้องโดยเฉพาะ น้องหมาและแมวเข้าได้ ไม่ต้องใส่กระเป๋า",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -313,12 +362,15 @@
     "category": "restaurant",
     "address": "2/92 Phahon Yothin 5, Phaya Thai (ใกล้ BTS อารีย์)",
     "district": "พญาไท",
-    "lat": 13.7810,
+    "lat": 13.781,
     "lng": 100.5418,
     "phone": null,
     "hours": "ทุกวัน 09:00–22:00",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -328,8 +380,10 @@
       "verified": false
     },
     "notes": "ร้านอาหารใกล้อารีย์ที่ welcoming มากสำหรับน้อง พาเข้าได้ทั้งในและนอกร้าน ทั้งหมาและแมว",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -346,7 +400,9 @@
     "phone": null,
     "hours": "อังคาร–อาทิตย์ 17:00–23:00 (หยุดจันทร์)",
     "website": "https://smokinpugbbq.com",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -356,8 +412,10 @@
       "verified": false
     },
     "notes": "BBQ bar สไตล์อเมริกัน โซนนอกร้านรับน้องหมา บรรยากาศผ่อนคลาย",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -374,7 +432,10 @@
     "phone": null,
     "hours": "จันทร์–พฤหัสบดี 11:00–14:00 & 17:00–22:00, ศุกร์–อาทิตย์ 11:00–22:00",
     "website": "https://mamadoloresbkk.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -384,8 +445,10 @@
       "verified": false
     },
     "notes": "ร้านอิตาเลียน-เมดิเตอร์เรเนียน บรรยากาศดี รับน้องทั้งหมาและแมว มีน้องประจำร้านด้วย",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -397,12 +460,14 @@
     "category": "restaurant",
     "address": "8/18 Ekkamai 10 Alley Lane 2, Watthana",
     "district": "วัฒนา",
-    "lat": 13.7210,
-    "lng": 100.5860,
+    "lat": 13.721,
+    "lng": 100.586,
     "phone": null,
     "hours": "ทุกวัน 11:00–22:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -412,8 +477,10 @@
       "verified": false
     },
     "notes": "ย่านเอกมัย โซนนอกร้านรับน้องหมา มีน้ำและถุงเก็บของเสียให้ฟรี",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -425,12 +492,14 @@
     "category": "restaurant",
     "address": "8/3 Sukhumvit Soi 49 (49Playscape), Watthana",
     "district": "วัฒนา",
-    "lat": 13.7290,
+    "lat": 13.729,
     "lng": 100.5742,
     "phone": null,
     "hours": "ทุกวัน 09:00–19:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -440,8 +509,10 @@
       "verified": false
     },
     "notes": "ติด Dog Park 49 น้องเล่นสนามได้ ค่าเข้าสนาม ฿150/น้อง (ต้องมีวัคซีน) คาเฟ่นอกร้านนั่งกินระหว่างรอน้องเล่น",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -458,7 +529,10 @@
     "phone": null,
     "hours": "อังคาร–อาทิตย์ 11:30–21:30 (หยุดจันทร์)",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -468,8 +542,10 @@
       "verified": false
     },
     "notes": "ร้านอาหารกรีก สวนกว้างร่มรื่นรับน้องได้ทุกชนิด ทั้งหมา แมว กระต่าย บรรยากาศดีมาก",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -486,7 +562,9 @@
     "phone": "097-242-2890",
     "hours": "อังคาร–อาทิตย์ 19:00–01:30 (หยุดจันทร์)",
     "website": "https://tropiccitybkk.com",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -496,8 +574,10 @@
       "verified": false
     },
     "notes": "Cocktail bar สุดเก๋ย่านเจริญกรุง ระเบียงนอกร้านรับน้องหมา",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -514,7 +594,9 @@
     "phone": "02-381-9891",
     "hours": "ทุกวัน 17:00–00:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -524,8 +606,10 @@
       "verified": false
     },
     "notes": "Craft beer bar สวนด้านหน้ากว้างขวาง รับน้องหมา บรรยากาศผ่อนคลาย",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -542,7 +626,10 @@
     "phone": "02-056-9999",
     "hours": "24 ชม.",
     "website": "https://kimptonmaalaibangkok.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -552,8 +639,10 @@
       "verified": true
     },
     "notes": "Pet-friendly ที่สุดในกรุงเทพ ไม่จำกัดขนาด ไม่จำกัดจำนวน ไม่มีค่าธรรมเนียมเพิ่ม มีที่นอน ชาม อุปกรณ์พร้อมในห้อง มีบริการ Directors of Pet Relations",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.8,
     "review_count": 0,
     "added_by": null,
@@ -570,7 +659,10 @@
     "phone": "02-344-4000",
     "hours": "24 ชม.",
     "website": "https://marriott.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -580,8 +672,10 @@
       "verified": true
     },
     "notes": "โรงแรม 5 ดาวกลางสาทร รับน้องสูงสุด 18 kg (1 ตัว/ห้อง) ค่าธรรมเนียม ฿750/คืน + ค่าทำความสะอาด ฿3,000 มีเมนูอาหารสำหรับน้อง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -598,7 +692,9 @@
     "phone": null,
     "hours": "24 ชม.",
     "website": "https://rosewoodhotels.com",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -608,8 +704,10 @@
       "verified": true
     },
     "notes": "Luxury hotel เพลินจิต รับน้องหมาสูงสุด 10 kg ค่าธรรมเนียม ฿2,500++ มีที่นอนและชามให้ ไม่อนุญาตในร้านอาหาร สปา สระว่ายน้ำ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.7,
     "review_count": 0,
     "added_by": null,
@@ -626,7 +724,9 @@
     "phone": null,
     "hours": "24 ชม.",
     "website": "https://nighthotelbangkok.com",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -636,8 +736,10 @@
       "verified": false
     },
     "notes": "ไม่มีค่าธรรมเนียมน้อง รับน้องหมาสูงสุด 20 kg มีขนมต้อนรับ ชาม พรม และกล่องทรายให้ฟรี",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -649,12 +751,14 @@
     "category": "hotel",
     "address": "Soi Ngam Duphli, Rama IV, Lumphini, Sathon",
     "district": "สาทร",
-    "lat": 13.7230,
+    "lat": 13.723,
     "lng": 100.5325,
     "phone": null,
     "hours": "24 ชม.",
     "website": "https://accor.com",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -664,8 +768,10 @@
       "verified": false
     },
     "notes": "โรงแรม budget รับน้องหมาสูงสุด 10 kg ไม่มีค่าธรรมเนียมเพิ่ม",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.1,
     "review_count": 0,
     "added_by": null,
@@ -677,12 +783,15 @@
     "category": "hotel",
     "address": "Thonglor, Watthana",
     "district": "วัฒนา",
-    "lat": 13.7350,
+    "lat": 13.735,
     "lng": 100.5848,
     "phone": null,
     "hours": "24 ชม.",
     "website": "https://ihg.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -692,8 +801,10 @@
       "verified": false
     },
     "notes": "โรงแรมแบบ suite ย่านทองหล่อ ค่าธรรมเนียม ฿500/คืน ทิ้งน้องไว้ในห้องคนเดียวได้",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -710,7 +821,10 @@
     "phone": null,
     "hours": "จันทร์–ศุกร์ 10:30–22:00, เสาร์–อาทิตย์ 10:00–22:00",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": true,
@@ -720,8 +834,10 @@
       "verified": true
     },
     "notes": "มี Dog Park กลางแจ้งวิ่งเล่นได้ฟรี เช่ารถเข็นน้องได้ มี The Pet Safari ในห้าง มี Dogkery Café ด้วย",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -738,7 +854,10 @@
     "phone": null,
     "hours": "ทุกวัน 10:00–22:00",
     "website": "https://k-villagebkk.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -748,8 +867,10 @@
       "verified": true
     },
     "notes": "Open-air lifestyle mall รับน้องใส่สายจูงทั่วทั้งห้าง มีสวนเล็กๆ ด้านข้างเด็กเล่น มีร้าน pet-friendly คาเฟ่ และร้านกรูมมิ่งหลายร้านในห้าง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1481437156560-3205f6a55735?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1481437156560-3205f6a55735?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -766,7 +887,10 @@
     "phone": "02-105-1000",
     "hours": "ทุกวัน 10:00–22:00",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": true,
@@ -776,8 +900,10 @@
       "verified": false
     },
     "notes": "รับน้องในรถเข็นหรือกระเป๋า ยืม pet stroller ได้ที่ reception มีพื้นที่ pet zone และกิจกรรม School of Pets เป็นประจำ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -794,7 +920,10 @@
     "phone": null,
     "hours": "ทุกวัน 10:00–22:00",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": true,
@@ -804,9 +933,11 @@
       "verified": false
     },
     "notes": "รับน้องในกระเป๋าหรือรถเข็นทั่วพื้นที่ทั่วไป โซน outdoor สามารถเดินสายจูงได้",
-    "photos": [],
-    "cover_photo": null,
-    "rating": 4.0,
+    "photos": [
+      "https://images.unsplash.com/photo-1481437156560-3205f6a55735?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1481437156560-3205f6a55735?auto=format&fit=crop&w=1200&q=80",
+    "rating": 4,
     "review_count": 0,
     "added_by": null,
     "added_at": "2026-05-05T00:00:00Z"
@@ -822,7 +953,9 @@
     "phone": "02-252-7006",
     "hours": "ทุกวัน 04:30–22:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -832,8 +965,10 @@
       "verified": true
     },
     "notes": "สนามวิ่งเล่นสุนัข 3,200 ตร.ม. มีสนามเด็กเล่น อ่างล้างเท้า แบ่งโซนสุนัขใหญ่และเล็ก ต้องลงทะเบียนก่อน ต้องมีวัคซีน เข้าฟรี",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.6,
     "review_count": 0,
     "added_by": null,
@@ -845,12 +980,14 @@
     "category": "park",
     "address": "100 Ratchadaphisek Rd, Khlong Toei",
     "district": "คลองเตย",
-    "lat": 13.7290,
-    "lng": 100.5590,
+    "lat": 13.729,
+    "lng": 100.559,
     "phone": null,
     "hours": "ทุกวัน 05:00–21:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -860,8 +997,10 @@
       "verified": true
     },
     "notes": "Dog park ในสวนป่าเบญจกิติ มีอุปกรณ์เล่นสำหรับน้อง พื้นยาง น้ำ ห้องสุขา ต้องลงทะเบียน มีวัคซีน เข้าฟรี",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -874,11 +1013,13 @@
     "address": "Kamphaeng Phet 3 Rd, Chatuchak",
     "district": "จตุจักร",
     "lat": 13.8155,
-    "lng": 100.5530,
+    "lng": 100.553,
     "phone": null,
     "hours": "ทุกวัน 04:30–21:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -888,8 +1029,10 @@
       "verified": true
     },
     "notes": "โซนสุนัขในสวนรถไฟ พื้นที่กว้าง 2+ ไร่ ถุงเก็บของเสียให้ฟรี สนามหญ้าและร่มไม้ ต้องลงทะเบียนก่อน เข้าฟรี",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -901,12 +1044,15 @@
     "category": "park",
     "address": "95 Pridi Panomyong 39, Khlong Tan Nuea, Watthana",
     "district": "วัฒนา",
-    "lat": 13.7290,
+    "lat": 13.729,
     "lng": 100.5726,
     "phone": "093-552-9255",
     "hours": "จันทร์–ศุกร์ 09:00–18:00, เสาร์–อาทิตย์ 09:00–19:00",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -916,8 +1062,10 @@
       "verified": false
     },
     "notes": "Community pet center 6,400 ตร.ม. มี dog park ในและนอกร้าน สระว่ายน้ำ โรงแรมน้องหมา-แมว คลินิกสัตว์ HATO คาเฟ่ ร้านขายของ กรูมมิ่ง ฝึกสอน",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.6,
     "review_count": 0,
     "added_by": null,
@@ -929,12 +1077,14 @@
     "category": "park",
     "address": "Soi Sukhumvit 49, Watthana",
     "district": "วัฒนา",
-    "lat": 13.7290,
+    "lat": 13.729,
     "lng": 100.5742,
     "phone": null,
     "hours": "ทุกวัน 09:00–19:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -944,8 +1094,10 @@
       "verified": false
     },
     "notes": "Dog park ย่านสุขุมวิท 49 มีสนาม สระน้ำ กรูมมิ่ง ค่าเข้า ฿150/น้อง ต้องมีวัคซีน มี Hungry Pack cafe ข้างๆ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -962,7 +1114,9 @@
     "phone": "084-874-2777",
     "hours": "ทุกวัน 09:00–19:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -972,8 +1126,10 @@
       "verified": false
     },
     "notes": "Dog park มีสระว่ายน้ำ คาเฟ่ ร้านขายของเล่นและอุปกรณ์ กรูมมิ่ง ย่านสุขุมวิท 26",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -990,7 +1146,10 @@
     "phone": null,
     "hours": "ทุกวัน 10:00–22:00",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": true,
@@ -1000,8 +1159,10 @@
       "verified": false
     },
     "notes": "ร้านขายของสัตว์เลี้ยงครบครัน กรูมมิ่ง โรงแรมน้อง ในห้าง Central Chidlom ต้องใส่กระเป๋าขณะอยู่ในห้าง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -1018,7 +1179,10 @@
     "phone": "02-079-9999",
     "hours": "24 ชม.",
     "website": "https://thonglorpet.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -1028,8 +1192,10 @@
       "verified": true
     },
     "notes": "โรงพยาบาลสัตว์ 24 ชม. ครบครัน กรูมมิ่ง โรงแรม ร้านขายของ มีแผนกเฉพาะทาง (ระบบประสาท มะเร็ง ต่อมไร้ท่อ) หลายสาขาในกรุงเทพ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.6,
     "review_count": 0,
     "added_by": null,
@@ -1041,12 +1207,15 @@
     "category": "petshop",
     "address": "ชั้น 1 Donki Mall Thonglor, Thonglor, Watthana",
     "district": "วัฒนา",
-    "lat": 13.7310,
-    "lng": 100.5830,
+    "lat": 13.731,
+    "lng": 100.583,
     "phone": null,
     "hours": "ทุกวัน 10:00–22:00",
     "website": "https://blez-animal.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": true,
@@ -1056,8 +1225,10 @@
       "verified": false
     },
     "notes": "คลินิกสัตว์ + ร้านขายของ + กรูมมิ่ง + โรงแรม รับสัตว์เลี้ยง exotic ด้วย เปิดใน Donki Mall ทองหล่อ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -1069,12 +1240,14 @@
     "category": "cafe",
     "address": "358 Ruam Nam Chai Alley Lane 2, Wang Thonglang",
     "district": "วังทองหลาง",
-    "lat": 13.7720,
+    "lat": 13.772,
     "lng": 100.5952,
     "phone": "061-868-1870",
     "hours": "ทุกวัน 09:30–22:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -1084,8 +1257,10 @@
       "verified": false
     },
     "notes": "คาเฟ่สุนัขพันธุ์ใหญ่ Saint Bernard, Alaskan Malamute, Great Dane ค่าเข้า ฿215 มีทั้งโซนในและนอกร้าน",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -1102,7 +1277,10 @@
     "phone": null,
     "hours": "พุธ–จันทร์ 10:30–22:30 (หยุดอังคาร)",
     "website": "https://sirihouse.com",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -1112,8 +1290,10 @@
       "verified": false
     },
     "notes": "สวนสวยกลาง CBD มีบาร์และร้านอาหารหลายร้าน สระว่ายน้ำ บรรยากาศดี น้องหมาและแมวเดินสวนได้",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -1126,22 +1306,27 @@
     "address": "122 Sathorn Soi 12, Bang Rak",
     "district": "บางรัก",
     "lat": 13.7218,
-    "lng": 100.5330,
+    "lng": 100.533,
     "phone": "02-235-7127",
     "hours": "จันทร์–พฤหัสบดี 15:00–22:00, ศุกร์ 15:00–00:00, เสาร์–อาทิตย์ 08:00–22:00",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
-      "indoor_allowed": false,
+      "indoor_allowed": true,
       "carrier_required": false,
-      "ac": false,
+      "ac": true,
       "pet_zone": false,
       "size_limit": "any",
       "verified": false
     },
     "notes": "สวนร่มรื่นกลางสาทร น้องหมาและแมวเดินสวนได้ บรรยากาศผ่อนคลายมาก",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -1158,7 +1343,9 @@
     "phone": "02-077-6144",
     "hours": "ทุกวัน 10:30–22:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -1168,8 +1355,10 @@
       "verified": false
     },
     "notes": "คาเฟ่สไตล์ญี่ปุ่น โซนนอกร้านสำหรับน้องหมา มีพื้นที่วิ่งเล่น ย่านสาทร",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -1181,12 +1370,14 @@
     "category": "restaurant",
     "address": "15 Sukhumvit 20 Alley, Khlong Toei",
     "district": "คลองเตย",
-    "lat": 13.7310,
+    "lat": 13.731,
     "lng": 100.5639,
     "phone": null,
     "hours": "ทุกวัน 07:30–00:00",
     "website": "https://thedeckbkk.com",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -1196,8 +1387,10 @@
       "verified": false
     },
     "notes": "มี Doggy Business Park โซนนอกร้าน มีเมนูสำหรับน้องหมา น้ำ ถุงเก็บของเสียฟรี",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -1214,7 +1407,9 @@
     "phone": "095-250-7908",
     "hours": "ทุกวัน 09:00–19:00",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -1224,8 +1419,10 @@
       "verified": false
     },
     "notes": "สนามน้องหมา outdoor 15+ ตัวเล่นด้วยกัน มีโซนในร้าน บ่อโคลน สระน้ำ บ้านของเล่น คาเฟ่ ร้านขายของ บริการ daycare, hotel, spa",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,

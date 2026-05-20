@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Image from "next/image";
 import {
   ArrowLeft,
@@ -32,9 +32,11 @@ import { toast } from "sonner";
 interface Props {
   /** When true: compact hero, no back button, no internal scroll (sidebar handles it) */
   sidebar?: boolean;
+  /** Forwarded ref to the inner scroll container — used by AppShell for swipe-to-dismiss */
+  scrollRef?: React.RefObject<HTMLDivElement | null>;
 }
 
-export function PlaceDetail({ sidebar = false }: Props) {
+export function PlaceDetail({ sidebar = false, scrollRef }: Props) {
   const selectedId = useApp((s) => s.selectedPlaceId);
   const places = useApp((s) => s.places);
   const closeDetail = useApp((s) => s.closeDetail);
@@ -50,6 +52,17 @@ export function PlaceDetail({ sidebar = false }: Props) {
   const [editModalOpen, setEditModalOpen] = useState(false);
   const [editNote, setEditNote] = useState("");
   const [lightboxIndex, setLightboxIndex] = useState(-1);
+
+  // Lightbox swipe gesture
+  const lbTouchX = useRef<number | null>(null);
+  const handleLbTouchStart = (e: React.TouchEvent) => { lbTouchX.current = e.touches[0].clientX; };
+  const handleLbTouchEnd = (e: React.TouchEvent, total: number) => {
+    if (lbTouchX.current === null) return;
+    const dx = e.changedTouches[0].clientX - lbTouchX.current;
+    if (dx > 50 && lightboxIndex > 0) setLightboxIndex((i) => i - 1);
+    else if (dx < -50 && lightboxIndex < total - 1) setLightboxIndex((i) => i + 1);
+    lbTouchX.current = null;
+  };
 
   if (!selectedId) return null;
   const place = places.find((p) => p.id === selectedId);
@@ -303,6 +316,8 @@ export function PlaceDetail({ sidebar = false }: Props) {
         <div
           className="fixed inset-0 z-50 flex flex-col bg-black/95"
           onClick={() => setLightboxIndex(-1)}
+          onTouchStart={handleLbTouchStart}
+          onTouchEnd={(e) => handleLbTouchEnd(e, place.photos.length)}
         >
           <div className="flex items-center justify-between px-4 pt-safe">
             <span className="text-[13px] font-semibold text-white/70">
@@ -324,28 +339,28 @@ export function PlaceDetail({ sidebar = false }: Props) {
               alt={`${place.name} - ${lightboxIndex + 1}`}
               width={1200}
               height={900}
-              className="max-h-[80dvh] w-auto rounded-lg object-contain"
+              className="max-h-[80dvh] w-auto rounded-lg object-contain select-none"
             />
           </div>
+          {/* Dot indicators */}
+          {place.photos.length > 1 && (
+            <div className="flex justify-center gap-1.5 pt-2">
+              {place.photos.map((_, i) => (
+                <span key={i} className={`size-1.5 rounded-full transition-all ${i === lightboxIndex ? "bg-white w-4" : "bg-white/40"}`} />
+              ))}
+            </div>
+          )}
           <div className="flex items-center justify-center gap-6 pb-safe pt-2">
             <button
-              onClick={(e) => {
-                e.stopPropagation();
-                setLightboxIndex(Math.max(0, lightboxIndex - 1));
-              }}
-              className="grid size-12 place-items-center rounded-md border-2 border-white bg-black text-white shadow-soft transition hover:bg-secondary hover:text-foreground"
+              onClick={(e) => { e.stopPropagation(); setLightboxIndex(Math.max(0, lightboxIndex - 1)); }}
+              className="grid size-12 place-items-center rounded-md border-2 border-white bg-black text-white shadow-soft transition hover:bg-secondary hover:text-foreground disabled:opacity-30"
               disabled={lightboxIndex === 0}
             >
               ←
             </button>
             <button
-              onClick={(e) => {
-                e.stopPropagation();
-                setLightboxIndex(
-                  Math.min(place.photos.length - 1, lightboxIndex + 1),
-                );
-              }}
-              className="grid size-12 place-items-center rounded-md border-2 border-white bg-black text-white shadow-soft transition hover:bg-secondary hover:text-foreground"
+              onClick={(e) => { e.stopPropagation(); setLightboxIndex(Math.min(place.photos.length - 1, lightboxIndex + 1)); }}
+              className="grid size-12 place-items-center rounded-md border-2 border-white bg-black text-white shadow-soft transition hover:bg-secondary hover:text-foreground disabled:opacity-30"
               disabled={lightboxIndex === place.photos.length - 1}
             >
               →
@@ -602,7 +617,7 @@ export function PlaceDetail({ sidebar = false }: Props) {
         )}
       </div>
 
-      <div className="flex-1 overflow-y-auto">{Body}</div>
+      <div ref={scrollRef} className="flex-1 overflow-y-auto">{Body}</div>
     </div>
   );
 }

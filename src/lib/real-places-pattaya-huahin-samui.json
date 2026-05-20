@@ -11,7 +11,10 @@
     "phone": "038-428-755",
     "hours": "24 ชม.",
     "website": "https://hotel.hardrock.com/pattaya/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -21,8 +24,10 @@
       "verified": false
     },
     "notes": "โปรแกรม Unleashed รับสัตว์เลี้ยงสูงสุด 1 ตัว น้ำหนักไม่เกิน 12 กก. หรือ 2 ตัวรวมไม่เกิน 23 กก. ค่าบริการ 500 บาท/ตัว/คืน (ไม่คืนเงิน) มีโซนสัตว์เลี้ยงในสวนของโรงแรมและระเบียงพิซซ่า",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -40,7 +45,10 @@
     "phone": "038-411-500",
     "hours": "24 ชม.",
     "website": "https://all.accor.com/hotel/5584/index.th.shtml",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -50,9 +58,11 @@
       "verified": false
     },
     "notes": "รับสัตว์เลี้ยงโดยไม่มีค่าใช้จ่ายเพิ่มเติม น้ำหนักไม่เกิน 10 กก. มีชั้นพิเศษสำหรับผู้เข้าพักพร้อมสัตว์เลี้ยง (ชั้น 3) แยกจากชั้นทั่วไป ตั้งอยู่ใกล้ Terminal 21 และหาดพัทยา",
-    "photos": [],
-    "cover_photo": null,
-    "rating": 4.0,
+    "photos": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
+    "rating": 4,
     "review_count": 0,
     "added_by": null,
     "added_at": "2026-05-10T00:00:00Z"
@@ -69,7 +79,10 @@
     "phone": "038-769-688",
     "hours": "24 ชม.",
     "website": "https://all.accor.com/hotel/B3P3/index.th.shtml",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -79,8 +92,10 @@
       "verified": false
     },
     "notes": "รับสัตว์เลี้ยงได้สูงสุด 2 ตัว น้ำหนักไม่เกิน 10 กก. ค่าบริการ 500 บาท/ตัว/ต่อการเข้าพัก ห้ามปล่อยสัตว์เลี้ยงไว้ในห้องตามลำพัง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.1,
     "review_count": 0,
     "added_by": null,
@@ -98,7 +113,10 @@
     "phone": "038-253-444",
     "hours": "24 ชม.",
     "website": "https://www.discoverasr.com/en/somerset-serviced-residence/thailand/somerset-pattaya",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -108,8 +126,10 @@
       "verified": false
     },
     "notes": "รับสัตว์เลี้ยงทุกขนาดในห้องพักชั้น 7 (ชั้นพิเศษสำหรับสัตว์เลี้ยง) ค่าบริการ 1,177 บาท/ตัว/คืน พร้อมค่ามัดจำคืนได้ 3,000 บาท มีพื้นที่ปล่อยสัตว์เลี้ยงโดยไม่ต้องใช้สายจูง และบริการ Pet-sitting เพิ่มเติม",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -127,7 +147,10 @@
     "phone": "038-250-888",
     "hours": "24 ชม.",
     "website": "https://www.theleelaresortpattaya.com/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -137,8 +160,10 @@
       "verified": false
     },
     "notes": "รับสัตว์เลี้ยงได้สูงสุด 2 ตัว น้ำหนักไม่เกิน 10 กก. ค่าบริการ 500 บาท/ตัว/คืน มีถ้วยอาหารและน้ำสำหรับสัตว์เลี้ยง รับทั้งสุนัขและแมว",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -156,7 +181,10 @@
     "phone": "038-237-900",
     "hours": "24 ชม.",
     "website": "https://www.crosshotelsandresorts.com/crossvibepattaya/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -166,8 +194,10 @@
       "verified": false
     },
     "notes": "ห้อง Pet Friendly อยู่ที่ชั้น 2 เท่านั้น (One Bedroom Deluxe Double/Twin และ One Bedroom Corner Suite) รับ 1 ตัวฟรี น้ำหนักไม่เกิน 10 กก. ตัวที่ 2 ค่าบริการ 500 บาท/คืน สูงสุด 2 ตัว มีสิ่งอำนวยความสะดวกสำหรับสัตว์เลี้ยง เช่น ถ้วยอาหาร ผ้าเช็ดตัว",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.1,
     "review_count": 0,
     "added_by": null,
@@ -185,7 +215,10 @@
     "phone": "098-516-0227",
     "hours": "จ-พฤ 10:00-23:00 น. | ศ-อา 09:30-23:00 น.",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -195,8 +228,10 @@
       "verified": false
     },
     "notes": "คาเฟ่และร้านอาหารตั้งอยู่บนหน้าผา วิว 180 องศาทะเลพัทยา มีรูปปั้นนางเงือกขนาดใหญ่ น้องหมาเข้าได้ในโซนกลางแจ้ง ต้องใช้สายจูงหรือใส่รถเข็น บรรยากาศสุดโรแมนติก",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -214,7 +249,9 @@
     "phone": "097-227-7194",
     "hours": "พฤ-อา 11:00-19:30 น. (ปิดวันพุธ)",
     "website": "https://www.instagram.com/dogclubpattaya/",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -224,8 +261,10 @@
       "verified": false
     },
     "notes": "คาเฟ่น้องหมาพัทยา เปิดให้เล่นกับน้องหมาหลายสายพันธุ์ ค่าเข้า รวมเครื่องดื่ม 1 แก้วและขนมน้องหมา สามารถถ่ายรูปโพลารอยด์ได้ มีที่จอดรถกว้างขวาง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -243,18 +282,23 @@
     "phone": null,
     "hours": "09:00-21:00 น.",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
-      "indoor_allowed": false,
+      "indoor_allowed": true,
       "carrier_required": false,
-      "ac": false,
+      "ac": true,
       "pet_zone": true,
       "size_limit": "any",
       "verified": false
     },
     "notes": "คาเฟ่ล้อมรอบด้วยต้นไม้ร่มรื่น มีโซนในร่มและกลางแจ้ง โซนกลางแจ้งให้น้องหมาน้องแมวเข้าได้โดยไม่ต้องใส่สายจูง บรรยากาศสงบร่มรื่น",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -272,7 +316,10 @@
     "phone": "038-423-078",
     "hours": "24 ชม.",
     "website": "https://thonglorpet.com/en/branch/pethospital-thonglorpet-pattaya",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -282,8 +329,10 @@
       "verified": false
     },
     "notes": "โรงพยาบาลสัตว์ทองหล่อสาขาพัทยา เปิด 24 ชั่วโมง บริการครบครัน ทั้งรักษา ผ่าตัด X-ray ตรวจเลือด ดูแลฟัน มีสระว่ายน้ำสำหรับสุนัขเพื่อการออกกำลังกายและกายภาพบำบัด บริการแท็กซี่สัตว์เลี้ยง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -296,12 +345,15 @@
     "city": "หัวหิน",
     "address": "33/33 ถนนเพชรเกษม อำเภอหัวหิน จังหวัดประจวบคีรีขันธ์ 77110",
     "district": "หัวหิน",
-    "lat": 12.5730,
+    "lat": 12.573,
     "lng": 99.9585,
     "phone": "032-616-999",
     "hours": "24 ชม.",
     "website": "https://www.ihg.com/intercontinental/hotels/us/en/hua-hin/hhqha/hoteldetail",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -311,8 +363,10 @@
       "verified": false
     },
     "notes": "รับสัตว์เลี้ยงได้สูงสุด 2 ตัว น้ำหนักไม่เกิน 20 กก./ตัว ในห้อง Club Beach Villa และ La Residence หรือ 1 ตัวในห้อง Cosy ไม่มีค่าบริการเพิ่มเติม โปรดแจ้งล่วงหน้าเมื่อจอง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.6,
     "review_count": 0,
     "added_by": null,
@@ -330,7 +384,10 @@
     "phone": "032-451-688",
     "hours": "24 ชม.",
     "website": "https://www.avanihotels.com/en/hua-hin",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -340,8 +397,10 @@
       "verified": false
     },
     "notes": "รับสัตว์เลี้ยงได้สูงสุด 2 ตัว ในห้อง Deluxe Garden Access หรือ Pool Villa ค่าบริการ 1,000 บาท++/ตัว/คืน (ไม่คืนเงิน) ห้ามนำสัตว์เลี้ยงเข้าสระว่ายน้ำสาธารณะ ฟิตเนส สปา หรือห้องประชุม",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -359,7 +418,10 @@
     "phone": "032-904-888",
     "hours": "24 ชม.",
     "website": "https://movenpickhuahin.com/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -369,8 +431,10 @@
       "verified": false
     },
     "notes": "รับสุนัขได้ 1 ตัว น้ำหนักไม่เกิน 30 กก. ในวิลล่าพูลส่วนตัว ค่าบริการ 750 บาท/คืน มีที่นอนสัตว์เลี้ยง ถ้วยอาหาร ขนม สายจูง และเมนูสปาพิเศษสำหรับสัตว์เลี้ยง มี Sanctuary Dog Park ให้น้องหมาวิ่งเล่น",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -388,7 +452,9 @@
     "phone": "032-527-638",
     "hours": "24 ชม.",
     "website": "https://www.anantasila.com/",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -398,8 +464,10 @@
       "verified": false
     },
     "notes": "รับสุนัขน้ำหนักไม่เกิน 10 กก. ค่าบริการ 600 บาท/คืน (สูงสุด 2 ตัว) หรือน้ำหนักเกิน 10 กก. ค่าบริการ 1,000 บาท/คืน (1 ตัว) พักในอาคาร Como Luxury Bungalows & Deluxe Pool Villas เดินไปสระและหาดใกล้",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -417,7 +485,9 @@
     "phone": "032-610-388",
     "hours": "24 ชม.",
     "website": "https://all.accor.com/hotel/7276/index.th.shtml",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -427,9 +497,11 @@
       "verified": false
     },
     "notes": "รับสุนัขได้ 1 ตัว น้ำหนักไม่เกิน 10 กก. ค่าบริการประมาณ 500 บาท/ต่อการเข้าพัก (หรือฟรีตามนโยบาย) ไม่รับแมว มีหมอน ผ้าห่มสำหรับสัตว์เลี้ยง บรรยากาศชายหาดเขาตะเกียบ",
-    "photos": [],
-    "cover_photo": null,
-    "rating": 4.0,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+    "rating": 4,
     "review_count": 0,
     "added_by": null,
     "added_at": "2026-05-10T00:00:00Z"
@@ -446,7 +518,9 @@
     "phone": null,
     "hours": "09:00-18:00 น. (ปิดวันอังคาร)",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -456,8 +530,10 @@
       "verified": false
     },
     "notes": "คาเฟ่ริมทะเลมาแรงที่สุดในหัวหิน สไตล์ Open Air โอบล้อมด้วยสวนดอกไม้ น้องหมาเข้าได้ทุกโซน ถ่ายรูปสวยทุกมุม มีที่จอดรถ อยู่ใกล้โรงแรมราชมงคลชมคลื่น",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -475,18 +551,23 @@
     "phone": null,
     "hours": "08:00-17:00 น.",
     "website": "https://www.facebook.com/kraftcafehuahin/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
-      "indoor_allowed": false,
+      "indoor_allowed": true,
       "carrier_required": false,
-      "ac": false,
+      "ac": true,
       "pet_zone": false,
       "size_limit": "any",
       "verified": false
     },
     "notes": "คาเฟ่ชายหาดบรรยากาศแคมปิ้ง ห่างจากทะเลเพียง 75 เมตร เหมาะสำหรับพักผ่อนแบบ slow life เมนูขนมโฮมเมด กาแฟคั่วเองจากเมล็ดคุณภาพดี น้องหมาน้องแมวเข้าได้ในโซนกลางแจ้ง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -504,7 +585,9 @@
     "phone": null,
     "hours": "อา,ส 10:30-22:00 น. | จ-ศ 10:30-21:00 น.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -514,8 +597,10 @@
       "verified": false
     },
     "notes": "ร้านอาหารไทย-ใต้ ผสมซีฟู้ดท้องถิ่น รสชาติจัดจ้าน บรรยากาศเป็นกันเอง มีโซน Pet Friendly ห้องแอร์แยกพิเศษสำหรับผู้มากับสัตว์เลี้ยง มีลานจอดรถข้างร้าน",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -533,7 +618,10 @@
     "phone": "098-425-4256",
     "hours": "09:00-20:00 น. (เปิดทุกวัน)",
     "website": "https://www.facebook.com/102petfriends",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -543,8 +631,10 @@
       "verified": false
     },
     "notes": "โรงพยาบาลสัตว์และร้านเสริมสวยสัตว์เลี้ยงในหัวหิน บริการตรวจสุขภาพ รักษาโรค วัคซีน ทำหมัน อาบน้ำตัดขน เปิดทุกวัน 9-20 น. มีพาร์ทเนอร์กับโรงแรม Avani+ Hua Hin",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -562,7 +652,9 @@
     "phone": null,
     "hours": "ตลอด 24 ชม.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -572,8 +664,10 @@
       "verified": false
     },
     "notes": "ชายหาดเงียบสงบโดยเฉพาะตอนเช้า มีพื้นที่กว้างให้น้องหมาวิ่งเล่นเมื่อน้ำลด ช่วงเย็นคึกคักด้วยคนเดิน วิ่ง และพาสุนัขเดินเล่น ไม่มีค่าเข้า",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -591,7 +685,10 @@
     "phone": "032-536-400",
     "hours": "24 ชม.",
     "website": "https://www.valahuahin.com/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -601,8 +698,10 @@
       "verified": false
     },
     "notes": "โรงแรมบูติกหัวหิน รับสัตว์เลี้ยงในโปรแกรม Petcation ค่าบริการคืนแรก 2,500 บาทสุทธิ/ตัว/คืน คืนถัดไป 1,500 บาทสุทธิ/ตัว/คืน บรรยากาศเงียบสงบริมทะเล",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -620,7 +719,10 @@
     "phone": "032-521-234",
     "hours": "24 ชม.",
     "website": "https://www.hyatt.com/en-US/hotel/thailand/hyatt-regency-hua-hin/hhqhu",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -630,8 +732,10 @@
       "verified": false
     },
     "notes": "โรงแรม 5 ดาวระดับบนติดหาดหัวหิน รับสัตว์เลี้ยงในห้องพักพิเศษ มีถ้วยอาหาร น้ำ และบริการ pet-sitting บรรยากาศหรูหราพร้อมบริการระดับสูง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.6,
     "review_count": 0,
     "added_by": null,
@@ -649,7 +753,10 @@
     "phone": "077-915-888",
     "hours": "24 ชม.",
     "website": "https://www.kimptonkitalaysamui.com/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -659,8 +766,10 @@
       "verified": false
     },
     "notes": "รีสอร์ทที่เป็นมิตรกับสัตว์เลี้ยงที่ดีที่สุดในเกาะสมุย รับสัตว์เลี้ยงทุกขนาด ทุกสายพันธุ์ ไม่มีค่าใช้จ่ายเพิ่มเติม สูงสุด 2 ตัว/ห้อง น้องหมาพักได้ในห้องและร้านอาหาร 2 แห่ง มีเส้นทางวิ่งสำหรับสัตว์เลี้ยงรอบรีสอร์ท บริการรถเข็นสัตว์เลี้ยง ของเล่น ชุดทำความสะอาด และ Pet Concierge",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.8,
     "review_count": 0,
     "added_by": null,
@@ -678,7 +787,9 @@
     "phone": "077-243-000",
     "hours": "24 ชม.",
     "website": "https://www.fourseasons.com/kohsamui/",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -688,8 +799,10 @@
       "verified": false
     },
     "notes": "รีสอร์ทระดับอัลตร้าลักชัวรี่บนเกาะสมุย รับสุนัขได้ 1 ตัว น้ำหนักไม่เกิน 7 กก. ไม่มีค่าบริการเพิ่มเติม (หรืออาจมีค่าใช้จ่ายตามนโยบายปัจจุบัน โปรดสอบถามโดยตรง) ห้ามรับแมว",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.9,
     "review_count": 0,
     "added_by": null,
@@ -707,7 +820,9 @@
     "phone": null,
     "hours": "08:00-18:00 น.",
     "website": "https://www.facebook.com/thepughousesamui/",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -717,8 +832,10 @@
       "verified": false
     },
     "notes": "Dog Cafe ริมชายหาดบางรัก เป็น Pug Rescue Cafe ค่าเข้า 100 บาท/คน (เงินสดเท่านั้น) รวมน้ำมะพร้าว ชา กาแฟ โซดา เหมาะมาไปเช้าเพราะน้องหมาจะแอ็คทีฟมากกว่า",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -736,7 +853,10 @@
     "phone": "082-728-2373",
     "hours": "อ-อา 11:00-19:00 น. (ปิดวันจันทร์)",
     "website": "https://www.beaversanimalcafe.com/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -746,8 +866,10 @@
       "verified": false
     },
     "notes": "คาเฟ่สัตว์แปลกที่สุดในเกาะสมุย มีบีเวอร์ คาปิบาร่า ลิงมาร์โมเซต และสัตว์อื่นๆ ให้สัมผัสและถ่ายรูปด้วย บรรยากาศในร่มและกลางแจ้ง",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -765,7 +887,9 @@
     "phone": "091-112-2992",
     "hours": "08:00-18:00 น. (เปิดทุกวัน)",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -775,8 +899,10 @@
       "verified": false
     },
     "notes": "คาเฟ่น้องหมาไซบีเรียนเปิดใหม่ บรรยากาศร่มรื่น ต้นไม้เยอะ ไม่ร้อน มีมุมถ่ายรูปน่ารัก มีเมนูเครื่องดื่ม สเต็กหมู ขนมสำหรับสุนัข ราคาย่อมเยา ใกล้ศูนย์รถยนต์ฟอร์ด",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -794,7 +920,9 @@
     "phone": null,
     "hours": "12:00-23:00 น.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -804,8 +932,10 @@
       "verified": false
     },
     "notes": "บาร์และร้านอาหารริมหาดบางรัก มีดนตรีสด บรรยากาศพระอาทิตย์ตกดิน เปิดรับน้องหมาทุกโซน All You Can Eat Ribs Night เด็ดมาก",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -823,7 +953,9 @@
     "phone": null,
     "hours": "จ-ส 08:00-21:00 น.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -833,8 +965,10 @@
       "verified": false
     },
     "notes": "คาเฟ่และร้านอาหารบรรยากาศดี อาหารและเครื่องดื่มหลากหลาย ราคาสมเหตุสมผล น้องหมาเข้าได้ในโซนนอก แต่ไม่อนุญาตในโซนแอร์ มีหมาประจำร้านชื่อ Rocky และ Stella",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -852,7 +986,9 @@
     "phone": "099-463-0462",
     "hours": "จ-ส 09:00-18:00 น.",
     "website": "https://www.pawsupsamui.com/",
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -862,8 +998,10 @@
       "verified": false
     },
     "notes": "บริการ Dog Hotel โรงแรมหมาระดับลักชัวรี่ อาบน้ำตัดขน เดย์แคร์ และ Playdate มีทั้งห้องพักปรับอากาศและห้องธรรมดา บริการบนเกาะสมุย",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.5,
     "review_count": 0,
     "added_by": null,
@@ -881,7 +1019,10 @@
     "phone": "095-257-7015",
     "hours": "08:00-20:00 น.",
     "website": "https://www.facebook.com/Animaliavetsamui/",
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -891,8 +1032,10 @@
       "verified": false
     },
     "notes": "โรงพยาบาลสัตว์บนเกาะสมุย บริการครบครัน ตรวจรักษา วัคซีน ผ่าตัด ตั้งอยู่ในย่านละไม สะดวกสำหรับนักท่องเที่ยวฝั่งใต้ของเกาะ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.4,
     "review_count": 0,
     "added_by": null,
@@ -910,7 +1053,9 @@
     "phone": null,
     "hours": "ตลอด 24 ชม.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -920,8 +1065,10 @@
       "verified": false
     },
     "notes": "ทะเลสาบยอดนิยมสำหรับเดินออกกำลังกายพร้อมสุนัข เส้นทางเดินรอบทะเลสาบประมาณ 5 กม. (3/4 รอบ) บรรยากาศดีโดยเฉพาะช่วงพระอาทิตย์ตก มีคนพาหมาเดินเล่นจำนวนมาก ไม่มีค่าเข้า",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.3,
     "review_count": 0,
     "added_by": null,
@@ -939,7 +1086,10 @@
     "phone": "077-413-313",
     "hours": "08:00-18:00 น.",
     "website": null,
-    "pet_types": ["dog", "cat"],
+    "pet_types": [
+      "dog",
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -949,8 +1099,10 @@
       "verified": false
     },
     "notes": "คลินิกสัตวแพทย์ในย่านเชาวเอ็ง ให้บริการตรวจรักษา วัคซีน ทำหมัน อาบน้ำตัดขน ตั้งอยู่ใกล้หาดเชาวเอ็ง สะดวกสำหรับนักท่องเที่ยวฝั่งตะวันออกของเกาะ",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,
@@ -968,7 +1120,9 @@
     "phone": null,
     "hours": "24 ชม.",
     "website": "https://www.facebook.com/CafeMeowandSamui247CoWorkingSpace/",
-    "pet_types": ["cat"],
+    "pet_types": [
+      "cat"
+    ],
     "policy": {
       "indoor_allowed": true,
       "carrier_required": false,
@@ -978,8 +1132,10 @@
       "verified": false
     },
     "notes": "คาเฟ่แมวและ Co-Working Space เปิด 24 ชั่วโมง บนเกาะสมุย เหมาะสำหรับคนรักแมวและ Digital Nomad",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.1,
     "review_count": 0,
     "added_by": null,
@@ -997,7 +1153,9 @@
     "phone": null,
     "hours": "ตลอด 24 ชม.",
     "website": null,
-    "pet_types": ["dog"],
+    "pet_types": [
+      "dog"
+    ],
     "policy": {
       "indoor_allowed": false,
       "carrier_required": false,
@@ -1007,8 +1165,10 @@
       "verified": false
     },
     "notes": "หาดบางรักหรือหาดแบ๊กแพ็ก บรรยากาศเงียบสงบไม่พลุกพล่าน เหมาะสำหรับพาน้องหมาเดินเล่น ชมพระอาทิตย์ตกดินสวยงาม ใกล้ท่าเรือเฟอร์รี่ไปเกาะพะงัน",
-    "photos": [],
-    "cover_photo": null,
+    "photos": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "cover_photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
     "rating": 4.2,
     "review_count": 0,
     "added_by": null,

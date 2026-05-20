@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { cn, formatDistance, formatRating } from "@/lib/utils";
 import { distanceKm } from "@/lib/geo";
 import { useApp } from "@/lib/store";
+import { checkinsApi } from "@/lib/api";
 
 interface Props {
   place: Place;
@@ -26,6 +27,7 @@ export function PlaceCard({ place, onClick }: Props) {
   const category = CATEGORY_BY_ID[place.category];
   const isFav = favorites.includes(place.id);
   const distance = userLocation ? distanceKm(userLocation, place) : null;
+  const checkinCount = checkinsApi.byPlace(place.id).length;
 
   return (
     <div
@@ -134,6 +136,11 @@ export function PlaceCard({ place, onClick }: Props) {
           {place.policy.indoor_allowed ? (
             <Badge variant="success" className="px-2 text-[10px]">
               🏠 เข้าในร้านได้
+            </Badge>
+          ) : null}
+          {checkinCount > 0 ? (
+            <Badge variant="outline" className="px-2 text-[10px]">
+              📍 {checkinCount} เช็คอิน
             </Badge>
           ) : null}
         </div>

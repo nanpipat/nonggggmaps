@@ -7,7 +7,7 @@
  */
 import type { AppUser, CheckIn, Place, Review, SuggestedEdit } from "./types";
 import { SEED_PLACES, SEED_REVIEWS } from "./mock-data";
-import { supabase } from "./supabase";
+import { supabase, supabaseUserToAppUser } from "./supabase";
 
 const KEYS = {
   PLACES: "pawmap.places.v1",
@@ -166,12 +166,105 @@ export const favoritesApi = {
   },
 };
 
-// ===================== User / Auth (mock) =====================
+// ===================== User / Auth =====================
 export const authApi = {
+  /** Sync read from localStorage (used on first hydrate). */
   current(): AppUser | null {
     return read<AppUser | null>(KEYS.USER, null);
   },
-  signInWithGoogle(): AppUser {
+
+  /** Check live Supabase session, fall back to localStorage. */
+  async currentSession(): Promise<AppUser | null> {
+    if (supabase) {
+      const { data } = await supabase.auth.getSession();
+      if (data.session?.user) {
+        const u = supabaseUserToAppUser(data.session.user);
+        write(KEYS.USER, u);
+        return u;
+      }
+    }
+    return this.current();
+  },
+
+  /**
+   * Register a new account with email + password.
+   * Returns user on success, or an error string on failure.
+   */
+  async signUpWithEmail(
+    email: string,
+    password: string,
+    name: string,
+  ): Promise<{ user: AppUser | null; error: string | null }> {
+    if (supabase) {
+      const { data, error } = await supabase.auth.signUp({
+        email,
+        password,
+        options: {
+          data: {
+            name,
+            avatar: name
+              .split(" ")
+              .map((s) => s[0])
+              .join("")
+              .toUpperCase()
+              .slice(0, 2),
+          },
+        },
+      });
+      if (error) return { user: null, error: error.message };
+      if (data.user) {
+        const u = supabaseUserToAppUser(data.user);
+        write(KEYS.USER, u);
+        return { user: u, error: null };
+      }
+      // Email confirmation required — user exists but no session yet
+      return { user: null, error: null };
+    }
+    // Mock fallback (no Supabase configured)
+    const u = this._mockSignIn(email, name);
+    return { user: u, error: null };
+  },
+
+  /**
+   * Sign in with email + password.
+   * Returns user on success, or an error string on failure.
+   */
+  async signInWithEmailPassword(
+    email: string,
+    password: string,
+  ): Promise<{ user: AppUser | null; error: string | null }> {
+    if (supabase) {
+      const { data, error } = await supabase.auth.signInWithPassword({
+        email,
+        password,
+      });
+      if (error) return { user: null, error: error.message };
+      if (data.user) {
+        const u = supabaseUserToAppUser(data.user);
+        write(KEYS.USER, u);
+        return { user: u, error: null };
+      }
+    }
+    // Mock fallback
+    const u = this._mockSignIn(email, email.split("@")[0]);
+    return { user: u, error: null };
+  },
+
+  /**
+   * Initiate Google OAuth sign-in.
+   * With Supabase: redirects to Google → returns null (page navigates).
+   * Without Supabase: returns a random mock user immediately.
+   */
+  async signInWithGoogle(): Promise<{ user: AppUser | null; error: string | null }> {
+    if (supabase) {
+      const { error } = await supabase.auth.signInWithOAuth({
+        provider: "google",
+        options: { redirectTo: typeof window !== "undefined" ? window.location.origin : undefined },
+      });
+      if (error) return { user: null, error: error.message };
+      return { user: null, error: null }; // browser will redirect
+    }
+    // Mock fallback
     const profiles = [
       { name: "Pim Pawsome", email: "pim@gmail.com" },
       { name: "Tonn Suthep", email: "tonn@gmail.com" },
@@ -182,29 +275,29 @@ export const authApi = {
       id: "u_" + Date.now(),
       name: p.name,
       email: p.email,
-      avatar: p.name
-        .split(" ")
-        .map((s) => s[0])
-        .join("")
-        .toUpperCase(),
+      avatar: p.name.split(" ").map((s) => s[0]).join("").toUpperCase(),
       provider: "google",
       joined_at: new Date().toISOString(),
     };
     write(KEYS.USER, u);
-    return u;
+    return { user: u, error: null };
   },
-  signInWithEmail(email: string, name: string): AppUser {
-    const u: AppUser = {
-      id: "u_" + Date.now(),
-      name: name || email.split("@")[0],
-      email,
-      avatar: (name || email)[0].toUpperCase(),
-      provider: "email",
-      joined_at: new Date().toISOString(),
-    };
-    write(KEYS.USER, u);
-    return u;
+
+  /** Subscribe to Supabase auth state changes. Returns unsubscribe fn. */
+  onAuthStateChange(callback: (user: AppUser | null) => void): () => void {
+    if (!supabase) return () => {};
+    const { data } = supabase.auth.onAuthStateChange((_event, session) => {
+      if (session?.user) {
+        const u = supabaseUserToAppUser(session.user);
+        write(KEYS.USER, u);
+        callback(u);
+      } else {
+        callback(null);
+      }
+    });
+    return () => data.subscription.unsubscribe();
   },
+
   signInAsGuest(): AppUser {
     const u: AppUser = {
       id: "guest",
@@ -217,10 +310,25 @@ export const authApi = {
     write(KEYS.USER, u);
     return u;
   },
-  signOut(): void {
-    if (!isBrowser) return;
-    localStorage.removeItem(KEYS.USER);
+
+  async signOut(): Promise<void> {
+    if (supabase) await supabase.auth.signOut();
+    if (isBrowser) localStorage.removeItem(KEYS.USER);
     this.signInAsGuest();
+  },
+
+  // ---- internal helpers ----
+  _mockSignIn(email: string, name: string): AppUser {
+    const u: AppUser = {
+      id: "u_" + Date.now(),
+      name: name || email.split("@")[0],
+      email,
+      avatar: (name || email)[0].toUpperCase(),
+      provider: "email",
+      joined_at: new Date().toISOString(),
+    };
+    write(KEYS.USER, u);
+    return u;
   },
 };
 

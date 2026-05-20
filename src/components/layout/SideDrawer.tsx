@@ -41,9 +41,9 @@ export function SideDrawer() {
 
   const isGuest = user?.provider === "guest";
 
-  const handleSignOut = () => {
+  const handleSignOut = async () => {
     if (!confirm("ออกจากระบบ?")) return;
-    authApi.signOut();
+    await authApi.signOut();
     useApp.getState().hydrate();
     setDrawerOpen(false);
   };
