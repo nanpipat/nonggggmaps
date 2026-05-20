@@ -24,9 +24,9 @@ export function CategoryChips() {
         : null;
 
   return (
-    <div className="absolute left-0 right-0 top-[calc(env(safe-area-inset-top)+80px)] z-20">
+    <div className="absolute left-0 right-0 top-[calc(env(safe-area-inset-top)+72px)] z-20">
       <div
-        className="no-scrollbar mx-auto flex max-w-3xl items-center gap-2 overflow-x-auto px-4 py-2 sm:px-5"
+        className="no-scrollbar mx-auto flex max-w-3xl items-center gap-1.5 overflow-x-auto px-3 py-1"
         style={{ scrollbarWidth: "none" }}
       >
         {PET_CHIPS.map((c) => (
@@ -34,10 +34,11 @@ export function CategoryChips() {
             key={c.label}
             onClick={() => setPet(c.value)}
             className={cn(
-              "inline-flex shrink-0 items-center gap-1 rounded-md border-2 px-3 py-1.5 text-[13px] font-black transition-all active:translate-x-1 active:translate-y-1 active:shadow-none",
+              "inline-flex shrink-0 items-center gap-1 rounded-full px-3 py-1.5 text-[13px] font-medium transition-all active:scale-95",
+              "border backdrop-blur-sm",
               activePet === c.value
-                ? "border-foreground bg-primary text-primary-foreground shadow-pop"
-                : "border-foreground bg-card text-foreground shadow-soft hover:bg-secondary",
+                ? "border-primary/30 bg-primary text-primary-foreground shadow-pop"
+                : "border-border/50 bg-white/90 text-foreground shadow-soft hover:border-border",
             )}
           >
             <span aria-hidden className="text-[12px]">
@@ -47,17 +48,18 @@ export function CategoryChips() {
           </button>
         ))}
 
-        <div className="mx-0.5 h-5 w-0.5 shrink-0 bg-foreground" aria-hidden />
+        <div className="mx-0.5 h-4 w-px shrink-0 bg-border/60" aria-hidden />
 
         {CATEGORIES.map((c) => (
           <button
             key={c.id}
             onClick={() => toggleCategory(c.id)}
             className={cn(
-              "inline-flex shrink-0 items-center gap-1 rounded-md border-2 px-3 py-1.5 text-[13px] font-black transition-all active:translate-x-1 active:translate-y-1 active:shadow-none",
+              "inline-flex shrink-0 items-center gap-1 rounded-full px-3 py-1.5 text-[13px] font-medium transition-all active:scale-95",
+              "border backdrop-blur-sm",
               filters.categories.has(c.id)
-                ? "border-foreground bg-accent text-accent-foreground shadow-pop"
-                : "border-foreground bg-card text-foreground shadow-soft hover:bg-secondary",
+                ? "border-primary/30 bg-primary text-primary-foreground shadow-pop"
+                : "border-border/50 bg-white/90 text-foreground shadow-soft hover:border-border",
             )}
           >
             <span aria-hidden className="text-[12px]">

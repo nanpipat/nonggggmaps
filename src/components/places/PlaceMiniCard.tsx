@@ -24,11 +24,11 @@ export function PlaceMiniCard() {
   const category = CATEGORY_BY_ID[place.category];
 
   return (
-    <div className="absolute inset-x-4 bottom-4 z-30 animate-slide-up pb-safe sm:inset-x-5">
-      <div className="overflow-hidden rounded-lg border-2 border-foreground bg-card shadow-soft-xl">
+    <div className="absolute inset-x-3 bottom-3 z-30 animate-slide-up pb-safe">
+      <div className="overflow-hidden rounded-2xl border border-border/50 bg-white shadow-soft-xl">
         {/* Info row */}
         <div className="flex gap-3 p-3">
-          <div className="relative size-[72px] shrink-0 overflow-hidden rounded-md border-2 border-foreground bg-muted">
+          <div className="relative size-[72px] shrink-0 overflow-hidden rounded-xl bg-muted">
             {place.cover_photo ? (
               <Image src={place.cover_photo} alt={place.name} fill sizes="72px" className="object-cover" />
             ) : (
@@ -48,7 +48,7 @@ export function PlaceMiniCard() {
               </div>
               <button
                 onClick={closeDetail}
-                className="shrink-0 rounded-md border-2 border-transparent p-1 text-foreground transition hover:border-foreground hover:bg-secondary"
+                className="shrink-0 rounded-full p-1 text-muted-foreground transition hover:text-foreground"
                 aria-label="ปิด"
               >
                 <X className="size-4" />
@@ -80,18 +80,18 @@ export function PlaceMiniCard() {
         </div>
 
         {/* Action row */}
-        <div className="flex gap-2 border-t-2 border-foreground px-3 py-2.5">
+        <div className="flex gap-2 border-t border-border/40 px-3 py-2.5">
           <a
             href={googleMapsDirectionsUrl(place, place.name)}
             target="_blank"
             rel="noreferrer"
-            className="flex flex-1 items-center justify-center gap-1.5 rounded-lg border-2 border-foreground bg-primary py-2 text-[13px] font-black text-primary-foreground shadow-soft transition-all hover:-translate-x-0.5 hover:-translate-y-0.5 active:translate-x-1 active:translate-y-1 active:shadow-none"
+            className="flex flex-1 items-center justify-center gap-1.5 rounded-xl bg-primary py-2 text-[13px] font-semibold text-primary-foreground transition hover:opacity-90 active:scale-[0.98]"
           >
             <Navigation className="size-3.5" /> นำทาง
           </a>
           <button
             onClick={openDetail}
-            className="flex flex-1 items-center justify-center gap-1.5 rounded-lg border-2 border-foreground bg-card py-2 text-[13px] font-black shadow-soft transition-all hover:bg-secondary active:translate-x-1 active:translate-y-1 active:shadow-none"
+            className="flex flex-1 items-center justify-center gap-1.5 rounded-xl border border-border/60 py-2 text-[13px] font-semibold transition hover:bg-muted/60 active:scale-[0.98]"
           >
             ดูรายละเอียด <ChevronRight className="size-3.5" />
           </button>

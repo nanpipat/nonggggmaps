@@ -50,9 +50,12 @@ export function TopBar() {
   const user = useApp((s) => s.user);
   const setDrawerOpen = useApp((s) => s.setDrawerOpen);
   const setAddOpen = useApp((s) => s.setAddOpen);
+  const setLoginModalOpen = useApp((s) => s.setLoginModalOpen);
   const selectPlace = useApp((s) => s.selectPlace);
   const openDetail = useApp((s) => s.openDetail);
   const places = useApp((s) => s.places);
+
+  const isGuest = user?.provider === "guest";
 
   const [focused, setFocused] = useState(false);
   const [geoResults, setGeoResults] = useState<NominatimResult[]>([]);
@@ -129,12 +132,12 @@ export function TopBar() {
   }
 
   return (
-    <header className="absolute left-0 right-0 top-0 z-30 px-4 pt-safe sm:px-5">
-      <div className="mx-auto mt-3 flex max-w-2xl flex-col gap-3">
+    <header className="absolute left-0 right-0 top-0 z-30 px-3 pt-safe">
+      <div className="mx-auto mt-3 flex max-w-2xl flex-col gap-2">
         {/* Search row */}
-        <div className="flex items-center gap-3">
-          <div className="flex h-12 min-w-0 flex-1 items-center gap-2 rounded-lg border-2 border-foreground bg-card px-4 shadow-soft-md">
-            <Search className="size-[17px] shrink-0 text-foreground" />
+        <div className="flex items-center gap-2">
+          <div className="flex h-12 flex-1 items-center gap-2 rounded-full border border-border/50 bg-white/95 px-4 shadow-soft-md backdrop-blur-sm">
+            <Search className="size-[17px] shrink-0 text-muted-foreground/70" />
             <input
               ref={inputRef}
               type="text"
@@ -143,7 +146,7 @@ export function TopBar() {
               onFocus={() => setFocused(true)}
               onBlur={() => setTimeout(() => setFocused(false), 150)}
               placeholder="ค้นหาสถานที่ ถนน หรือย่าน…"
-              className="h-full w-full bg-transparent text-[15px] font-semibold outline-none placeholder:text-muted-foreground"
+              className="h-full w-full bg-transparent text-[15px] outline-none placeholder:text-muted-foreground/60"
             />
             {filters.search ? (
               <button
@@ -151,7 +154,7 @@ export function TopBar() {
                   setSearch("");
                   setGeoResults([]);
                 }}
-                className="rounded-md border-2 border-transparent p-1 text-foreground transition hover:border-foreground hover:bg-secondary"
+                className="rounded-full p-1 text-muted-foreground transition hover:text-foreground"
                 aria-label="clear"
               >
                 <X className="size-4" />
@@ -159,7 +162,7 @@ export function TopBar() {
             ) : (
               <button
                 onClick={() => setAddOpen(true)}
-                className="rounded-md border-2 border-transparent p-1 text-foreground transition hover:border-foreground hover:bg-primary"
+                className="rounded-full p-1 text-muted-foreground/60 transition hover:text-primary"
                 aria-label="เพิ่มสถานที่"
               >
                 <Plus className="size-4" />
@@ -170,7 +173,7 @@ export function TopBar() {
           {/* Avatar → opens drawer */}
           <button
             onClick={() => setDrawerOpen(true)}
-            className="size-12 shrink-0 overflow-hidden rounded-lg border-2 border-foreground bg-secondary shadow-soft-md transition-all hover:-translate-x-0.5 hover:-translate-y-0.5 active:translate-x-1 active:translate-y-1 active:shadow-none"
+            className="size-12 shrink-0 overflow-hidden rounded-full border-2 border-white shadow-soft-md transition hover:shadow-soft-lg active:scale-95"
             aria-label="เมนู"
           >
             <Avatar className="size-full">
@@ -183,7 +186,7 @@ export function TopBar() {
 
         {/* Suggestions dropdown */}
         {showDropdown && (
-          <div className="overflow-hidden rounded-lg border-2 border-foreground bg-card shadow-soft-lg">
+          <div className="overflow-hidden rounded-2xl border border-border/40 bg-white/98 shadow-soft-lg backdrop-blur-sm">
             {/* App places */}
             {matchingPlaces.length > 0 && (
               <section>
@@ -194,9 +197,9 @@ export function TopBar() {
                   <button
                     key={place.id}
                     onMouseDown={() => handleSelectPlace(place)}
-                    className="flex w-full items-center gap-3 px-4 py-2.5 text-left font-semibold transition-colors hover:bg-secondary active:bg-secondary"
+                    className="flex w-full items-center gap-3 px-4 py-2.5 text-left transition-colors hover:bg-muted/50 active:bg-muted"
                   >
-                    <span className="flex size-8 shrink-0 items-center justify-center rounded-md border-2 border-foreground bg-primary text-base shadow-soft">
+                    <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-base">
                       {CATEGORY_EMOJI[place.category] ?? "🐾"}
                     </span>
                     <div className="min-w-0">
@@ -214,7 +217,7 @@ export function TopBar() {
 
             {/* Geocoded locations */}
             {geoResults.length > 0 && (
-              <section className={matchingPlaces.length > 0 ? "border-t-2 border-foreground" : ""}>
+              <section className={matchingPlaces.length > 0 ? "border-t border-border/30" : ""}>
                 <p className="px-4 pb-1 pt-3 text-[11px] font-semibold uppercase tracking-widest text-muted-foreground">
                   ตำแหน่งบนแผนที่
                 </p>
@@ -226,10 +229,10 @@ export function TopBar() {
                     <button
                       key={r.place_id}
                       onMouseDown={() => handleSelectGeoResult(r)}
-                      className="flex w-full items-center gap-3 px-4 py-2.5 text-left font-semibold transition-colors hover:bg-secondary active:bg-secondary"
+                      className="flex w-full items-center gap-3 px-4 py-2.5 text-left transition-colors hover:bg-muted/50 active:bg-muted"
                     >
-                      <span className="flex size-8 shrink-0 items-center justify-center rounded-md border-2 border-foreground bg-muted shadow-soft">
-                        <MapPin className="size-4 text-foreground" />
+                      <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-sky-50">
+                        <MapPin className="size-4 text-sky-500" />
                       </span>
                       <div className="min-w-0">
                         <p className="truncate text-sm font-medium leading-tight">
@@ -249,7 +252,7 @@ export function TopBar() {
 
             {/* Loading state */}
             {geoLoading && (
-              <div className={`flex items-center justify-center gap-2 px-4 py-4 text-sm font-bold text-muted-foreground ${hasResults ? "border-t-2 border-foreground" : ""}`}>
+              <div className={`flex items-center justify-center gap-2 px-4 py-4 text-sm text-muted-foreground ${hasResults ? "border-t border-border/30" : ""}`}>
                 <Loader2 className="size-4 animate-spin" />
                 <span>กำลังค้นหาตำแหน่ง…</span>
               </div>

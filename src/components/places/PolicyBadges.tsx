@@ -94,29 +94,30 @@ function PolicyItem({
   return (
     <div
       className={cn(
-        "flex items-center gap-3 rounded-lg border-2 border-foreground px-3 py-3 shadow-soft",
+        "flex items-center gap-3 rounded-2xl border px-3 py-3",
         neutral
-          ? "bg-muted"
+          ? "border-border bg-muted/40"
           : ok
-          ? "bg-emerald-200"
-          : "bg-rose-200",
+          ? "border-emerald-200/70 bg-emerald-50"
+          : "border-rose-200/70 bg-rose-50",
       )}
     >
       <div
         className={cn(
-          "grid size-8 place-items-center rounded-md border-2 border-foreground shadow-soft",
-          neutral ? "bg-card text-foreground" : ok ? "bg-primary text-foreground" : "bg-accent text-foreground",
+          "grid size-8 place-items-center rounded-xl",
+          neutral ? "bg-white text-foreground" : ok ? "bg-emerald-200/60 text-emerald-700" : "bg-rose-200/60 text-rose-700",
         )}
       >
         <Icon className="size-4" />
       </div>
       <div className="min-w-0 flex-1">
-        <div className="text-[11px] font-black uppercase tracking-wide text-foreground/70">
+        <div className="text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">
           {label}
         </div>
         <div
           className={cn(
-            "text-[13px] font-black text-foreground",
+            "text-[13px] font-bold",
+            neutral ? "text-foreground" : ok ? "text-emerald-800" : "text-rose-800",
           )}
         >
           {ok ? okText : noText}
