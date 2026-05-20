@@ -16,7 +16,7 @@ const KEYS = {
   USER: "pawmap.user.v1",
   EDITS: "pawmap.edits.v1",
   CHECKINS: "pawmap.checkins.v1",
-  SEEDED: "pawmap.seeded.v2",
+  SEEDED: "pawmap.seeded.v3",
 } as const;
 
 const isBrowser = typeof window !== "undefined";
@@ -39,8 +39,13 @@ function write<T>(key: string, value: T): void {
 function ensureSeed(): void {
   if (!isBrowser) return;
   if (localStorage.getItem(KEYS.SEEDED) === "1") return;
-  write(KEYS.PLACES, SEED_PLACES);
-  write(KEYS.REVIEWS, SEED_REVIEWS);
+  const currentPlaces = read<Place[]>(KEYS.PLACES, []);
+  const seedIds = new Set(SEED_PLACES.map((place) => place.id));
+  const userPlaces = currentPlaces.filter((place) => !seedIds.has(place.id));
+  write(KEYS.PLACES, [...SEED_PLACES, ...userPlaces]);
+
+  const currentReviews = read<Review[]>(KEYS.REVIEWS, []);
+  write(KEYS.REVIEWS, currentReviews.length > 0 ? currentReviews : SEED_REVIEWS);
   localStorage.setItem(KEYS.SEEDED, "1");
 }
 
